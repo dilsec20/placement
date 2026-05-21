@@ -33,6 +33,11 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+html {
+    font-size: 14px; /* Zooms out the UI slightly */
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--bg-base);
@@ -316,16 +321,16 @@ body {
     background: var(--border-hover);
 }
 .link-card {
-    background: var(--bg-panel);
+    background: rgba(255, 255, 255, 0.03); /* Increased slightly to compensate for removed blur */
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     padding: 16px;
     display: flex; cursor: pointer; text-decoration: none;
     align-items: flex-start; gap: 12px;
-    backdrop-filter: blur(10px);
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    will-change: transform; /* Smooth UI */
 }
 .link-card::before {
     content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
