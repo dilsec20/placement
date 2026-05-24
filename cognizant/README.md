@@ -33,6 +33,15 @@
 
 📁 **[Go to DSA Section →](./DSA/README.md)**
 
+### 📝 Previous Year Questions (PYQs)
+
+| Section | PYQ File | Questions |
+|---------|----------|-----------|
+| ☕ Java | **[Java PYQs →](./Java/pyq.md)** | 25 MCQs + 18 Coding Problems |
+| 🗄️ SQL | **[SQL PYQs →](./SQL/pyq.md)** | 28 Queries + Conceptual Qs |
+| 🌐 Web UI | **[Web UI PYQs →](./WebUI/pyq.md)** | 23 Questions + Full Tasks |
+| 📊 DSA | **[DSA PYQs →](./DSA/pyq.md)** | 28 Searching/Sorting/Array Qs |
+
 ---
 
 ## ⏱️ Time Management Strategy
