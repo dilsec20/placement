@@ -483,52 +483,344 @@ Fill in the blanks:
 ### What is Tested?
 A part of a sentence is underlined/bold, and you must choose the best replacement (or "No improvement needed").
 
+> 💡 **TCS NQT Focus:** This section tests whether you can spot grammatical errors, wordy phrases, wrong word usage, and incorrect idioms — and replace them with the correct/better version.
+
+---
+
 ### Common Improvement Areas
 
-#### 1. Wordiness → Make it concise
+#### 1. Wordiness → Make it Concise
+
+> These are the **most commonly asked** patterns. TCS loves giving you a wordy phrase and asking you to pick the concise version.
+
+##### 🔴 Must-Know Wordy Phrases (Frequently Asked)
+
+| ❌ Wordy (Wrong/Awkward) | ✅ Concise (Correct) | Rule |
+|--------------------------|---------------------|------|
+| In spite of the fact that | Although / Though | Replace phrase with single word |
+| Due to the fact that | Because / Since | Replace phrase with single word |
+| In the event that | If | Replace phrase with single word |
+| At this point in time | Now / Currently | Replace phrase with single word |
+| In order to | To | "In order" is unnecessary |
+| For the purpose of | To / For | Remove extra words |
+| On account of the fact that | Because | Replace phrase with single word |
+| With regard to / In regard to | About / Regarding | Replace phrase with single word |
+| In the near future | Soon | Replace phrase with single word |
+| In the majority of cases | Usually / Often | Replace phrase with single word |
+| A large number of | Many | Replace phrase with single word |
+| In the process of | Currently / (just use the verb) | Remove filler phrase |
+| It is important to note that | (Delete — just state the fact) | Remove throat-clearing phrases |
+| The reason why is because | Because / The reason is that | "Reason" + "because" is redundant |
+| Each and every | Each / Every | Don't use both together |
+| First and foremost | First | "Foremost" is redundant here |
+| Basic fundamentals | Fundamentals / Basics | "Basic" + "fundamentals" = redundant |
+| End result | Result | "End" is redundant |
+| Past history | History | "Past" is redundant |
+| Advance planning | Planning | "Advance" is redundant |
+| Free gift | Gift | A gift is always free |
+| Close proximity | Proximity / Nearby | "Close" is redundant |
+| Completely unanimous | Unanimous | Unanimous already means complete agreement |
+| Revert back | Revert | "Back" is redundant |
+| Return back | Return | "Back" is redundant |
+| Repeat again | Repeat | "Again" is redundant |
+| Cooperate together | Cooperate | "Together" is redundant |
+| Final outcome | Outcome | "Final" is redundant |
+| Consensus of opinion | Consensus | Already means agreement of opinion |
+| Merge together | Merge | "Together" is redundant |
+
+##### 📝 Examples in Sentences
+
 ```
-❌ "In spite of the fact that he was tired"
-✅ "Although he was tired"
+❌ "He came in order to meet the manager."
+✅ "He came to meet the manager."
+   (Remove "in order" — "to" alone is sufficient)
 
-❌ "At this point in time"
-✅ "Now"
+❌ "She failed due to the fact that she didn't prepare."
+✅ "She failed because she didn't prepare."
+   (Replace wordy phrase with "because")
 
-❌ "Due to the fact that"
-✅ "Because"
+❌ "In the majority of cases, students pass this exam."
+✅ "Usually, students pass this exam."
+   (Replace with single word)
 
-❌ "In the event that"
-✅ "If"
+❌ "The reason why he left is because he was tired."
+✅ "He left because he was tired." OR "The reason he left is that he was tired."
+   (Never use "reason" + "because" together)
+
+❌ "They will revert back to you soon."
+✅ "They will revert to you soon."
+   ("Revert" already means "go back")
+
+❌ "Please repeat it again."
+✅ "Please repeat it."
+   ("Repeat" already means "do again")
 ```
 
-#### 2. Wrong Word Usage
+---
+
+#### 2. Wrong Word Usage (Commonly Confused Words)
+
+> ⚠️ TCS NQT frequently tests these confusing word pairs. **Learn the difference — not just the meaning.**
+
+##### 🔴 Most Asked Confusing Words in TCS NQT
+
+| ❌ Wrong Usage | ✅ Correct Usage | Rule / Explanation |
+|---------------|-----------------|-------------------|
+| He accepted the offer with no **farther** delay | He accepted the offer with no **further** delay | **farther** = physical distance ("farther down the road") / **further** = additional, more ("further discussion") |
+| The **affect** of the medicine was visible | The **effect** of the medicine was visible | **affect** = verb (to influence) / **effect** = noun (result). "The rain **affected** the crops." "The **effect** was visible." |
+| The **principle** reason was money | The **principal** reason was money | **principal** = main, chief, head of school / **principle** = rule, moral standard. "The **principal** called a meeting." "He has strong **principles**." |
+| He bought new **stationary** | He bought new **stationery** | **stationary** = not moving / **stationery** = writing materials (pens, paper). Remember: station**e**ry = **e**nvelope |
+| She gave a good **compliment** to his work | She gave a good **complement** to his work | **complement** = complete, go well with / **compliment** = praise. "Wine **complements** cheese." "Nice **compliment**!" |
+| The news was hard to **except** | The news was hard to **accept** | **accept** = receive, agree / **except** = excluding. "Everyone came **except** Rahul." |
+| The **eminent** danger was clear | The **imminent** danger was clear | **eminent** = famous, distinguished / **imminent** = about to happen soon. "An **eminent** scientist." "An **imminent** threat." |
+| He tried to **illicit** a response | He tried to **elicit** a response | **elicit** = draw out, obtain / **illicit** = illegal. "**Elicit** information." "**Illicit** activities." |
+| The car was **stationery** | The car was **stationary** | **stationary** = not moving / **stationery** = writing materials |
+| He gave an **allusion** of success | He gave an **illusion** of success | **allusion** = indirect reference / **illusion** = false impression. "**Allusion** to Shakespeare." "Optical **illusion**." |
+| I want to **apprize** the property | I want to **appraise** the property | **appraise** = assess value / **apprise** = inform. "**Appraise** the house." "**Apprise** me of the situation." |
+| He **implied** from the data | He **inferred** from the data | **imply** = suggest indirectly (speaker) / **infer** = conclude from evidence (listener). "She **implied** I was wrong." "I **inferred** from her tone." |
+| He likes to **flaunt** the rules | He likes to **flout** the rules | **flaunt** = show off proudly / **flout** = openly disobey. "**Flaunt** wealth." "**Flout** the rules." |
+| The situation is **incredulous** | The situation is **incredible** | **incredible** = unbelievable (about things) / **incredulous** = disbelieving (about people). "An **incredible** story." "He was **incredulous**." |
+| It's a **historical** event | It's a **historic** event | **historic** = important in history / **historical** = relating to history. "A **historic** victory." "**Historical** documents." |
+
+##### 📝 More Wrong Word Examples
+
 ```
-❌ "He accepted the offer with no farther delay"
-✅ "He accepted the offer with no further delay"
-(farther = physical distance, further = additional/more)
+❌ "He is elder than me."
+✅ "He is older than me." OR "He is my elder brother."
+   (elder = used before nouns like brother/sister, NOT with "than")
+   (older = used with "than" for comparison)
 
-❌ "The principal reason was clear"
-✅ "The principal reason was clear" (correct if main reason)
-   "The principle of justice" (principle = rule/value)
+❌ "I am interesting in this topic."
+✅ "I am interested in this topic."
+   (-ed = how you feel / -ing = what causes the feeling)
+   "The movie is interesting." (causes interest)
+   "I am interested." (I feel interest)
 
-❌ "The affect of the medicine was visible"
-✅ "The effect of the medicine was visible"
-(affect = verb, effect = noun)
+❌ "He is very much tired."
+✅ "He is very tired."
+   (Don't use "very much" before adjectives — use "very")
+   But: "I very much appreciate it." (before verbs = OK)
+
+❌ "She is more smarter than him."
+✅ "She is smarter than him."
+   (Never use "more" + "-er" together → double comparative)
+
+❌ "This is the most easiest question."
+✅ "This is the easiest question."
+   (Never use "most" + "-est" together → double superlative)
+
+❌ "He is one of the best player."
+✅ "He is one of the best players."
+   ("One of the" is always followed by plural noun)
+
+❌ "I have been living here since 3 years."
+✅ "I have been living here for 3 years."
+   (since = point in time: since 2020, since Monday)
+   (for = duration: for 3 years, for 2 hours)
 ```
 
-#### 3. Correct Idiomatic Usage
+---
+
+#### 3. Correct Idiomatic Usage (Verb + Preposition Combinations)
+
+> 🔴 TCS NQT loves testing wrong prepositions with verbs. **Memorize these combinations.**
+
+##### Must-Know Verb + Preposition Pairs
+
+| ❌ Wrong | ✅ Correct | Rule |
+|---------|----------|------|
+| He is superior **than** her | He is superior **to** her | superior/inferior/senior/junior/prior → always "to", NEVER "than" |
+| He prevented me **to go** | He prevented me **from going** | prevent + from + V-ing |
+| She is angry **upon** me | She is angry **with** me | angry **with** a person, angry **at** a situation |
+| He insisted **to go** | He insisted **on going** | insist + on + V-ing |
+| She is married **with** him | She is married **to** him | married **to** someone |
+| He died **by** cancer | He died **of** cancer | die **of** disease, die **from** injury |
+| She is good **in** maths | She is good **at** maths | good **at** a subject/skill |
+| He congratulated me **for** my success | He congratulated me **on** my success | congratulate + on |
+| I prefer tea **than** coffee | I prefer tea **to** coffee | prefer A **to** B (NOT "than") |
+| She is confident **to** pass | She is confident **of** passing | confident **of** + V-ing |
+| He is fond **with** music | He is fond **of** music | fond **of** |
+| She complained **about** the noise **on** the manager | She complained **about** the noise **to** the manager | complain **to** a person, complain **about** a thing |
+| He abstained **to vote** | He abstained **from voting** | abstain **from** + V-ing |
+| She is addicted **with** her phone | She is addicted **to** her phone | addicted **to** |
+| He apologized **about** his mistake | He apologized **for** his mistake | apologize **for** something |
+| She is accustomed **with** the weather | She is accustomed **to** the weather | accustomed **to** |
+| He was acquitted **from** all charges | He was acquitted **of** all charges | acquitted **of** |
+| She is eligible **of** the award | She is eligible **for** the award | eligible **for** |
+| He is jealous **from** her | He is jealous **of** her | jealous **of** |
+| He is proficient **on** English | He is proficient **in** English | proficient **in** |
+| She deals **with** cloth | She deals **in** cloth | deal **in** = trade in, deal **with** = handle a problem |
+| He asked **me** a question | ✅ (This is actually correct!) | ask + person + question (no preposition needed) |
+
+##### 📝 More Idiomatic Corrections
+
 ```
-❌ "He is superior than her"
-✅ "He is superior to her"
-(superior/inferior/senior/junior → always use "to", never "than")
+❌ "He is senior than me by 5 years."
+✅ "He is senior to me by 5 years."
+   (senior/junior → always "to")
 
-❌ "He prevented me to go"
-✅ "He prevented me from going"
+❌ "She availed the opportunity."
+✅ "She availed herself of the opportunity."
+   (avail = reflexive verb → avail oneself of)
 
-❌ "She is angry upon me"
-✅ "She is angry with me"
+❌ "He could not cope up with the pressure."
+✅ "He could not cope with the pressure."
+   ("cope with" — no "up" needed)
+
+❌ "Please discuss about this topic."
+✅ "Please discuss this topic."
+   ("discuss" is transitive — no "about" needed)
+
+❌ "She entered into the room."
+✅ "She entered the room."
+   ("enter" is transitive — no "into" needed)
+   But: "They entered into an agreement." ✅ (different meaning)
+
+❌ "He emphasized on the importance of education."
+✅ "He emphasized the importance of education."
+   ("emphasize" is transitive — no "on" needed)
+   But: "He laid emphasis on education." ✅ ("emphasis" takes "on")
+
+❌ "I ordered for a coffee."
+✅ "I ordered a coffee."
+   ("order" is transitive — no "for" needed)
+
+❌ "She requested me to help."
+✅ "She requested me to help." ✅ (correct!)
+   But: ❌ "She requested for help." → ✅ "She requested help."
+   ("request" doesn't need "for")
+
+❌ "The company comprises of many departments."
+✅ "The company comprises many departments."
+   ("comprise" doesn't need "of")
+   But: "The company is composed of many departments." ✅
 ```
 
-### Practice Questions
+---
+
+#### 4. Redundancy Errors (Tautology)
+
+> Words that repeat the same meaning unnecessarily. TCS asks you to spot and remove the redundant word.
+
+| ❌ Redundant Phrase | ✅ Correct | Why it's Wrong |
+|--------------------|----------|---------------|
+| Absolutely essential | Essential | "Essential" already means absolutely necessary |
+| Actual fact | Fact | Facts are always actual |
+| Added bonus | Bonus | A bonus is always added/extra |
+| Brief summary | Summary | A summary is always brief |
+| Completely destroyed | Destroyed | Destroyed = complete damage |
+| Exactly identical | Identical | Identical means exactly the same |
+| General consensus | Consensus | Consensus is always general agreement |
+| Join together | Join | Join means to come together |
+| New innovation | Innovation | An innovation is always new |
+| Over-exaggerate | Exaggerate | To exaggerate is already to overstate |
+| Pair of twins | Twins | Twins are already a pair |
+| Plan ahead | Plan | Planning is always for the future |
+| Postpone until later | Postpone | Postpone means to delay to later |
+| Refer back | Refer | Refer already implies looking back |
+| Rise up | Rise | Rise means to go up |
+| Surrounded on all sides | Surrounded | Surrounded means on all sides |
+| True fact | Fact | A fact is always true |
+| Unexpected surprise | Surprise | A surprise is always unexpected |
+| Usual custom | Custom | A custom is a usual practice |
+| Written down | Written | Writing is inherently putting down |
+
+---
+
+#### 5. Parallelism Errors (Faulty Parallel Structure)
+
+> When a sentence lists items, all items must follow the **same grammatical structure**.
+
+```
+❌ "She likes reading, writing, and to swim."
+✅ "She likes reading, writing, and swimming."
+   (All gerunds: -ing, -ing, -ing)
+
+❌ "The teacher told students to read the chapter, writing notes, and that they should prepare for the test."
+✅ "The teacher told students to read the chapter, write notes, and prepare for the test."
+   (All infinitives: to read, write, prepare)
+
+❌ "He is intelligent, hardworking, and has discipline."
+✅ "He is intelligent, hardworking, and disciplined."
+   (All adjectives)
+
+❌ "The company needs employees who are skilled, experienced, and who have dedication."
+✅ "The company needs employees who are skilled, experienced, and dedicated."
+   (All adjectives)
+
+❌ "Not only is he smart but also he is kind."
+✅ "He is not only smart but also kind."
+   (Parallel: not only + adjective, but also + adjective)
+
+❌ "She enjoys dancing more than to sing."
+✅ "She enjoys dancing more than singing."
+   (Same form on both sides of comparison)
+```
+
+---
+
+#### 6. Misplaced & Dangling Modifiers
+
+> A modifier must be placed **next to** the word it describes. Otherwise, the sentence is funny or nonsensical.
+
+```
+❌ "Running quickly, the bus was caught by him."
+   (This says the BUS was running quickly!)
+✅ "Running quickly, he caught the bus."
+   (Now "he" is running quickly — correct!)
+
+❌ "Having finished the work, the TV was switched on."
+   (This says the TV finished the work!)
+✅ "Having finished the work, he switched on the TV."
+
+❌ "While eating lunch, the phone rang."
+   (This says the phone was eating lunch!)
+✅ "While I was eating lunch, the phone rang."
+
+❌ "Walking down the road, a tree fell on him."
+   (This says the tree was walking!)
+✅ "While he was walking down the road, a tree fell on him."
+
+❌ "At the age of five, my father took me to school."
+   (This says father was five years old!)
+✅ "When I was five, my father took me to school."
+```
+
+**Quick Rule:**
+```
+The subject RIGHT AFTER the comma must be the one
+doing the action described BEFORE the comma.
+
+✅ "Feeling tired, SHE sat down." (She was feeling tired ✅)
+❌ "Feeling tired, THE CHAIR looked inviting." (Chair was feeling tired? ❌)
+```
+
+---
+
+#### 7. Double Negatives
+
+> Using two negatives in one sentence makes it positive (or confusing). Use only ONE negative.
+
+```
+❌ "He doesn't know nothing about it."
+✅ "He doesn't know anything about it." OR "He knows nothing about it."
+
+❌ "She can't hardly wait."
+✅ "She can hardly wait." OR "She can't wait."
+
+❌ "I don't have no money."
+✅ "I don't have any money." OR "I have no money."
+
+❌ "They didn't do nothing wrong."
+✅ "They didn't do anything wrong." OR "They did nothing wrong."
+
+❌ "He is not unfriendly." ← This is technically correct!
+   (Not + unfriendly = friendly — intentional double negative for emphasis)
+```
+
+---
+
+### 📝 Practice Questions (Expanded — 15 Questions)
 
 **Q1:** "Each of the boys **have done** their homework."
 - (a) has done his
@@ -536,7 +828,9 @@ A part of a sentence is underlined/bold, and you must choose the best replacemen
 - (c) has done their
 - (d) No improvement
 
-**Answer: (a)** — "Each" takes singular verb and singular pronoun.
+**Answer: (a)** — "Each" takes singular verb ("has") and singular pronoun ("his").
+
+---
 
 **Q2:** "He **said me** to go home."
 - (a) told me
@@ -547,6 +841,156 @@ A part of a sentence is underlined/bold, and you must choose the best replacemen
 **Answer: (d)** — "told me to go" or "said to me to go" (though "told me" is more natural).
 
 ---
+
+**Q3:** "The teacher **made us to write** the essay."
+- (a) made us write
+- (b) made us writing
+- (c) made us written
+- (d) No improvement
+
+**Answer: (a)** — After "make/let/have" (causative verbs), use bare infinitive (without "to").
+
+---
+
+**Q4:** "He is **more taller** than his brother."
+- (a) much taller
+- (b) most taller
+- (c) very taller
+- (d) No improvement
+
+**Answer: (a)** — Use "much" (not "more") to intensify comparatives. "Much taller", "much better".
+
+---
+
+**Q5:** "She **could not cope up with** the pressure."
+- (a) could not cope with
+- (b) could not cope up
+- (c) could not cope for
+- (d) No improvement
+
+**Answer: (a)** — "Cope with" is correct. No "up" needed.
+
+---
+
+**Q6:** "He is **one of the best player** in the team."
+- (a) one of the best players
+- (b) one of the better player
+- (c) one of best players
+- (d) No improvement
+
+**Answer: (a)** — "One of the" + superlative + plural noun.
+
+---
+
+**Q7:** "She **prefers coffee than tea**."
+- (a) prefers coffee to tea
+- (b) prefers coffee over tea
+- (c) prefers coffee from tea
+- (d) No improvement
+
+**Answer: (a)** — "Prefer A **to** B" is the correct idiom.
+
+---
+
+**Q8:** "**In spite of the fact that** he studied hard, he failed."
+- (a) Although
+- (b) Despite of
+- (c) In spite
+- (d) No improvement
+
+**Answer: (a)** — "Although" is the concise replacement. Note: "Despite of" is always wrong. Use "Despite" or "In spite of".
+
+---
+
+**Q9:** "He **discussed about** the project in the meeting."
+- (a) discussed on
+- (b) discussed
+- (c) discussed upon
+- (d) No improvement
+
+**Answer: (b)** — "Discuss" is transitive. It takes a direct object — no preposition needed.
+
+---
+
+**Q10:** "**Not only he is** smart but also hardworking."
+- (a) Not only is he
+- (b) He is not only
+- (c) He not only is
+- (d) No improvement
+
+**Answer: (b)** — "He is not only smart but also hardworking." (Parallel: not only + adj, but also + adj)
+
+---
+
+**Q11:** "The company **comprises of** five departments."
+- (a) comprises
+- (b) is comprised
+- (c) comprising of
+- (d) No improvement
+
+**Answer: (a)** — "Comprise" never takes "of". "The company comprises five departments." OR "The company is composed of five departments."
+
+---
+
+**Q12:** "She **availed the opportunity** immediately."
+- (a) availed herself of the opportunity
+- (b) availed of the opportunity
+- (c) availed with the opportunity
+- (d) No improvement
+
+**Answer: (a)** — "Avail" is reflexive → "avail oneself of something."
+
+---
+
+**Q13:** "He is **senior than** me by two years."
+- (a) senior to
+- (b) more senior than
+- (c) senior from
+- (d) No improvement
+
+**Answer: (a)** — Superior, inferior, senior, junior, prior → always use "to", never "than".
+
+---
+
+**Q14:** "**Walking along the road, a snake bit him.**"
+- (a) While he was walking along the road, a snake bit him.
+- (b) Walking along the road, he was bitten by a snake.
+- (c) Both (a) and (b) are correct
+- (d) No improvement
+
+**Answer: (c)** — The original has a dangling modifier (it says the snake was walking). Both (a) and (b) fix it correctly.
+
+---
+
+**Q15:** "He **emphasized on** the need for discipline."
+- (a) emphasized
+- (b) emphasized upon
+- (c) emphasized about
+- (d) No improvement
+
+**Answer: (a)** — "Emphasize" is transitive — no preposition needed. But "He laid emphasis **on** discipline" is correct.
+
+---
+
+### 🎯 Quick Revision — Sentence Improvement Traps
+
+| Trap Type | What to Look For | Fix |
+|-----------|-----------------|-----|
+| Wordy phrases | "due to the fact that", "in order to" | Replace with single word: "because", "to" |
+| Redundancy | "revert back", "repeat again", "free gift" | Remove the redundant word |
+| Wrong preposition | "superior than", "married with", "die by" | Memorize correct verb+preposition pairs |
+| Double comparative | "more better", "more taller" | Use only one: "better", "taller" |
+| Double superlative | "most tallest", "most easiest" | Use only one: "tallest", "easiest" |
+| Parallelism | "reading, writing, and to swim" | Match forms: "reading, writing, swimming" |
+| Dangling modifier | "Walking fast, the bus was caught" | Put correct subject after the modifier |
+| Double negative | "doesn't know nothing" | Use one negative: "doesn't know anything" |
+| Transitive verb + preposition | "discuss about", "enter into" | Remove the preposition |
+| Reflexive verbs | "availed the chance" | "availed oneself of the chance" |
+| Since vs For | "since 3 years" | "for 3 years" (since = point, for = duration) |
+| Elder vs Older | "elder than me" | "older than me" (elder = before nouns only) |
+
+---
+
 
 ## 10. Active & Passive Voice
 
