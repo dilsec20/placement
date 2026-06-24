@@ -829,6 +829,176 @@ Rule: Based on SOUND, not spelling
 | Meticulous | Very careful, precise | Meticulous in planning. |
 | Nonchalant | Calm, indifferent | He was nonchalant about the results. |
 
+### Level 2 — High Frequency TCS NQT Words
+
+| Word | Meaning | Usage |
+|------|---------|-------|
+| Aberration | Deviation from the norm | His behavior was an aberration. |
+| Acrimonious | Bitter, hostile | An acrimonious debate. |
+| Admonish | Warn firmly, reprimand | The teacher admonished the student. |
+| Aesthetic | Relating to beauty | The aesthetic appeal of the painting. |
+| Aggrandize | Increase power or reputation | He tried to aggrandize himself. |
+| Alacrity | Eagerness, cheerful readiness | She accepted with alacrity. |
+| Altruistic | Selfless, caring for others | An altruistic donation. |
+| Amicable | Friendly, peaceable | An amicable settlement. |
+| Arbitrary | Based on random choice, not reason | An arbitrary decision. |
+| Articulate | Express clearly | She articulated her views well. |
+| Assiduous | Showing great care and effort | Assiduous in his studies. |
+| Audacious | Bold, daring, fearless | An audacious rescue attempt. |
+| Aversion | Strong dislike | He has an aversion to spicy food. |
+| Belligerent | Hostile, ready to fight | A belligerent attitude. |
+| Callous | Cruel, insensitive | A callous remark. |
+| Candor | Honesty, openness | She spoke with candor. |
+| Censure | Severe criticism | The politician faced censure. |
+| Clandestine | Secret, hidden | A clandestine meeting. |
+| Coerce | Force, compel | He was coerced into signing. |
+| Coherent | Logical, consistent | A coherent argument. |
+| Concede | Admit, accept reluctantly | He conceded defeat. |
+| Congenial | Pleasant, agreeable | A congenial atmosphere. |
+| Consensus | General agreement | They reached a consensus. |
+| Conspicuous | Easily noticeable | Conspicuous by his absence. |
+| Contemplate | Think deeply about | She contemplated her future. |
+| Corroborate | Confirm, support with evidence | Witnesses corroborated the story. |
+| Covert | Secret, concealed | A covert operation. |
+| Credible | Believable, trustworthy | A credible witness. |
+| Cynical | Distrustful, sarcastic | A cynical view of politics. |
+| Deference | Respect, submission | He showed deference to his elders. |
+
+### Level 3 — Moderate Difficulty (Frequently Tested)
+
+| Word | Meaning | Usage |
+|------|---------|-------|
+| Deleterious | Harmful, damaging | Smoking has deleterious effects. |
+| Denigrate | Criticize unfairly, defame | He denigrated his opponent. |
+| Deride | Mock, ridicule | They derided his efforts. |
+| Deterrent | Something that discourages | High fines act as a deterrent. |
+| Dilapidated | In a state of ruin | A dilapidated building. |
+| Discrepancy | Difference, inconsistency | A discrepancy in the accounts. |
+| Disdain | Contempt, scorn | She treated him with disdain. |
+| Disenchanted | Disillusioned, disappointed | Disenchanted with the system. |
+| Dogmatic | Asserting opinions as facts | A dogmatic approach. |
+| Dubious | Doubtful, uncertain | A dubious claim. |
+| Eccentric | Unconventional, strange | An eccentric professor. |
+| Elucidate | Make clear, explain | Please elucidate your point. |
+| Emancipate | Set free, liberate | Laws to emancipate workers. |
+| Embellish | Decorate, exaggerate | She embellished the story. |
+| Empathy | Understanding another's feelings | Show empathy toward others. |
+| Empirical | Based on observation/experience | Empirical evidence supports this. |
+| Eradicate | Destroy completely | Efforts to eradicate poverty. |
+| Erratic | Unpredictable, irregular | Erratic weather patterns. |
+| Exonerate | Free from blame | The evidence exonerated him. |
+| Expedite | Speed up, hasten | We must expedite the process. |
+| Fabricate | Invent, make up (a story) | He fabricated an alibi. |
+| Facetious | Humorous, not meant seriously | A facetious remark. |
+| Futile | Pointless, useless | A futile attempt to escape. |
+| Gratuitous | Unnecessary, uncalled for | Gratuitous violence in movies. |
+| Hamper | Hinder, obstruct | Bad weather hampered rescue efforts. |
+| Haughty | Arrogant, proud | A haughty attitude. |
+| Heresy | Belief against established religion | Accused of heresy. |
+| Homogeneous | Of the same kind, uniform | A homogeneous mixture. |
+| Hypocrite | Person who pretends to have beliefs they don't | He is a hypocrite. |
+| Imminent | About to happen very soon | An imminent threat. |
+| Impartial | Fair, unbiased | An impartial judge. |
+| Impediment | Obstacle, hindrance | A speech impediment. |
+| Impetuous | Acting quickly without thought | An impetuous decision. |
+| Implicit | Implied, not directly stated | An implicit understanding. |
+| Incessant | Non-stop, continual | Incessant noise from traffic. |
+| Indifferent | Having no interest, neutral | He was indifferent to the outcome. |
+| Indigenous | Native, originating from a place | Indigenous species of the region. |
+| Inept | Incompetent, unskillful | An inept manager. |
+| Inevitable | Certain to happen, unavoidable | Change is inevitable. |
+| Ingenious | Clever, inventive | An ingenious solution. |
+| Inherent | Existing as a natural part | An inherent risk. |
+| Instigate | Provoke, initiate | He instigated the fight. |
+| Intransigent | Stubborn, refusing to change | An intransigent negotiator. |
+| Irrevocable | Cannot be changed or undone | An irrevocable decision. |
+
+### Level 4 — Advanced (For High Score)
+
+| Word | Meaning | Usage |
+|------|---------|-------|
+| Juxtaposition | Placing things side by side | The juxtaposition of wealth and poverty. |
+| Laconic | Using very few words, brief | A laconic reply: "No." |
+| Languid | Weak, lacking energy | A languid afternoon. |
+| Loquacious | Very talkative | A loquacious colleague. |
+| Lucrative | Profitable | A lucrative business. |
+| Malicious | Intending harm | A malicious rumor. |
+| Melancholy | Deep sadness | A feeling of melancholy. |
+| Mercenary | Motivated only by money | A mercenary attitude. |
+| Mitigate | Make less severe | Measures to mitigate the risk. |
+| Morose | Gloomy, sullen | He looked morose after the loss. |
+| Negligent | Careless, failing in duty | Negligent behavior caused the accident. |
+| Nostalgia | Longing for the past | Filled with nostalgia. |
+| Notorious | Famous for something bad | A notorious criminal. |
+| Oblivious | Unaware, unconscious | Oblivious to the danger. |
+| Obscure | Not well known, unclear | An obscure reference. |
+| Obstinate | Stubborn, refusing to change | An obstinate refusal. |
+| Ominous | Threatening, suggesting evil | Ominous dark clouds. |
+| Ostentatious | Showy, displaying wealth | An ostentatious lifestyle. |
+| Paramount | Of supreme importance | Safety is paramount. |
+| Penchant | Strong liking, tendency | A penchant for adventure. |
+| Pertinent | Relevant, applicable | A pertinent question. |
+| Placate | Calm down, appease | He tried to placate the angry crowd. |
+| Plausible | Seeming reasonable, believable | A plausible explanation. |
+| Precarious | Uncertain, risky | A precarious financial situation. |
+| Precedent | An earlier example | This sets a dangerous precedent. |
+| Prodigal | Wastefully extravagant | A prodigal spender. |
+| Profound | Very deep, intense | A profound impact on society. |
+| Prolific | Producing a lot | A prolific writer. |
+| Propensity | Tendency, inclination | A propensity for violence. |
+| Prudent | Wise, showing good judgment | A prudent investment. |
+| Rebuke | Sharp disapproval, criticism | He received a stern rebuke. |
+| Recalcitrant | Stubbornly disobedient | A recalcitrant student. |
+| Redundant | Unnecessary, repetitive | Redundant employees were laid off. |
+| Reprehensible | Deserving criticism, shameful | Reprehensible behavior. |
+| Resilient | Able to recover quickly | A resilient community. |
+| Reticent | Reserved, reluctant to speak | She was reticent about her past. |
+| Sanguine | Optimistic, positive | A sanguine outlook on life. |
+| Scrupulous | Very careful, thorough | A scrupulous accountant. |
+| Soporific | Causing sleep, boring | A soporific lecture. |
+| Sporadic | Occurring at irregular intervals | Sporadic gunfire was heard. |
+| Stringent | Strict, severe | Stringent safety regulations. |
+| Superfluous | More than needed, excessive | Remove superfluous words. |
+| Surreptitious | Secret, sneaky | A surreptitious glance. |
+| Tenacious | Holding firmly, persistent | A tenacious fighter. |
+| Transient | Temporary, short-lived | A transient phase. |
+| Ubiquitous | Present everywhere | Smartphones are ubiquitous. |
+| Unequivocal | Clear, without doubt | An unequivocal answer. |
+| Verbose | Using too many words | A verbose report. |
+| Vindicate | Clear of blame, justify | The verdict vindicated him. |
+| Volatile | Likely to change rapidly, unstable | A volatile market. |
+| Zealous | Very enthusiastic, passionate | A zealous supporter. |
+
+### 🔥 Confusing Word Pairs (Most Asked in TCS NQT)
+
+| Word 1 | Meaning | Word 2 | Meaning |
+|--------|---------|--------|---------|
+| Accept | Receive willingly | Except | Excluding |
+| Affect | Influence (verb) | Effect | Result (noun) |
+| Allusion | Indirect reference | Illusion | False impression |
+| Ambiguous | Unclear meaning | Ambivalent | Mixed feelings |
+| Appraise | Assess value | Apprise | Inform |
+| Ascent | Going up | Assent | Agreement |
+| Avert | Prevent | Divert | Redirect |
+| Bare | Uncovered | Bear | Carry / Animal |
+| Complement | Complete, go well with | Compliment | Praise |
+| Credible | Believable | Credulous | Gullible (easily believes) |
+| Discreet | Careful, tactful | Discrete | Separate, distinct |
+| Elicit | Draw out | Illicit | Illegal |
+| Emigrate | Leave a country | Immigrate | Enter a country |
+| Eminent | Famous, distinguished | Imminent | About to happen |
+| Envelop | Surround (verb) | Envelope | Paper cover (noun) |
+| Flaunt | Show off | Flout | Openly disobey |
+| Hoard | Store secretly | Horde | Large crowd |
+| Imply | Suggest indirectly | Infer | Conclude from evidence |
+| Ingenious | Clever, inventive | Ingenuous | Innocent, naive |
+| Luxuriant | Lush, abundant growth | Luxurious | Expensive, comfortable |
+| Prescribe | Recommend / order | Proscribe | Forbid, prohibit |
+| Principal | Main / Head of school | Principle | Rule, moral standard |
+| Stationary | Not moving | Stationery | Writing materials |
+| Tortuous | Full of twists | Torturous | Causing torture |
+| Uninterested | Not interested | Disinterested | Impartial, unbiased |
+
 ---
 
 ## 16. Previous Year Questions
