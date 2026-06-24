@@ -20,9 +20,10 @@
 12. [Tenses](#12-tenses)
 13. [Articles & Prepositions](#13-articles--prepositions)
 14. [Subject-Verb Agreement](#14-subject-verb-agreement)
-15. [Vocabulary Builder — 200 Must-Know Words](#15-vocabulary-builder--200-must-know-words)
-16. [Previous Year Questions](#16-previous-year-questions)
-17. [Tips & Tricks](#17-tips--tricks)
+15. [Parts of Speech](#15-parts-of-speech)
+16. [Vocabulary Builder — 200 Must-Know Words](#16-vocabulary-builder--200-must-know-words)
+17. [Previous Year Questions](#17-previous-year-questions)
+18. [Tips & Tricks](#18-tips--tricks)
 
 ---
 
@@ -1031,61 +1032,523 @@ Passive: The poor should be helped by you.
 
 ## 11. Direct & Indirect Speech
 
-### Conversion Rules
+> 💡 **What is it?** When we report what someone said, we can quote their exact words (**Direct Speech**) or report the meaning in our own words (**Indirect/Reported Speech**). TCS NQT asks you to convert between the two.
 
-#### Reporting Verb Changes
-| Direct | Indirect |
-|--------|----------|
-| said/said to | told/said that |
-| asked | asked/enquired |
-| ordered | ordered/commanded |
-| requested | requested |
-
-#### Tense Changes (Backshift Rule)
-| Direct Speech | Indirect Speech |
-|--------------|-----------------|
-| Simple Present → | Simple Past |
-| Present Continuous → | Past Continuous |
-| Present Perfect → | Past Perfect |
-| Simple Past → | Past Perfect |
-| will → | would |
-| can → | could |
-| may → | might |
-| shall → | should |
-
-#### Pronoun & Time/Place Changes
-| Direct | Indirect |
-|--------|----------|
-| this → | that |
-| these → | those |
-| here → | there |
-| now → | then |
-| today → | that day |
-| tomorrow → | the next day |
-| yesterday → | the previous day |
-| ago → | before |
-| I → | he/she |
-| we → | they |
-| my → | his/her |
-
-### Examples
+### Understanding the Basics
 
 ```
-Direct:  He said, "I am going to school."
-Indirect: He said that he was going to school.
+Direct Speech:   Rahul said, "I am going to school."
+                 ↑ Speaker    ↑ Exact words in quotes
 
-Direct:  She said, "I will come tomorrow."
-Indirect: She said that she would come the next day.
-
-Direct:  He said to me, "Do you like coffee?"
-Indirect: He asked me if I liked coffee.
-
-Direct:  The teacher said, "Open your books."
-Indirect: The teacher ordered the students to open their books.
-
-Direct:  She said, "What a beautiful day!"
-Indirect: She exclaimed that it was a very beautiful day.
+Indirect Speech: Rahul said that he was going to school.
+                 ↑ Speaker    ↑ Reported words (no quotes)
 ```
+
+**Key differences:**
+- Direct: Uses quotation marks " " with the speaker's exact words
+- Indirect: No quotation marks, words are reported/paraphrased
+- In indirect speech, we change: **tense**, **pronouns**, and **time/place words**
+
+---
+
+### Step-by-Step Conversion Process
+
+```
+Step 1: Remove the quotation marks (" ")
+Step 2: Change the reporting verb (said → told, said to → asked, etc.)
+Step 3: Add "that" after the reporting verb (for statements)
+Step 4: Change the tense (backshift — present → past, past → past perfect)
+Step 5: Change pronouns (I → he/she, we → they, my → his/her)
+Step 6: Change time/place words (today → that day, here → there)
+```
+
+---
+
+### Rule 1: Reporting Verb Changes
+
+> The reporting verb ("said", "asked", etc.) changes based on the **type of sentence** being reported.
+
+| Sentence Type | Direct Speech Verb | Indirect Speech Verb |
+|--------------|-------------------|---------------------|
+| **Statement** (telling something) | said / said to | said that / told |
+| **Question** (asking something) | said to / asked | asked / enquired / wanted to know |
+| **Command/Order** (ordering someone) | said to | ordered / commanded |
+| **Request** (requesting politely) | said to | requested / begged |
+| **Advice** (giving suggestion) | said to | advised / suggested |
+| **Exclamation** (expressing emotion) | said | exclaimed |
+| **Wish** (expressing a wish) | said | wished / prayed |
+
+#### ⚠️ Important: "said" vs "told"
+```
+"said" → used WITHOUT a person after it
+   ✅ He said that he was tired.
+   ❌ He said me that he was tired.  ← WRONG!
+
+"told" → used WITH a person after it
+   ✅ He told me that he was tired.
+   ❌ He told that he was tired.     ← WRONG!
+
+Simple Rule:
+   said + that + sentence    → "He said that..."
+   told + person + that      → "He told me that..."
+```
+
+---
+
+### Rule 2: Tense Changes (Backshift Rule)
+
+> When converting to indirect speech, the tense moves **one step back** into the past. This is called **backshifting**.
+
+| Direct Speech (Exact Words) | Indirect Speech (Reported) | Example |
+|---------------------------|---------------------------|----------|
+| **Simple Present** (I **go**) | → Simple Past (he **went**) | "I go daily" → He said he went daily |
+| **Present Continuous** (I **am going**) | → Past Continuous (he **was going**) | "I am going" → He said he was going |
+| **Present Perfect** (I **have gone**) | → Past Perfect (he **had gone**) | "I have finished" → He said he had finished |
+| **Present Perfect Continuous** (I **have been going**) | → Past Perfect Continuous (he **had been going**) | "I have been waiting" → He said he had been waiting |
+| **Simple Past** (I **went**) | → Past Perfect (he **had gone**) | "I went home" → He said he had gone home |
+| **Past Continuous** (I **was going**) | → Past Perfect Continuous (he **had been going**) | "I was sleeping" → He said he had been sleeping |
+| **Past Perfect** (I **had gone**) | → Past Perfect — **NO CHANGE** | "I had finished" → He said he had finished |
+| **will** | → **would** | "I will come" → He said he would come |
+| **can** | → **could** | "I can help" → He said he could help |
+| **may** | → **might** | "I may leave" → He said he might leave |
+| **shall** | → **should** / **would** | "I shall go" → He said he should/would go |
+| **must** | → **had to** / **must** (no change) | "I must study" → He said he had to study |
+
+#### 🔴 When NOT to Change Tense (Exceptions)
+
+```
+Don't backshift the tense when the reported statement is:
+
+1. A universal truth / general fact:
+   Direct:  The teacher said, "The earth revolves around the sun."
+   Indirect: The teacher said that the earth revolves around the sun.
+   ("revolves" stays present — it's always true)
+
+2. A habitual action that is still true:
+   Direct:  She said, "I drink milk every morning."
+   Indirect: She said that she drinks milk every morning.
+   (If she still drinks milk, present tense is OK)
+
+3. A historical fact:
+   Direct:  He said, "India got independence in 1947."
+   Indirect: He said that India got independence in 1947.
+   (No change — historical fact)
+
+4. If the reporting verb is in present tense:
+   Direct:  He says, "I am tired."
+   Indirect: He says that he is tired.
+   ("says" is present → no backshift needed)
+```
+
+---
+
+### Rule 3: Pronoun Changes
+
+> Pronouns change based on **who is speaking** and **who is listening**.
+
+| Direct Speech Pronoun | Changes To | Depends On |
+|----------------------|-----------|------------|
+| **I** | he / she | (whoever is speaking in direct speech) |
+| **me** | him / her | |
+| **my** | his / her | |
+| **mine** | his / hers | |
+| **myself** | himself / herself | |
+| **we** | they | |
+| **us** | them | |
+| **our** | their | |
+| **you** (subject) | he/she/I/they | (whoever is being spoken to) |
+| **you** (object) | him/her/me/them | |
+| **your** | his/her/my/their | |
+
+#### 📝 Examples with Clear Pronoun Changes
+
+```
+Direct:  Rahul said, "I am happy."
+Indirect: Rahul said that he was happy.
+("I" → "he" because Rahul is speaking about himself)
+
+Direct:  Priya said to Rahul, "I will help you."
+Indirect: Priya told Rahul that she would help him.
+("I" → "she" = Priya, "you" → "him" = Rahul)
+
+Direct:  The teacher said to the students, "You must complete your homework."
+Indirect: The teacher told the students that they must complete their homework.
+("you" → "they" = the students, "your" → "their")
+
+Direct:  She said, "We are going to our house."
+Indirect: She said that they were going to their house.
+("we" → "they", "our" → "their")
+```
+
+---
+
+### Rule 4: Time & Place Word Changes
+
+| Direct Speech | Indirect Speech | Example |
+|--------------|----------------|---------|
+| **now** | then / at that time | "I am busy now" → ...he was busy then |
+| **today** | that day | "I will go today" → ...he would go that day |
+| **tonight** | that night | "I'll study tonight" → ...he would study that night |
+| **tomorrow** | the next day / the following day | "I'll come tomorrow" → ...he would come the next day |
+| **yesterday** | the previous day / the day before | "I went yesterday" → ...he had gone the previous day |
+| **last night** | the previous night / the night before | "I slept late last night" → ...he had slept late the previous night |
+| **last week/month/year** | the previous week/month/year | "I visited last week" → ...he had visited the previous week |
+| **next week/month/year** | the following week/month/year | "I will go next month" → ...he would go the following month |
+| **ago** | before / earlier | "I came 2 days ago" → ...he had come 2 days before |
+| **here** | there | "Come here" → ...to go there |
+| **this** | that | "I like this" → ...he liked that |
+| **these** | those | "Take these books" → ...to take those books |
+| **come** | go | "Come to my house" → ...to go to his house |
+| **bring** | take | "Bring your book" → ...to take his book |
+
+---
+
+### Type 1: Statements (Assertive Sentences)
+
+> Person is **telling/informing** something.
+
+**Formula:** Subject + told/said that + changed sentence
+
+```
+Direct:  Amit said, "I am preparing for TCS."
+Indirect: Amit said that he was preparing for TCS.
+         ↓ Step by step:
+         1. Remove quotes
+         2. Add "that"
+         3. "I" → "he" (Amit is male)
+         4. "am preparing" → "was preparing" (present continuous → past continuous)
+
+Direct:  She said to me, "I have completed my project."
+Indirect: She told me that she had completed her project.
+         ↓ Step by step:
+         1. "said to me" → "told me"
+         2. Add "that"
+         3. "I" → "she", "my" → "her"
+         4. "have completed" → "had completed" (present perfect → past perfect)
+
+Direct:  The boss said, "The meeting will start at 10 AM tomorrow."
+Indirect: The boss said that the meeting would start at 10 AM the next day.
+         ↓ Changes:
+         1. "will" → "would"
+         2. "tomorrow" → "the next day"
+```
+
+---
+
+### Type 2: Questions (Interrogative Sentences)
+
+> Person is **asking** something. There are two sub-types:
+
+#### A. Yes/No Questions (starting with is/are/do/did/will/can/have etc.)
+
+**Formula:** Subject + asked + if/whether + statement order (NOT question order)
+
+```
+Direct:  Priya said to Rahul, "Do you like coffee?"
+Indirect: Priya asked Rahul if he liked coffee.
+         ↓ Step by step:
+         1. "said to" → "asked" (it's a question)
+         2. NO "that" — use "if" or "whether" instead
+         3. Change question order to statement order:
+            "Do you like" → "he liked" (remove "do", change tense)
+         4. "you" → "he" (Priya is asking Rahul)
+         5. NO question mark (?) in indirect speech
+
+Direct:  The interviewer asked, "Can you code in Python?"
+Indirect: The interviewer asked if I could code in Python.
+         ("Can" → "could", question order → statement order)
+
+Direct:  She asked me, "Have you finished your work?"
+Indirect: She asked me if I had finished my work.
+         ("Have you finished" → "I had finished")
+
+Direct:  He said to her, "Will you marry me?"
+Indirect: He asked her if she would marry him.
+         ("Will you" → "she would", "me" → "him")
+```
+
+#### B. Wh-Questions (starting with what/when/where/who/why/how)
+
+**Formula:** Subject + asked + wh-word + statement order
+
+```
+Direct:  She said to me, "Where do you live?"
+Indirect: She asked me where I lived.
+         ↓ Step by step:
+         1. "said to me" → "asked me"
+         2. Keep the wh-word ("where")
+         3. NO "if/whether" needed (wh-word acts as connector)
+         4. Question order → Statement order:
+            "do you live" → "I lived" (remove "do", backshift tense)
+
+Direct:  The teacher asked, "Why are you late?"
+Indirect: The teacher asked why I was late.
+         ("are you" → "I was")
+
+Direct:  My mother asked, "What are you doing here?"
+Indirect: My mother asked what I was doing there.
+         ("are you" → "I was", "here" → "there")
+
+Direct:  He asked, "When will the train arrive?"
+Indirect: He asked when the train would arrive.
+         ("will" → "would", question order → statement order)
+```
+
+#### ⚠️ Common Mistakes in Question Conversion
+```
+❌ She asked me that where did I live.     ← WRONG
+✅ She asked me where I lived.             ← CORRECT
+   (Don't use "that" with wh-questions)
+   (Don't keep "did" — remove it and change tense)
+
+❌ He asked me that whether I was free.    ← WRONG
+✅ He asked me whether I was free.         ← CORRECT
+   (Don't use "that" + "whether" together)
+
+❌ She asked where do I live?              ← WRONG
+✅ She asked where I lived.                ← CORRECT
+   (No question order in indirect speech)
+   (No question mark in indirect speech)
+```
+
+---
+
+### Type 3: Commands & Orders (Imperative Sentences)
+
+> Person is **ordering/commanding** someone to do something.
+
+**Formula:** Subject + ordered/commanded + person + to + verb (infinitive)
+
+**For negative commands:** Subject + ordered + person + not to + verb
+
+```
+Direct:  The officer said to the soldier, "Stand up."
+Indirect: The officer ordered the soldier to stand up.
+         ("said to" → "ordered", verb stays as infinitive "to stand")
+
+Direct:  The teacher said to the students, "Don't talk in class."
+Indirect: The teacher ordered the students not to talk in class.
+         ("Don't" → "not to")
+
+Direct:  My father said to me, "Finish your homework before dinner."
+Indirect: My father ordered me to finish my homework before dinner.
+         ("your" → "my")
+
+Direct:  She said to him, "Get out of my house."
+Indirect: She ordered him to get out of her house.
+         ("my" → "her" because she is speaking about her own house)
+```
+
+---
+
+### Type 4: Requests (Polite Imperative Sentences)
+
+> Person is **requesting politely** — usually uses "please" or polite tone.
+
+**Formula:** Subject + requested/begged + person + to + verb
+
+```
+Direct:  The student said to the teacher, "Please give me one more day."
+Indirect: The student requested the teacher to give him one more day.
+         ("Please" is removed, "said to" → "requested", "me" → "him")
+
+Direct:  She said to me, "Please help me with this problem."
+Indirect: She requested me to help her with that problem.
+         ("me" in quotes → "her", "this" → "that")
+
+Direct:  He said, "Could you please close the door?"
+Indirect: He requested me to close the door.
+         (Polite question → request format)
+```
+
+---
+
+### Type 5: Exclamations (Exclamatory Sentences)
+
+> Person is **expressing strong emotion** — surprise, joy, sorrow, etc.
+
+**Formula:** Subject + exclaimed + that + statement
+
+> Replace "What a...!" or "How...!" with "very" or "great" in the indirect form.
+
+```
+Direct:  She said, "What a beautiful dress!"
+Indirect: She exclaimed that it was a very beautiful dress.
+         ("What a" → "a very", exclamation → statement)
+
+Direct:  He said, "How wonderful the weather is!"
+Indirect: He exclaimed that the weather was very wonderful.
+         ("How" → "very", rearrange to statement order)
+
+Direct:  They said, "Hurrah! We won the match!"
+Indirect: They exclaimed with joy that they had won the match.
+         ("Hurrah" → "exclaimed with joy")
+
+Direct:  She said, "Alas! I have lost my purse."
+Indirect: She exclaimed with sorrow that she had lost her purse.
+         ("Alas" → "exclaimed with sorrow")
+
+Direct:  He said, "What a fool I am!"
+Indirect: He exclaimed that he was a great fool.
+         ("What a" → "a great")
+```
+
+#### 🎯 Emotion Words → Reporting Verbs
+| Exclamation Word | Reporting Verb |
+|-----------------|----------------|
+| Hurrah! / Wow! / Bravo! | exclaimed with joy / delight |
+| Alas! | exclaimed with sorrow / grief |
+| Oh! / What! | exclaimed with surprise |
+| Ugh! / Yuck! | exclaimed with disgust |
+| Help! / Fire! | cried out / shouted |
+
+---
+
+### Type 6: Wishes & Greetings (Optative Sentences)
+
+> Person is **wishing** someone or **greeting** them.
+
+**Formula:** Subject + wished + person + (specific greeting)
+
+```
+Direct:  He said to me, "Good morning."
+Indirect: He wished me good morning.
+
+Direct:  She said, "Happy birthday, Rahul!"
+Indirect: She wished Rahul a happy birthday.
+
+Direct:  They said, "Congratulations on your success!"
+Indirect: They congratulated me on my success.
+
+Direct:  He said, "May God bless you."
+Indirect: He prayed that God might bless me.
+         ("May" → "might", "you" → "me")
+
+Direct:  She said, "May you live long."
+Indirect: She wished/prayed that I might live long.
+```
+
+---
+
+### Type 7: Suggestions
+
+> Person is **suggesting** something — often uses "Let's" or "Why don't we".
+
+**Formula:** Subject + suggested + that + they should + verb
+
+```
+Direct:  He said, "Let's go for a walk."
+Indirect: He suggested that they should go for a walk.
+         ("Let's" → "suggested that they should")
+
+Direct:  She said, "Why don't we watch a movie?"
+Indirect: She suggested that they should watch a movie.
+
+Direct:  Rahul said, "Let us play cricket."
+Indirect: Rahul suggested that they should play cricket.
+```
+
+---
+
+### 📝 Practice Questions — Direct & Indirect Speech (10 Questions)
+
+**Q1:** Change to indirect: He said, "I am feeling sick today."
+- (a) He said that he was feeling sick that day.
+- (b) He said that he is feeling sick today.
+- (c) He told that he was feeling sick that day.
+- (d) He said that I was feeling sick that day.
+
+**Answer: (a)** — "I" → "he", "am feeling" → "was feeling" (backshift), "today" → "that day". Option (c) is wrong because "told" needs a person after it ("told me").
+
+---
+
+**Q2:** Change to indirect: She said to me, "Do you know my brother?"
+- (a) She asked me that did I know her brother.
+- (b) She asked me if I knew her brother.
+- (c) She asked me whether do I know her brother.
+- (d) She told me if I knew her brother.
+
+**Answer: (b)** — Yes/No question → use "if/whether" + statement order. "Do you know" → "I knew" (remove "do", backshift). "my" → "her" (she is speaking about her own brother).
+
+---
+
+**Q3:** Change to indirect: The captain said to the soldiers, "March forward."
+- (a) The captain told the soldiers to march forward.
+- (b) The captain ordered the soldiers to march forward.
+- (c) The captain said the soldiers to march forward.
+- (d) The captain asked the soldiers to march forward.
+
+**Answer: (b)** — A military command uses "ordered". (a) with "told" is also acceptable in general, but "ordered" is more accurate for commands.
+
+---
+
+**Q4:** Change to indirect: She said, "What a lovely garden this is!"
+- (a) She exclaimed that that was a very lovely garden.
+- (b) She said that it was a lovely garden.
+- (c) She exclaimed that was a very lovely garden.
+- (d) She exclaimed what a lovely garden it was.
+
+**Answer: (a)** — Exclamation: "What a" → "a very", "this" → "that", "is" → "was". Use "exclaimed that".
+
+---
+
+**Q5:** Change to indirect: He said to me, "Where did you go yesterday?"
+- (a) He asked me where did I go the previous day.
+- (b) He asked me where I had gone the previous day.
+- (c) He told me where I had gone yesterday.
+- (d) He asked me where I went the day before.
+
+**Answer: (b)** — Wh-question: keep "where", change to statement order. "did you go" → "I had gone" (simple past → past perfect). "yesterday" → "the previous day".
+
+---
+
+**Q6:** Change to indirect: She said, "I have been working here since 2020."
+- (a) She said that she has been working there since 2020.
+- (b) She said that she had been working there since 2020.
+- (c) She told that she had been working here since 2020.
+- (d) She said that she was working there since 2020.
+
+**Answer: (b)** — "have been working" → "had been working" (present perfect continuous → past perfect continuous). "here" → "there".
+
+---
+
+**Q7:** Change to indirect: The teacher said to the students, "Please submit your assignments by Friday."
+- (a) The teacher ordered the students to submit their assignments by Friday.
+- (b) The teacher requested the students to submit their assignments by Friday.
+- (c) The teacher told the students to submit their assignments by Friday.
+- (d) The teacher asked the students to submit their assignments by Friday.
+
+**Answer: (b)** — "Please" indicates a polite request → use "requested". "your" → "their" (the teacher is speaking to the students about their assignments).
+
+---
+
+**Q8:** Change to indirect: He said, "Let's go to the park."
+- (a) He said that let us go to the park.
+- (b) He suggested that they should go to the park.
+- (c) He told to go to the park.
+- (d) He ordered them to go to the park.
+
+**Answer: (b)** — "Let's" = suggestion → "suggested that they should".
+
+---
+
+**Q9:** Change to indirect: Mother said to me, "Don't waste your time."
+- (a) Mother told me not to waste my time.
+- (b) Mother said me not to waste my time.
+- (c) Mother ordered me to not waste your time.
+- (d) Mother told me to don't waste my time.
+
+**Answer: (a)** — Negative command: "Don't" → "not to". "said to me" → "told me". "your" → "my" (mother is speaking to me about my time).
+
+---
+
+**Q10:** He said, "The sun rises in the east." Change to indirect.
+- (a) He said that the sun rose in the east.
+- (b) He said that the sun rises in the east.
+- (c) He told that the sun rises in the east.
+- (d) He said the sun had risen in the east.
+
+**Answer: (b)** — Universal truth → **NO tense change**. The sun always rises in the east, so "rises" stays in present tense.
 
 ---
 
@@ -1177,46 +1640,810 @@ Rule: Based on SOUND, not spelling
 
 ## 14. Subject-Verb Agreement
 
-### 20 Important Rules
+> 💡 **What is it?** The verb in a sentence must agree with its subject in **number** (singular/plural). A singular subject takes a singular verb. A plural subject takes a plural verb. TCS NQT loves testing tricky cases where the subject is hard to identify.
+
+### Quick Concept: Singular vs Plural Verbs
 
 ```
-1. Singular subject → singular verb
-   "He plays." NOT "He play."
+Singular verbs → end with 's' or 'es': goes, plays, runs, writes, has, is, was
+Plural verbs   → do NOT end with 's':  go, play, run, write, have, are, were
 
-2. Two subjects joined by "and" → plural verb
-   "Ram and Shyam are friends."
+Singular: He plays cricket.  (He = singular, plays = singular verb)
+Plural:   They play cricket.  (They = plural, play = plural verb)
 
-3. "Either...or" / "Neither...nor" → verb agrees with NEAREST subject
-   "Neither the boys nor the teacher was present."
-   "Neither the teacher nor the boys were present."
-
-4. Collective nouns → singular verb (when acting as one unit)
-   "The jury has given its verdict."
-
-5. "Each", "Every", "Everyone" → singular verb
-   "Each student has a book."
-
-6. "None" → can be singular or plural depending on context
-   "None of the water is left." (uncountable)
-   "None of the students are absent." (countable)
-
-7. "A number of" → plural verb
-   "A number of students are present."
-   "The number of students is 50." → singular
-
-8. Titles of books/movies → singular verb
-   "Harry Potter is a famous book."
-
-9. Distances/amounts/time → singular verb (when total)
-   "Five kilometers is a long distance."
-
-10. "As well as", "along with", "together with" → verb agrees with FIRST subject
-    "The boy, along with his friends, was playing."
+⚠️ Confusing but true:
+   "He plays" (singular subject → verb has 's')
+   "They play" (plural subject → verb has NO 's')
+   → Opposite of nouns where 's' means plural!
 ```
 
 ---
 
-## 15. Vocabulary Builder — 200 Must-Know Words
+### 20 Important Rules (With Detailed Explanations)
+
+#### Rule 1: Singular subject → Singular verb
+```
+✅ He plays cricket every day.
+✅ She writes beautiful poems.
+✅ The dog runs fast.
+❌ He play cricket. ← WRONG (singular subject "He" needs singular verb "plays")
+```
+
+#### Rule 2: Two subjects joined by "and" → Plural verb
+```
+✅ Ram and Shyam are friends.
+   (Ram + Shyam = two people = plural → "are")
+
+✅ The teacher and the principal were present.
+   (teacher + principal = two people = plural → "were")
+
+✅ My brother and sister live in Delhi.
+   (brother + sister = two people = plural → "live")
+```
+
+##### ⚠️ Exception: When "and" joins things that form ONE idea
+```
+✅ Bread and butter is my daily breakfast.
+   ("Bread and butter" = one food item = singular → "is")
+
+✅ Rice and dal is a common meal in India.
+   ("Rice and dal" = one dish = singular → "is")
+
+✅ The horse and carriage is ready.
+   ("horse and carriage" = one unit = singular)
+
+✅ Slow and steady wins the race.
+   ("Slow and steady" = one concept = singular)
+```
+
+##### ⚠️ Exception: "Each" or "Every" before "and"
+```
+✅ Each boy and each girl has a separate locker.
+   ("Each" makes it singular even though there's "and")
+
+✅ Every man and every woman was invited.
+   ("Every" makes it singular)
+```
+
+---
+
+#### Rule 3: "Either...or" / "Neither...nor" → Verb agrees with the NEAREST subject
+```
+✅ Neither the boys nor the teacher was present.
+   (Nearest subject = "teacher" = singular → "was")
+
+✅ Neither the teacher nor the boys were present.
+   (Nearest subject = "boys" = plural → "were")
+
+✅ Either Rahul or his friends are coming.
+   (Nearest = "friends" = plural → "are")
+
+✅ Either his friends or Rahul is coming.
+   (Nearest = "Rahul" = singular → "is")
+```
+
+> 💡 **Tip for TCS:** They often put the singular subject nearest to the verb to trick you into using plural. Always look at the **nearest subject**.
+
+---
+
+#### Rule 4: Collective nouns → Singular verb (when acting as one unit)
+
+> A collective noun refers to a group: team, committee, jury, family, crowd, audience, government, army, class, etc.
+
+```
+✅ The team is playing well.       (team = one unit → singular)
+✅ The jury has given its verdict.  (jury = one body → singular)
+✅ The committee has taken a decision.
+✅ The audience was very supportive.
+✅ The crowd was cheering loudly.
+
+But if members are acting INDIVIDUALLY:
+✅ The team are wearing their individual jerseys.
+   (Each member is doing something different → plural, but this is rare in exams)
+```
+
+---
+
+#### Rule 5: "Each", "Every", "Everyone", "Everybody", "Everything" → Singular verb
+```
+✅ Each student has a book.
+✅ Every boy was present in the class.
+✅ Everyone is invited to the party.
+✅ Everybody has their own opinion.  ("everybody" = singular verb "has")
+✅ Everything is fine.
+
+❌ Each of the students have submitted their work.  ← WRONG
+✅ Each of the students has submitted his/her work.  ← CORRECT
+   ("Each" is the subject, not "students" — "Each" is always singular)
+```
+
+---
+
+#### Rule 6: "None" → Singular with uncountable, Plural with countable
+```
+✅ None of the water is left.          (water = uncountable → singular)
+✅ None of the students are absent.    (students = countable → plural)
+✅ None of the information is correct. (information = uncountable → singular)
+✅ None of the books were returned.    (books = countable → plural)
+```
+
+---
+
+#### Rule 7: "A number of" vs "The number of"
+
+> 🔴 This is one of the **MOST ASKED** rules in TCS NQT.
+
+```
+"A number of" = many → PLURAL verb
+   ✅ A number of students are present in the hall.
+   ✅ A number of complaints have been filed.
+   (Focus: the students/complaints → plural)
+
+"The number of" = the count → SINGULAR verb
+   ✅ The number of students is 50.
+   ✅ The number of applicants has increased.
+   (Focus: the number itself → singular)
+
+Memory Trick:
+   "A number of"   → A = plur-A-l
+   "The number of"  → The = singular (THE specific count)
+```
+
+---
+
+#### Rule 8: Titles of books, movies, countries → Singular verb
+```
+✅ "Harry Potter" is a famous book series.
+✅ "The Avengers" is a great movie.
+✅ "One Thousand and One Nights" is a classic collection.
+✅ The United States is a powerful country.
+✅ "Friends" is a popular TV show.
+   (Even though the title sounds plural, it's ONE title → singular)
+```
+
+---
+
+#### Rule 9: Distances, amounts, time periods → Singular verb (when viewed as a total)
+```
+✅ Five kilometers is a long distance to walk.
+   (5 km = one total distance → singular)
+
+✅ Two thousand rupees is a big amount for a student.
+   (₹2000 = one total amount → singular)
+
+✅ Ten years is a long time to wait.
+   (10 years = one period → singular)
+
+✅ Three-fourths of the work is done.
+   (One total portion → singular)
+```
+
+---
+
+#### Rule 10: "As well as", "along with", "together with", "with", "besides", "in addition to", "accompanied by" → Verb agrees with the FIRST subject only
+
+> 🔴 **TCS loves this rule!** These phrases do NOT add to the subject.
+
+```
+✅ The boy, along with his friends, was playing.
+   (Subject = "The boy" = singular → "was")
+   ("along with his friends" is extra info, NOT part of the subject)
+
+✅ The teacher, as well as the students, was present.
+   (Subject = "The teacher" = singular → "was")
+
+✅ Ram, together with his brothers, has gone to the market.
+   (Subject = "Ram" = singular → "has")
+
+✅ The manager, in addition to the workers, was blamed.
+   (Subject = "The manager" = singular → "was")
+
+✅ She, accompanied by her parents, is going to Delhi.
+   (Subject = "She" = singular → "is")
+
+⚠️ Compare with "and":
+   ❌ The boy, along with his friends, were playing. ← WRONG
+   ✅ The boy and his friends were playing.           ← CORRECT
+   ("and" makes it plural, but "along with" does NOT)
+```
+
+---
+
+#### Rule 11: "Not only...but also" → Verb agrees with the NEAREST subject
+```
+✅ Not only the students but also the teacher was absent.
+   (Nearest = "teacher" = singular → "was")
+
+✅ Not only the teacher but also the students were absent.
+   (Nearest = "students" = plural → "were")
+```
+
+---
+
+#### Rule 12: Uncountable nouns → Always singular verb
+
+> These nouns look like they could be plural, but they are ALWAYS singular.
+
+```
+✅ The news is shocking.        ("news" = singular, NOT "the news are")
+✅ Mathematics is my favorite subject.
+✅ Physics is difficult for many students.
+✅ Economics deals with supply and demand.
+✅ The information is correct.
+✅ The furniture is expensive.
+✅ His luggage was lost at the airport.
+✅ The advice he gave was useful.
+✅ The scenery is beautiful.
+✅ The machinery needs to be repaired.
+
+⚠️ These words are ALWAYS singular (even though they end in 's'):
+   news, mathematics, physics, economics, politics, ethics,
+   measles, mumps, billiards, gymnastics, innings
+```
+
+---
+
+#### Rule 13: "One of" → Singular verb (for the main clause)
+```
+✅ One of the boys is missing.
+   (Subject = "One" = singular → "is")
+   ("of the boys" is just describing which one)
+
+✅ One of the best movies is Inception.
+   ("One" = singular → "is")
+
+⚠️ Tricky: "One of those who" → the "who" clause takes PLURAL verb
+   ✅ He is one of those students who work hard.
+   ("who" refers to "students" = plural → "work")
+   ❌ He is one of those students who works hard. ← WRONG
+```
+
+---
+
+#### Rule 14: "Many a" / "More than one" → Singular verb (despite plural meaning!)
+```
+✅ Many a student has failed in this exam.
+   ("Many a" = singular verb, even though it means "many students")
+
+✅ More than one person was injured.
+   ("More than one" takes singular verb)
+
+❌ Many a student have failed. ← WRONG
+```
+
+---
+
+#### Rule 15: "Some of", "Most of", "All of", "Half of", "Plenty of" → Depends on the noun after "of"
+```
+✅ Some of the water is contaminated.    (water = uncountable → singular)
+✅ Some of the students are absent.      (students = countable → plural)
+✅ Most of the work is done.             (work = uncountable → singular)
+✅ Most of the questions were easy.       (questions = countable → plural)
+✅ Half of the cake is eaten.            (cake = uncountable → singular)
+✅ Half of the mangoes are rotten.        (mangoes = countable → plural)
+```
+
+---
+
+#### Rule 16: "There" as subject → Verb agrees with the REAL subject after it
+```
+✅ There is a book on the table.          ("a book" = singular → "is")
+✅ There are many books on the shelf.     ("many books" = plural → "are")
+✅ There was a time when life was simple.  ("a time" = singular → "was")
+✅ There were 50 students in the class.   ("50 students" = plural → "were")
+
+❌ There is many problems. ← WRONG
+✅ There are many problems. ← CORRECT
+```
+
+---
+
+#### Rule 17: Relative pronouns (who, which, that) → Verb agrees with the word BEFORE the pronoun
+```
+✅ The boy who is standing there is my friend.
+   ("who" refers to "boy" = singular → "is")
+
+✅ The boys who are standing there are my friends.
+   ("who" refers to "boys" = plural → "are")
+
+✅ It is I who am responsible.    ("who" → "I" → "am")
+✅ It is he who is responsible.   ("who" → "he" → "is")
+✅ It is they who are responsible. ("who" → "they" → "are")
+```
+
+---
+
+#### Rule 18: "No" + noun → Verb depends on the noun
+```
+✅ No student was present.     ("student" = singular → "was")
+✅ No students were present.   ("students" = plural → "were")
+✅ No news is good news.       ("news" = uncountable/singular → "is")
+```
+
+---
+
+#### Rule 19: Subjects joined by "or" → Verb agrees with the NEAREST subject
+```
+✅ Rahul or his friends are coming to the party.
+   (Nearest = "friends" = plural → "are")
+
+✅ His friends or Rahul is coming to the party.
+   (Nearest = "Rahul" = singular → "is")
+```
+
+---
+
+#### Rule 20: Gerund/Infinitive as subject → Singular verb
+```
+✅ Swimming is good exercise.    (Swimming = gerund as subject → singular)
+✅ To err is human.              (To err = infinitive as subject → singular)
+✅ Reading books improves vocabulary.
+✅ Playing games is important for children.
+
+❌ Swimming are good exercise. ← WRONG
+```
+
+---
+
+### 📝 Practice Questions — Subject-Verb Agreement (10 Questions)
+
+**Q1:** "Each of the boys _____ given a prize."
+- (a) were  (b) was  (c) have been  (d) are
+
+**Answer: (b) was** — "Each" is the subject (singular). "Of the boys" is just a prepositional phrase — ignore it. Each = always singular.
+
+---
+
+**Q2:** "A number of students _____ absent today."
+- (a) is  (b) was  (c) are  (d) has been
+
+**Answer: (c) are** — "A number of" = many → plural verb. (If it were "The number of students," the answer would be "is.")
+
+---
+
+**Q3:** "The news _____ very disturbing."
+- (a) are  (b) is  (c) were  (d) have been
+
+**Answer: (b) is** — "News" is always singular, even though it ends in 's'. Same rule for: mathematics, physics, economics.
+
+---
+
+**Q4:** "Neither Rahul nor his friends _____ present at the meeting."
+- (a) was  (b) is  (c) were  (d) has been
+
+**Answer: (c) were** — "Neither...nor" → verb agrees with the nearest subject = "friends" (plural) → "were".
+
+---
+
+**Q5:** "The teacher, along with the students, _____ gone on a trip."
+- (a) have  (b) has  (c) are  (d) were
+
+**Answer: (b) has** — "Along with" does NOT change the subject. Subject = "The teacher" (singular) → "has". The phrase "along with the students" is extra info.
+
+---
+
+**Q6:** "Bread and butter _____ served for breakfast."
+- (a) are  (b) were  (c) is  (d) have been
+
+**Answer: (c) is** — "Bread and butter" is treated as ONE food item → singular verb.
+
+---
+
+**Q7:** "One of my friends _____ a doctor."
+- (a) are  (b) is  (c) were  (d) have been
+
+**Answer: (b) is** — "One" is the subject (singular). "Of my friends" is just telling us which group → singular verb.
+
+---
+
+**Q8:** "Many a student _____ failed in this exam."
+- (a) have  (b) has  (c) are  (d) were
+
+**Answer: (b) has** — "Many a" takes a singular verb despite having a plural meaning. This is a classic TCS trick question.
+
+---
+
+**Q9:** "Not only the players but also the coach _____ disappointed."
+- (a) were  (b) was  (c) are  (d) have been
+
+**Answer: (b) was** — "Not only...but also" → verb agrees with nearest subject = "coach" (singular) → "was".
+
+---
+
+**Q10:** "There _____ a lot of books on the shelf."
+- (a) is  (b) was  (c) are  (d) has been
+
+**Answer: (c) are** — "There" is not the real subject. Real subject = "books" (plural) → "are". ("A lot of books" = many books = plural.)
+
+---
+
+### 🎯 Quick Revision — SVA Traps in TCS NQT
+
+| Trap | Rule | Correct Example |
+|------|------|-----------------|
+| "Each of the boys have..." | "Each" = always singular | Each of the boys **has** a book |
+| "A number of students is..." | "A number of" = plural | A number of students **are** absent |
+| "The number of students are..." | "The number of" = singular | The number of students **is** 50 |
+| "The news are..." | News = always singular | The news **is** shocking |
+| "Boy, along with friends, were..." | "along with" → ignore it | The boy, along with friends, **was** playing |
+| "Neither A nor B" | Verb → nearest subject | Neither the boys nor the teacher **was** present |
+| "Bread and butter are..." | One concept = singular | Bread and butter **is** my breakfast |
+| "Many a student have..." | "Many a" = singular | Many a student **has** failed |
+| "One of the boys are..." | "One" = singular | One of the boys **is** missing |
+| "Mathematics are..." | Subject names = singular | Mathematics **is** difficult |
+
+---
+
+## 15. Parts of Speech
+
+> 💡 **What are Parts of Speech?** Every word in English belongs to one of 8 categories based on its function in a sentence. Understanding parts of speech helps you solve sentence improvement, error spotting, and fill-in-the-blank questions in TCS NQT.
+
+### The 8 Parts of Speech at a Glance
+
+| # | Part of Speech | What it Does | Examples |
+|---|---------------|-------------|----------|
+| 1 | **Noun** | Names a person, place, thing, or idea | Rahul, Delhi, book, happiness |
+| 2 | **Pronoun** | Replaces a noun to avoid repetition | he, she, it, they, who, this |
+| 3 | **Verb** | Shows action or state of being | run, eat, is, have, think |
+| 4 | **Adjective** | Describes a noun | big, beautiful, five, Indian |
+| 5 | **Adverb** | Describes a verb, adjective, or another adverb | quickly, very, here, always |
+| 6 | **Preposition** | Shows relationship between words (position, time, direction) | in, on, at, by, with, for |
+| 7 | **Conjunction** | Joins words, phrases, or sentences | and, but, or, because, although |
+| 8 | **Interjection** | Expresses strong emotion | Wow!, Alas!, Hurrah!, Oh! |
+
+---
+
+### 1. Nouns (Naming Words)
+
+> A noun is a word that names a **person**, **place**, **thing**, or **idea**.
+
+#### Types of Nouns
+
+| Type | Definition | Examples |
+|------|-----------|----------|
+| **Common Noun** | General name (not capitalized) | boy, city, book, river |
+| **Proper Noun** | Specific name (always capitalized) | Rahul, Mumbai, TCS, India |
+| **Collective Noun** | Name for a group | team, jury, flock, crowd, army |
+| **Abstract Noun** | Name for ideas/feelings (can't touch) | love, happiness, freedom, courage |
+| **Material Noun** | Name for substances/materials | gold, water, wood, iron |
+| **Countable Noun** | Can be counted (has plural) | book/books, pen/pens, student/students |
+| **Uncountable Noun** | Cannot be counted (no plural) | water, information, furniture, luggage, advice |
+
+#### ⚠️ TCS Tricky Nouns (These look plural but are SINGULAR)
+```
+Singular (no 's' form):  news, information, furniture, luggage,
+                          advice, scenery, machinery, poetry,
+                          knowledge, equipment, bread
+
+✅ "The news is shocking."     NOT "The news are shocking."
+✅ "The furniture is old."     NOT "The furnitures are old."
+✅ "The information is wrong." NOT "The informations are wrong."
+✅ "His luggage was heavy."    NOT "His luggages were heavy."
+```
+
+#### ⚠️ TCS Tricky Nouns (These end in 's' but are SINGULAR — subject names)
+```
+✅ Mathematics is easy.   ✅ Physics is interesting.
+✅ Economics is useful.    ✅ Politics is dirty.
+✅ Billiards is fun.       ✅ Measles is dangerous.
+```
+
+---
+
+### 2. Pronouns (Words that Replace Nouns)
+
+> A pronoun is used **instead of a noun** so we don't repeat the same noun.
+
+#### Types of Pronouns
+
+| Type | What it Does | Examples |
+|------|-------------|----------|
+| **Personal** | Refers to persons | I, you, he, she, it, we, they |
+| **Possessive** | Shows ownership | my, your, his, her, its, our, their, mine, yours |
+| **Reflexive** | Action reflects back to subject | myself, yourself, himself, herself, itself, ourselves |
+| **Relative** | Connects clauses, refers back to a noun | who, whom, whose, which, that |
+| **Demonstrative** | Points to specific things | this, that, these, those |
+| **Interrogative** | Used to ask questions | who, whom, whose, which, what |
+| **Indefinite** | Refers to non-specific persons/things | someone, anyone, nobody, everything, each, all |
+
+#### 🔴 Common Pronoun Errors in TCS NQT
+
+```
+❌ "Between you and I, this is wrong."
+✅ "Between you and me, this is wrong."
+   (After prepositions like "between", use objective case: me, him, her, them)
+
+❌ "Him and me went to the party."
+✅ "He and I went to the party."
+   (Subjects of a sentence → subjective case: I, he, she, we, they)
+
+❌ "Every student should bring their books."
+✅ "Every student should bring his/her books."
+   ("Every" = singular → pronoun should be singular)
+
+❌ "Each of the girls have completed their task."
+✅ "Each of the girls has completed her task."
+   ("Each" = singular → "has" + "her")
+
+❌ "The team celebrated their victory."
+✅ "The team celebrated its victory."
+   ("Team" = singular collective noun → "its")
+```
+
+#### Who vs Whom
+```
+Who   = subject (does the action)    → "Who called you?" (who = he/she)
+Whom  = object (receives the action) → "Whom did you call?" (whom = him/her)
+
+Trick: Replace with he/him:
+   - If "he" fits → use "who"     → "Who is calling?" (He is calling ✅)
+   - If "him" fits → use "whom"   → "To whom did you speak?" (You spoke to him ✅)
+```
+
+---
+
+### 3. Verbs (Action/State Words)
+
+> A verb shows **action** (run, write, eat) or **state of being** (is, am, was, seem, appear).
+
+#### Types of Verbs
+
+| Type | Definition | Examples |
+|------|-----------|----------|
+| **Main/Lexical Verb** | The primary action word | She **writes** poems. He **ran** fast. |
+| **Helping/Auxiliary Verb** | Helps the main verb | She **is writing**. He **has gone**. They **will come**. |
+| **Modal Verb** | Shows ability, permission, possibility | can, could, may, might, shall, should, will, would, must |
+| **Transitive Verb** | Needs an object | She **ate** an apple. (ate what? → apple) |
+| **Intransitive Verb** | Doesn't need an object | She **laughed**. The baby **cried**. |
+| **Linking Verb** | Connects subject to description | She **is** happy. He **seems** tired. |
+
+#### 🔴 TCS Tricky Verb Questions
+
+```
+❌ "He made me to do the work."
+✅ "He made me do the work."
+   (After make/let/have → no "to" before the verb = bare infinitive)
+
+❌ "I am knowing the answer."
+✅ "I know the answer."
+   ("Know" is a stative verb — NOT used in continuous tense)
+
+Stative verbs (never use with -ing):
+   know, believe, understand, think (opinion), like, love, hate,
+   want, need, prefer, seem, appear, belong, own, possess
+
+❌ "She is seeming happy."    → ✅ "She seems happy."
+❌ "I am believing you."      → ✅ "I believe you."
+❌ "He is owning a car."      → ✅ "He owns a car."
+```
+
+---
+
+### 4. Adjectives (Describing Words for Nouns)
+
+> An adjective describes or gives more information about a **noun or pronoun**.
+
+#### Types of Adjectives
+
+| Type | What it Tells | Examples |
+|------|-------------|----------|
+| **Quality** | What kind? | beautiful, tall, intelligent, old |
+| **Quantity** | How much? | some, much, little, enough, all |
+| **Number** | How many? | five, several, many, few, first |
+| **Demonstrative** | Which one? | this, that, these, those |
+| **Possessive** | Whose? | my, your, his, her, our, their |
+| **Interrogative** | Asks about noun | which, what, whose |
+
+#### Degrees of Comparison
+
+| Degree | Rule | Example |
+|--------|-----|---------|
+| **Positive** | Base form — no comparison | She is **tall**. |
+| **Comparative** | Comparing TWO things → add "-er" or "more" | She is **taller** than him. |
+| **Superlative** | Comparing THREE+ things → add "-est" or "most" | She is the **tallest** in the class. |
+
+```
+Short adjectives (1-2 syllables): add -er / -est
+   tall → taller → tallest
+   big → bigger → biggest
+   happy → happier → happiest
+
+Long adjectives (3+ syllables): use more / most
+   beautiful → more beautiful → most beautiful
+   intelligent → more intelligent → most intelligent
+
+⚠️ Irregular adjectives (memorize these):
+   good → better → best
+   bad → worse → worst
+   little → less → least
+   much/many → more → most
+   far → farther/further → farthest/furthest
+   old → older/elder → oldest/eldest
+```
+
+#### 🔴 TCS Comparison Traps
+```
+❌ "He is more taller than me."     → ✅ "He is taller than me."
+   (Never use "more" + "-er" together)
+
+❌ "She is the most prettiest girl." → ✅ "She is the prettiest girl."
+   (Never use "most" + "-est" together)
+
+❌ "He is elder than me."           → ✅ "He is older than me."
+   ("elder" is used before nouns: "my elder brother")
+   ("older" is used with "than" for comparison)
+
+❌ "He is superior than me."        → ✅ "He is superior to me."
+   (superior/inferior/senior/junior → always "to", never "than")
+```
+
+---
+
+### 5. Adverbs (Describing Words for Verbs/Adjectives/Other Adverbs)
+
+> An adverb tells **how**, **when**, **where**, **how much**, or **how often** something happens.
+
+#### Types of Adverbs
+
+| Type | Question it Answers | Examples |
+|------|-------------------|----------|
+| **Manner** | How? | quickly, slowly, carefully, well, hard |
+| **Time** | When? | now, today, yesterday, soon, already |
+| **Place** | Where? | here, there, everywhere, outside, above |
+| **Frequency** | How often? | always, usually, often, sometimes, never |
+| **Degree** | How much? | very, too, quite, almost, enough, extremely |
+
+#### 🔴 Adjective vs Adverb Confusion (TCS Favorite)
+```
+❌ "She sings beautiful."    → ✅ "She sings beautifully."
+   ("sings" is a verb → needs adverb "beautifully", not adjective "beautiful")
+
+❌ "He drives very careful."  → ✅ "He drives very carefully."
+   ("drives" is a verb → needs adverb)
+
+❌ "She spoke very good."     → ✅ "She spoke very well."
+   ("good" = adjective, "well" = adverb)
+
+But:
+✅ "She is a good singer."   ("good" describes noun "singer" → adjective is correct)
+✅ "She sings well."          ("well" describes verb "sings" → adverb is correct)
+
+Exception words that are both adjective AND adverb (same form):
+   fast, hard, early, late, straight, daily
+   ✅ "He runs fast."    (adverb — describes "runs")
+   ✅ "He is a fast runner."  (adjective — describes "runner")
+```
+
+---
+
+### 6. Prepositions (Position/Relationship Words)
+
+> A preposition shows the **relationship** between a noun/pronoun and another word in the sentence — usually showing position, time, direction, or method.
+
+> *(Detailed preposition rules are covered in Section 13 — Articles & Prepositions)*
+
+#### Quick Reference
+```
+Time:      at 5 PM, on Monday, in January, by tomorrow, since 2020, for 3 years
+Place:     at the bus stop, on the table, in the room, under the bridge
+Direction: to school, from home, into the pool, onto the roof
+Method:    by bus, with a pen, through hard work
+```
+
+#### ⚠️ TCS Trap: Don't add preposition to transitive verbs
+```
+❌ "Please discuss about this."    → ✅ "Please discuss this."
+❌ "She entered into the room."    → ✅ "She entered the room."
+❌ "He emphasized on education."   → ✅ "He emphasized education."
+❌ "She ordered for a coffee."     → ✅ "She ordered a coffee."
+❌ "The company comprises of..."   → ✅ "The company comprises..."
+```
+
+---
+
+### 7. Conjunctions (Joining Words)
+
+> A conjunction **connects** words, phrases, or sentences.
+
+#### Types of Conjunctions
+
+| Type | What it Does | Examples |
+|------|-------------|----------|
+| **Coordinating** | Joins equal parts (FANBOYS) | **F**or, **A**nd, **N**or, **B**ut, **O**r, **Y**et, **S**o |
+| **Subordinating** | Joins a dependent clause to main clause | because, although, if, when, while, since, unless, until, after, before |
+| **Correlative** | Work in pairs | either...or, neither...nor, not only...but also, both...and, whether...or |
+
+#### 🔴 TCS Conjunction Rules
+```
+1. "Although/Though" → NEVER followed by "but"
+   ❌ "Although he is rich, but he is not happy."
+   ✅ "Although he is rich, he is not happy."
+   ✅ "He is rich, but he is not happy."
+   (Use one or the other — not both)
+
+2. "Because" → NEVER preceded by "the reason is"
+   ❌ "The reason is because he was late."
+   ✅ "The reason is that he was late."
+   ✅ "He failed because he was late."
+
+3. "Unless" = if not (already negative — don't add "not")
+   ❌ "Unless you don't study, you will fail."
+   ✅ "Unless you study, you will fail."
+   ("Unless" already means "if you don't")
+
+4. "Scarcely/Hardly" → followed by "when" (not "than")
+   ❌ "Hardly had he reached than it started raining."
+   ✅ "Hardly had he reached when it started raining."
+
+5. "No sooner" → followed by "than" (not "when")
+   ❌ "No sooner did he come when it rained."
+   ✅ "No sooner did he come than it rained."
+```
+
+---
+
+### 8. Interjections (Emotion Words)
+
+> An interjection is a word or phrase that expresses a **sudden feeling or emotion**. It is usually followed by an exclamation mark (!).
+
+| Interjection | Emotion | Example |
+|-------------|---------|----------|
+| Hurrah! / Wow! | Joy, excitement | Hurrah! We won the match! |
+| Alas! | Sorrow, grief | Alas! He lost his father. |
+| Oh! / Ah! | Surprise | Oh! What a beautiful view! |
+| Bravo! | Praise, appreciation | Bravo! Well done! |
+| Ugh! / Yuck! | Disgust | Ugh! This food is terrible! |
+| Oops! | Mistake | Oops! I dropped the glass. |
+| Hush! / Shh! | Silence | Hush! The baby is sleeping. |
+| Help! / Fire! | Emergency | Help! Someone call an ambulance! |
+| Hello! / Hi! | Greeting | Hello! How are you? |
+| Ouch! | Pain | Ouch! That hurt! |
+
+> 💡 In TCS NQT, interjections appear in **Direct & Indirect Speech** conversion:
+> - "Hurrah!" → exclaimed with joy
+> - "Alas!" → exclaimed with sorrow
+> - "Bravo!" → applauded / exclaimed with admiration
+
+---
+
+### 🎯 Parts of Speech — Quick Identification Trick
+
+```
+Asking about a word? Use this method:
+
+1. Does it NAME something?           → NOUN        (Rahul, book, love)
+2. Does it REPLACE a noun?           → PRONOUN     (he, she, it, they)
+3. Does it show ACTION or STATE?     → VERB        (run, is, think)
+4. Does it DESCRIBE a noun?          → ADJECTIVE   (big, red, five)
+5. Does it DESCRIBE a verb/adj/adv?  → ADVERB      (quickly, very, here)
+6. Does it show RELATIONSHIP?        → PREPOSITION (in, on, at, by)
+7. Does it JOIN words/sentences?     → CONJUNCTION  (and, but, because)
+8. Does it show SUDDEN EMOTION?      → INTERJECTION (Wow!, Alas!, Oh!)
+```
+
+#### 📝 Identify the Parts of Speech (Practice)
+
+**Sentence:** "Wow! Rahul quickly solved the difficult problem in the exam and scored well."
+
+| Word | Part of Speech | Why |
+|------|---------------|-----|
+| Wow! | Interjection | Expresses surprise/admiration |
+| Rahul | Noun (Proper) | Names a specific person |
+| quickly | Adverb | Describes how he solved (manner) |
+| solved | Verb | Shows the action |
+| the | Adjective (Article) | Points to a specific problem |
+| difficult | Adjective | Describes the noun "problem" |
+| problem | Noun (Common) | Names a thing |
+| in | Preposition | Shows relationship (where) |
+| the | Adjective (Article) | Points to specific exam |
+| exam | Noun (Common) | Names a thing |
+| and | Conjunction (Coordinating) | Joins two actions |
+| scored | Verb | Shows another action |
+| well | Adverb | Describes how he scored (manner) |
+
+---
+
+## 16. Vocabulary Builder — 200 Must-Know Words
 
 ### Level 1 — Frequently Asked in TCS NQT
 
@@ -1445,7 +2672,7 @@ Rule: Based on SOUND, not spelling
 
 ---
 
-## 16. Previous Year Questions
+## 17. Previous Year Questions
 
 ### PYQ 1: Reading Comprehension
 **Q:** [Based on passage about climate change] What is the author's tone?
@@ -1501,7 +2728,7 @@ Rule: Based on SOUND, not spelling
 
 ---
 
-## 17. Tips & Tricks
+## 18. Tips & Tricks
 
 ### ⚡ Speed Reading Tips
 ```
