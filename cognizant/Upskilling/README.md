@@ -10,9 +10,9 @@
 | Detail | Info |
 |--------|------|
 | **Program** | Digital Nurture 5.0 — Java FSE Upskilling |
-| **Modules** | 3 |
-| **Subjects** | 7 |
-| **Recommended Duration** | 3 Weeks |
+| **Modules** | 4 |
+| **Subjects** | 8 |
+| **Recommended Duration** | 4 Weeks |
 | **Assessment** | Skill Based Assessment (SBA) after completion |
 
 ---
@@ -40,6 +40,12 @@
 | # | Subject | Link | Key Topics |
 |---|---------|------|------------|
 | 7 | **Core Java** | [📖 Open](./Module-3_Core-Java/01_Core-Java/README.md) | OOP, Collections, Streams, Multithreading, JDBC, Java 17/21 |
+
+### Module 4 — Cloud
+
+| # | Subject | Link | Key Topics |
+|---|---------|------|------------|
+| 8 | **Cloud Computing** | [📖 Open](./Module-4_Cloud/README.md) | IaaS/PaaS/SaaS, AWS, Azure, GCP, VPC, IAM, Containers, K8s, Serverless, Security |
 
 ---
 
@@ -74,6 +80,16 @@
 | Thu | Java — Exception Handling, I/O, Multithreading | 2-3 hrs |
 | Fri | Java — JDBC, Modules, Networking | 2-3 hrs |
 | Sat-Sun | Java — Java 17/21 Features, Reactive Programming, Revision | 4-5 hrs |
+
+### Week 4 — Cloud Computing
+| Day | Focus | Hours |
+|-----|-------|-------|
+| Mon | Cloud Fundamentals — NIST, Service Models, Deployment Models | 2-3 hrs |
+| Tue | AWS — EC2, S3, RDS, Lambda, IAM | 2-3 hrs |
+| Wed | AWS — VPC, CloudFront, EKS, Well-Architected Framework | 2-3 hrs |
+| Thu | Azure — VMs, Blob, AKS, AAD, ExpressRoute + GCP Overview | 2-3 hrs |
+| Fri | Security — Shared Responsibility, Encryption, Compliance | 2-3 hrs |
+| Sat-Sun | DevOps/Containers/Kubernetes + Practice MCQs Revision | 4-5 hrs |
 
 ---
 
