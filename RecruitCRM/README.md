@@ -55,7 +55,7 @@ Round 1: Online MCQ Test
 
 Round 2: Online Coding Assessment
 ├── 2 Medium-Level Problems (60 min)
-├── Focus: HashMap, Stack, Array patterns
+├── Focus: HashMap, Stack, Trees & BST, Arrays, Binary Search, Two Pointers
 └── Start brute-force → optimize
 
 Round 3: Technical Interview
@@ -79,7 +79,7 @@ Round 4: Founder/HR Interview
 | :--- | :--- | :---: |
 | [01_core_java.md](./01_core_java.md) | Core Java fundamentals, OOP, Collections, Java 8+, Multithreading | 🔴 HIGH |
 | [02_java_output_questions.md](./02_java_output_questions.md) | Tricky output prediction MCQs with explanations | 🔴 HIGH |
-| [03_dsa_coding.md](./03_dsa_coding.md) | LeetCode problems (HashMap, Stack, Arrays, Strings) | 🔴 HIGH |
+| [03_dsa_coding.md](./03_dsa_coding.md) | LeetCode problems (HashMap, Stack, Trees & BST, Arrays, Binary Search, LRU Cache) | 🔴 HIGH |
 | [04_spring_boot.md](./04_spring_boot.md) | Spring Boot, REST APIs, DI, Annotations | 🟡 MEDIUM |
 | [05_sql_dbms.md](./05_sql_dbms.md) | SQL queries, ACID, Normalization, Indexing | 🟡 MEDIUM |
 | [06_os_cn.md](./06_os_cn.md) | OS Concepts, Networking basics | 🟡 MEDIUM |
@@ -93,7 +93,7 @@ Round 4: Founder/HR Interview
 ### Day 1 (Sep 7) — Java + DSA Foundation
 - [ ] `01_core_java.md` — All OOP, Collections, Java 8 concepts
 - [ ] `02_java_output_questions.md` — Practice all output prediction MCQs
-- [ ] `03_dsa_coding.md` — Solve HashMap & Stack problems on LeetCode
+- [ ] `03_dsa_coding.md` — Solve HashMap, Stack, Tree & Binary Search problems on LeetCode
 
 ### Day 2 (Sep 8) — Backend + CS Fundamentals
 - [ ] `04_spring_boot.md` — REST APIs, DI, Annotations (connects to your TinyLink project)

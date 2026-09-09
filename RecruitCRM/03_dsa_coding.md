@@ -1,6 +1,6 @@
 # DSA Coding Problems — Recruit CRM Coding Round Prep
 
-> 🎯 **Focus Areas**: HashMap, Stack, Arrays, Strings — Medium difficulty LeetCode problems
+> 🎯 **Focus Areas**: HashMap, Stack, Binary Trees & BST, Arrays, Strings, Binary Search, Two Pointers — Easy to Medium LeetCode problems
 > The coding round typically has **2 problems in 60 minutes**. Start with brute-force, then optimize.
 
 ---
@@ -49,6 +49,49 @@
 | 21 | Reverse Linked List | [#206](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative/Recursive |
 | 22 | Detect Cycle in Linked List | [#141](https://leetcode.com/problems/linked-list-cycle/) | Easy | Floyd's Tortoise & Hare |
 | 23 | Merge Two Sorted Lists | [#21](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Two Pointers |
+
+### 🌲 Priority 5: Binary Tree & BST (Easy to Medium — Frequently Asked!)
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+| :---: | :--- | :---: | :---: | :--- |
+| 24 | Maximum Depth of Binary Tree | [#104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | DFS / Recursion |
+| 25 | Invert Binary Tree | [#226](https://leetcode.com/problems/invert-binary-tree/) | Easy | DFS Tree Manipulation |
+| 26 | Diameter of Binary Tree | [#543](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | Postorder DFS |
+| 27 | Binary Tree Level Order Traversal | [#102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | BFS / Queue |
+| 28 | Lowest Common Ancestor of a BST | [#235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | BST Properties |
+| 29 | Validate Binary Search Tree | [#98](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | Range Inorder DFS |
+| 30 | Kth Smallest Element in a BST | [#230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | Inorder Traversal |
+| 31 | Path Sum | [#112](https://leetcode.com/problems/path-sum/) | Easy | DFS Backtracking |
+
+### 🎯 Priority 6: Binary Search (Must-Know Assessment Pattern)
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+| :---: | :--- | :---: | :---: | :--- |
+| 32 | Binary Search | [#704](https://leetcode.com/problems/binary-search/) | Easy | Standard Binary Search |
+| 33 | Search in Rotated Sorted Array | [#33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | Modified Binary Search |
+| 34 | Find First and Last Position in Sorted Array | [#34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Boundary Binary Search |
+
+### ⚡ Priority 7: Two Pointers & Sliding Window Essentials
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+| :---: | :--- | :---: | :---: | :--- |
+| 35 | 3Sum | [#15](https://leetcode.com/problems/3sum/) | Medium | Sorting + Two Pointers |
+| 36 | Container With Most Water | [#11](https://leetcode.com/problems/container-with-most-water/) | Medium | Two Pointers Shrinking |
+
+### 💡 Priority 8: Dynamic Programming & Greedy Essentials
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+| :---: | :--- | :---: | :---: | :--- |
+| 37 | Best Time to Buy and Sell Stock | [#121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | One Pass / Greedy |
+| 38 | Maximum Subarray (Kadane's) | [#53](https://leetcode.com/problems/maximum-subarray/) | Medium | Kadane's Algorithm |
+| 39 | Climbing Stairs | [#70](https://leetcode.com/problems/climbing-stairs/) | Easy | 1D DP / Fibonacci |
+| 40 | Coin Change | [#322](https://leetcode.com/problems/coin-change/) | Medium | DP (Unbounded Knapsack) |
+
+### 🏗️ Priority 9: Data Structure Design (SaaS / CRM Classic)
+
+| # | Problem | LeetCode | Difficulty | Pattern |
+| :---: | :--- | :---: | :---: | :--- |
+| 41 | LRU Cache | [#146](https://leetcode.com/problems/lru-cache/) | Medium | HashMap + Doubly Linked List |
 
 ---
 
@@ -436,6 +479,392 @@ public int[][] merge(int[][] intervals) {
 
 ---
 
+### Problem 14: Maximum Depth of Binary Tree
+
+**Problem:** Find the maximum depth (height) of a binary tree.
+
+```java
+// TreeNode Reference Definition
+class TreeNode {
+    int val;
+    TreeNode left, right;
+    TreeNode(int val) { this.val = val; }
+}
+
+// ✅ Approach 1: Recursive DFS — Most elegant & common in interviews
+public int maxDepth(TreeNode root) {
+    if (root == null) return 0;
+    return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
+}
+
+// ✅ Approach 2: Iterative BFS (Level Order)
+public int maxDepthBFS(TreeNode root) {
+    if (root == null) return 0;
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+    int depth = 0;
+    
+    while (!queue.isEmpty()) {
+        int size = queue.size();
+        for (int i = 0; i < size; i++) {
+            TreeNode curr = queue.poll();
+            if (curr.left != null) queue.offer(curr.left);
+            if (curr.right != null) queue.offer(curr.right);
+        }
+        depth++;
+    }
+    return depth;
+}
+```
+
+**Key Insight:** Max depth is 1 + maximum of left subtree depth and right subtree depth.
+**Time:** O(n) | **Space:** O(h) where h is tree height (O(n) worst case, O(log n) balanced)
+
+---
+
+### Problem 15: Invert Binary Tree
+
+**Problem:** Invert a binary tree (mirror image swap of all left and right children).
+
+```java
+public TreeNode invertTree(TreeNode root) {
+    if (root == null) return null;
+    
+    // Swap left and right child pointers
+    TreeNode temp = root.left;
+    root.left = root.right;
+    root.right = temp;
+    
+    // Invert both subtrees recursively
+    invertTree(root.left);
+    invertTree(root.right);
+    
+    return root;
+}
+```
+
+**Key Insight:** Traverse the tree recursively, swapping left and right subtrees at each node.
+**Time:** O(n) | **Space:** O(h)
+
+---
+
+### Problem 16: Binary Tree Level Order Traversal
+
+**Problem:** Return the level order traversal of node values (left to right, level by level).
+
+```java
+public List<List<Integer>> levelOrder(TreeNode root) {
+    List<List<Integer>> result = new ArrayList<>();
+    if (root == null) return result;
+    
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+    
+    while (!queue.isEmpty()) {
+        int levelSize = queue.size(); // Freeze size of current level
+        List<Integer> currentLevel = new ArrayList<>();
+        
+        for (int i = 0; i < levelSize; i++) {
+            TreeNode node = queue.poll();
+            currentLevel.add(node.val);
+            if (node.left != null) queue.offer(node.left);
+            if (node.right != null) queue.offer(node.right);
+        }
+        result.add(currentLevel);
+    }
+    
+    return result;
+}
+```
+
+**Pattern:** BFS using Queue. Track `queue.size()` before processing each level.
+**Time:** O(n) | **Space:** O(n)
+
+---
+
+### Problem 17: Lowest Common Ancestor of a BST
+
+**Problem:** Find the lowest common ancestor (LCA) node of two given nodes p and q in a BST.
+
+```java
+public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    while (root != null) {
+        if (p.val < root.val && q.val < root.val) {
+            root = root.left;   // Both nodes are in the left subtree
+        } else if (p.val > root.val && q.val > root.val) {
+            root = root.right;  // Both nodes are in the right subtree
+        } else {
+            return root;        // Found split point: one on left, one on right (or root is p/q)
+        }
+    }
+    return null;
+}
+```
+
+**Key Insight:** In a BST, the LCA is the first node where paths to p and q diverge.
+**Time:** O(h) | **Space:** O(1) iterative
+
+---
+
+### Problem 18: Validate Binary Search Tree
+
+**Problem:** Determine if a binary tree is a valid Binary Search Tree (BST).
+
+```java
+public boolean isValidBST(TreeNode root) {
+    return validate(root, null, null);
+}
+
+private boolean validate(TreeNode node, Integer min, Integer max) {
+    if (node == null) return true;
+    
+    // Current node must be strictly greater than min and strictly less than max
+    if ((min != null && node.val <= min) || (max != null && node.val >= max)) {
+        return false;
+    }
+    
+    // Left subtree: max bound becomes node.val
+    // Right subtree: min bound becomes node.val
+    return validate(node.left, min, node.val) && validate(node.right, node.val, max);
+}
+```
+
+**Key Insight:** Every node must fall within a valid range `(min, max)`. Simply checking `left < root < right` is NOT sufficient for entire subtrees.
+**Time:** O(n) | **Space:** O(h)
+
+---
+
+### Problem 19: Search in Rotated Sorted Array
+
+**Problem:** Search a target value in an array that was sorted in ascending order and then rotated at an unknown pivot. Return index, or -1. Must run in O(log n).
+
+```java
+public int search(int[] nums, int target) {
+    int low = 0, high = nums.length - 1;
+    
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (nums[mid] == target) return mid;
+        
+        // Check if the left half is sorted
+        if (nums[low] <= nums[mid]) {
+            if (nums[low] <= target && target < nums[mid]) {
+                high = mid - 1; // Target lies in the left sorted half
+            } else {
+                low = mid + 1;  // Target lies in the right half
+            }
+        } 
+        // Otherwise, right half MUST be sorted
+        else {
+            if (nums[mid] < target && target <= nums[high]) {
+                low = mid + 1;  // Target lies in the right sorted half
+            } else {
+                high = mid - 1; // Target lies in the left half
+            }
+        }
+    }
+    return -1;
+}
+```
+
+**Key Insight:** At least one half of a rotated sorted array is always cleanly sorted. Check boundaries of the sorted half to determine which side to search.
+**Time:** O(log n) | **Space:** O(1)
+
+---
+
+### Problem 20: 3Sum
+
+**Problem:** Find all unique triplets `[nums[i], nums[j], nums[k]]` such that `i != j != k` and their sum equals 0.
+
+```java
+public List<List<Integer>> threeSum(int[] nums) {
+    List<List<Integer>> res = new ArrayList<>();
+    Arrays.sort(nums); // O(n log n)
+    
+    for (int i = 0; i < nums.length - 2; i++) {
+        // Skip duplicate values for i
+        if (i > 0 && nums[i] == nums[i - 1]) continue;
+        
+        int left = i + 1, right = nums.length - 1;
+        while (left < right) {
+            int sum = nums[i] + nums[left] + nums[right];
+            if (sum == 0) {
+                res.add(Arrays.asList(nums[i], nums[left], nums[right]));
+                // Skip duplicate left and right pointers
+                while (left < right && nums[left] == nums[left + 1]) left++;
+                while (left < right && nums[right] == nums[right - 1]) right--;
+                left++;
+                right--;
+            } else if (sum < 0) {
+                left++; // Need a larger number
+            } else {
+                right--; // Need a smaller number
+            }
+        }
+    }
+    return res;
+}
+```
+
+**Pattern:** Sorting + Fixed Element + Two Pointers. Skip duplicates at all three pointers.
+**Time:** O(n²) | **Space:** O(1) auxiliary
+
+---
+
+### Problem 21: Container With Most Water
+
+**Problem:** Given array `height`, find two lines that together with the x-axis form a container holding the maximum water.
+
+```java
+public int maxArea(int[] height) {
+    int maxWater = 0;
+    int left = 0, right = height.length - 1;
+    
+    while (left < right) {
+        int width = right - left;
+        int minHeight = Math.min(height[left], height[right]);
+        maxWater = Math.max(maxWater, width * minHeight);
+        
+        // Move the shorter line inwards to seek potential taller walls
+        if (height[left] < height[right]) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    return maxWater;
+}
+```
+
+**Key Insight:** The limiting factor is always the shorter wall. Moving the taller wall can only decrease width without increasing height.
+**Time:** O(n) | **Space:** O(1)
+
+---
+
+### Problem 22: Best Time to Buy and Sell Stock
+
+**Problem:** Maximize single-transaction profit by choosing one day to buy and a later day to sell.
+
+```java
+public int maxProfit(int[] prices) {
+    int minPrice = Integer.MAX_VALUE;
+    int maxProfit = 0;
+    
+    for (int price : prices) {
+        if (price < minPrice) {
+            minPrice = price; // Track lowest buy price seen so far
+        } else if (price - minPrice > maxProfit) {
+            maxProfit = price - minPrice; // Potential best profit
+        }
+    }
+    return maxProfit;
+}
+```
+
+**Pattern:** Greedy / One-pass state tracking.
+**Time:** O(n) | **Space:** O(1)
+
+---
+
+### Problem 23: Maximum Subarray (Kadane's Algorithm)
+
+**Problem:** Find the contiguous subarray with the largest sum.
+
+```java
+public int maxSubArray(int[] nums) {
+    int currentSum = nums[0];
+    int maxSum = nums[0];
+    
+    for (int i = 1; i < nums.length; i++) {
+        // Either extend the previous subarray or start fresh at nums[i]
+        currentSum = Math.max(nums[i], currentSum + nums[i]);
+        maxSum = Math.max(maxSum, currentSum);
+    }
+    return maxSum;
+}
+```
+
+**Key Insight (Kadane's):** If `currentSum` becomes negative, it can only drag down subsequent elements, so reset by starting fresh at `nums[i]`.
+**Time:** O(n) | **Space:** O(1)
+
+---
+
+### Problem 24: LRU Cache (High Frequency System Design Problem)
+
+**Problem:** Design a Least Recently Used (LRU) Cache with `get(key)` and `put(key, value)` in O(1) average time.
+
+```java
+class LRUCache {
+    class Node {
+        int key, value;
+        Node prev, next;
+        Node(int k, int v) { key = k; value = v; }
+    }
+    
+    private final int capacity;
+    private final Map<Integer, Node> map;
+    private final Node head; // Dummy head (most recently used side)
+    private final Node tail; // Dummy tail (least recently used side)
+    
+    public LRUCache(int capacity) {
+        this.capacity = capacity;
+        this.map = new HashMap<>();
+        head = new Node(0, 0);
+        tail = new Node(0, 0);
+        head.next = tail;
+        tail.prev = head;
+    }
+    
+    public int get(int key) {
+        if (!map.containsKey(key)) return -1;
+        Node node = map.get(key);
+        moveToHead(node); // Accessed, so mark as most recently used
+        return node.value;
+    }
+    
+    public void put(int key, int value) {
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
+            node.value = value;
+            moveToHead(node);
+        } else {
+            if (map.size() >= capacity) {
+                Node lru = tail.prev; // Least recently used node
+                removeNode(lru);
+                map.remove(lru.key);
+            }
+            Node newNode = new Node(key, value);
+            addNode(newNode);
+            map.put(key, newNode);
+        }
+    }
+    
+    // Insert node right after dummy head
+    private void addNode(Node node) {
+        node.next = head.next;
+        node.prev = head;
+        head.next.prev = node;
+        head.next = node;
+    }
+    
+    // Remove existing node from doubly linked list
+    private void removeNode(Node node) {
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+    }
+    
+    private void moveToHead(Node node) {
+        removeNode(node);
+        addNode(node);
+    }
+}
+```
+
+**Key Insight:** HashMap provides O(1) lookup. Doubly Linked List allows O(1) removal and insertion at head/tail.
+**Time:** O(1) for `get` and `put` | **Space:** O(capacity)
+
+---
+
 ## 🧠 Pattern Recognition Cheat Sheet
 
 | Pattern | When to Use | Key Data Structure |
@@ -444,9 +873,15 @@ public int[][] merge(int[][] intervals) {
 | **Prefix Sum + HashMap** | Subarray sum problems | HashMap + running sum |
 | **Sliding Window** | Contiguous subarray/substring optimization | HashMap/Set + two pointers |
 | **Monotonic Stack** | Next greater/smaller element | Stack (decreasing/increasing) |
-| **Two Pointers** | Sorted array, reverse, partition | Two indices |
-| **Frequency Count** | Anagrams, top-K, duplicates | HashMap/int[26] |
-| **Sort + Greedy** | Intervals, scheduling | Arrays.sort() |
+| **Two Pointers (Shrinking)** | Sorted array, container volume, pair sum | Two indices (left & right) |
+| **Frequency Count** | Anagrams, top-K, duplicates | HashMap / int[26] |
+| **Sort + Greedy** | Intervals, scheduling, stock buy/sell | Arrays.sort() |
+| **Tree DFS (Recursion)** | Tree height, invert, path sum, LCA | Recursion / Call stack |
+| **Tree BFS (Level Order)** | Level-by-level traversal, shortest path | Queue (LinkedList / ArrayDeque) |
+| **BST Range Inorder** | Sorted BST values, validation, Kth element | Inorder (left → root → right) |
+| **Rotated Binary Search** | Searching in sorted & pivoted arrays | Boundary check (low, mid, high) |
+| **Kadane's Algorithm** | Maximum contiguous subarray sum | Running sum vs reset |
+| **LRU Cache Design** | O(1) get & put with least recently used eviction | HashMap + Doubly Linked List |
 
 ---
 
@@ -492,4 +927,32 @@ int[] arr = list.stream().mapToInt(Integer::intValue).toArray();
 
 // Stream operations
 list.stream().filter(x -> x > 5).map(x -> x * 2).collect(Collectors.toList());
+
+// TreeNode Definition
+class TreeNode {
+    int val;
+    TreeNode left, right;
+    TreeNode(int x) { val = x; }
+}
+
+// Tree BFS (Level-by-Level) Template
+Queue<TreeNode> queue = new LinkedList<>();
+queue.offer(root);
+while (!queue.isEmpty()) {
+    int levelSize = queue.size();
+    for (int i = 0; i < levelSize; i++) {
+        TreeNode curr = queue.poll();
+        if (curr.left != null) queue.offer(curr.left);
+        if (curr.right != null) queue.offer(curr.right);
+    }
+}
+
+// Binary Search Template (Clean & overflow-safe)
+int low = 0, high = arr.length - 1;
+while (low <= high) {
+    int mid = low + (high - low) / 2;
+    if (arr[mid] == target) return mid;
+    else if (arr[mid] < target) low = mid + 1;
+    else high = mid - 1;
+}
 ```
