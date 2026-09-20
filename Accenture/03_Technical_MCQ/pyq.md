@@ -743,7 +743,247 @@ cout << result;
 
 ---
 
-## 7. Networking
+**Q53.** Which keyboard shortcut is used to center-align text in MS Word?
+- (a) Ctrl+R  (b) Ctrl+E  (c) Ctrl+L  (d) Ctrl+J
+
+> **Answer: (b) Ctrl+E**
+> Ctrl+L = Left, Ctrl+R = Right, Ctrl+J = Justify, Ctrl+E = Center.
+
+---
+
+**Q54.** Where is the Ribbon located in MS Office applications?
+- (a) Above the Title Bar  (b) Below the Quick Access Toolbar  (c) At the bottom of the screen  (d) In the Status Bar
+
+> **Answer: (b) Below the Quick Access Toolbar**
+> The Ribbon is below the Quick Access Toolbar and Title Bar. It contains tabs like Home, Insert, Layout, etc.
+
+---
+
+**Q55.** Which is the default tab in the Ribbon when you open MS Word?
+- (a) Insert  (b) View  (c) Home  (d) File
+
+> **Answer: (c) Home**
+> Home tab is selected by default and contains Font, Paragraph, Clipboard, Styles, and Editing groups.
+
+---
+
+**Q56.** Which group in the Home tab of MS Word contains Cut, Copy, and Paste?
+- (a) Font  (b) Paragraph  (c) Clipboard  (d) Editing
+
+> **Answer: (c) Clipboard**
+> The Clipboard group contains Cut, Copy, Paste, and Format Painter.
+
+---
+
+**Q57.** What is the keyboard shortcut to open the Font Dialog Box in MS Word?
+- (a) Ctrl+F  (b) Ctrl+D  (c) Ctrl+K  (d) Ctrl+Shift+F
+
+> **Answer: (b) Ctrl+D**
+> Ctrl+D opens the Font formatting dialog box. Ctrl+F is Find. Ctrl+K is Insert Hyperlink.
+
+---
+
+**Q58.** Which shortcut inserts a Hyperlink in MS Office?
+- (a) Ctrl+H  (b) Ctrl+L  (c) Ctrl+K  (d) Ctrl+J
+
+> **Answer: (c) Ctrl+K**
+> Ctrl+K is the universal shortcut to insert/edit hyperlinks in Word, Excel, and PowerPoint.
+
+---
+
+**Q59.** What is the result of the formula =AVERAGE(5, 10, 15) in Excel?
+- (a) 5  (b) 10  (c) 15  (d) 30
+
+> **Answer: (b) 10**
+> AVERAGE = Sum/Count = (5+10+15)/3 = 30/3 = 10.
+
+---
+
+**Q60.** Which Excel function is used to join/combine text strings?
+- (a) JOIN  (b) MERGE  (c) CONCATENATE  (d) COMBINE
+
+> **Answer: (c) CONCATENATE**
+> CONCATENATE("Hello", " ", "World") = "Hello World". In newer Excel, you can also use & operator or CONCAT().
+
+---
+
+**Q61.** What is the keyboard shortcut to navigate to cell A1 in Excel?
+- (a) Home  (b) Ctrl+Home  (c) Shift+Home  (d) Alt+Home
+
+> **Answer: (b) Ctrl+Home**
+> Ctrl+Home takes you to cell A1. Home goes to beginning of the current row. Ctrl+End goes to last used cell.
+
+---
+
+**Q62.** Which shortcut inserts the current date in an Excel cell?
+- (a) Ctrl+;  (b) Ctrl+Shift+;  (c) Ctrl+D  (d) Ctrl+T
+
+> **Answer: (a) Ctrl+;**
+> Ctrl+; inserts today's date. Ctrl+Shift+; (or Ctrl+Shift+:) inserts the current time.
+
+---
+
+**Q63.** In MS Excel, what does the formula =COUNTIF(A1:A10, ">50") do?
+- (a) Counts all cells in range  (b) Counts cells with value greater than 50  (c) Sums values greater than 50  (d) Returns 50
+
+> **Answer: (b) Counts cells with value greater than 50**
+> COUNTIF counts cells that meet a specific condition. SUMIF would sum them instead.
+
+---
+
+**Q64.** Which tab in MS Word contains the Header & Footer options?
+- (a) Home  (b) Insert  (c) Layout  (d) View
+
+> **Answer: (b) Insert**
+> Insert tab contains Header, Footer, Page Number, Symbols, Tables, Charts, and Pictures.
+
+---
+
+**Q65.** What does Ctrl+Shift+L do in MS Word?
+- (a) Inserts a line  (b) Applies a bulleted list  (c) Aligns text left  (d) Opens layout options
+
+> **Answer: (b) Applies a bulleted list**
+> Ctrl+Shift+L toggles a bulleted list on the selected text.
+
+---
+
+**Q66.** Which view in MS Word shows the document as it will appear when printed?
+- (a) Draft  (b) Outline  (c) Print Layout  (d) Web Layout
+
+> **Answer: (c) Print Layout**
+> Print Layout is the WYSIWYG view showing margins, headers, footers exactly as printed. Draft view shows no page boundaries.
+
+---
+
+**Q67.** What is the smallest and largest font size available in the default Font Size dropdown in MS Office?
+- (a) 1 and 100  (b) 8 and 72  (c) 6 and 96  (d) 10 and 80
+
+> **Answer: (b) 8 and 72**
+> The dropdown shows 8 to 72, but you can manually type ANY size (like 1 or 400) in the font size box.
+
+---
+
+**Q68.** Which shortcut starts a slideshow from the BEGINNING in PowerPoint?
+- (a) Shift+F5  (b) F5  (c) Ctrl+F5  (d) Alt+F5
+
+> **Answer: (b) F5**
+> F5 = slideshow from beginning. Shift+F5 = from current slide. (Q46 asks about current slide)
+
+---
+
+**Q69.** What is the shortcut to insert a NEW SLIDE in PowerPoint?
+- (a) Ctrl+N  (b) Ctrl+M  (c) Ctrl+Enter  (d) Ctrl+Shift+N
+
+> **Answer: (b) Ctrl+M**
+> Ctrl+M inserts a new slide. Ctrl+N creates a new presentation (blank file).
+
+---
+
+**Q70.** What is the primary purpose of the Slide Master in PowerPoint?
+- (a) To create animations  (b) To ensure consistent design across all slides  (c) To add transitions  (d) To insert charts
+
+> **Answer: (b) To ensure consistent design across all slides**
+> Slide Master controls fonts, colors, logos, and layout for ALL slides. Changes to the master apply everywhere.
+
+---
+
+**Q71.** Which view is best for reordering and organizing slides in PowerPoint?
+- (a) Normal  (b) Slide Sorter  (c) Reading View  (d) Outline
+
+> **Answer: (b) Slide Sorter**
+> Slide Sorter shows all slides as thumbnails — best for drag-and-drop reordering, deleting, and organizing.
+
+---
+
+**Q72.** What does Ctrl+Alt+V do in MS Office?
+- (a) Paste  (b) Paste Special  (c) Paste as Hyperlink  (d) Copy formatting
+
+> **Answer: (b) Paste Special**
+> Paste Special lets you choose the format — paste as plain text, picture, HTML, values only (in Excel), etc.
+
+---
+
+**Q73.** What is the Quick Access Toolbar in MS Office?
+- (a) The Ribbon  (b) A customizable toolbar for frequently used commands  (c) The status bar  (d) The formula bar
+
+> **Answer: (b) A customizable toolbar for frequently used commands**
+> By default, it contains Save, Undo, and Redo. Users can add any command for quick access.
+
+---
+
+**Q74.** How do you display KeyTips (shortcut letters) on the Ribbon?
+- (a) Press Ctrl  (b) Press Shift  (c) Press Alt  (d) Press Tab
+
+> **Answer: (c) Press Alt**
+> Pressing Alt displays letter overlays on each Ribbon tab, enabling keyboard-only navigation.
+
+---
+
+**Q75.** Which Excel formula returns a value from a specific row and column intersection in a range?
+- (a) VLOOKUP  (b) MATCH  (c) INDEX  (d) FIND
+
+> **Answer: (c) INDEX**
+> INDEX(range, row_num, col_num) returns the value at a specific position. Often paired with MATCH.
+
+---
+
+**Q76.** In Excel, what does the formula =LEN("ACCENTURE") return?
+- (a) 8  (b) 9  (c) 10  (d) Error
+
+> **Answer: (b) 9**
+> LEN counts the number of characters. A-C-C-E-N-T-U-R-E = 9 characters.
+
+---
+
+**Q77.** What happens when you press F7 in MS Word?
+- (a) Opens Find  (b) Opens Thesaurus  (c) Runs Spelling & Grammar Check  (d) Opens Print
+
+> **Answer: (c) Runs Spelling & Grammar Check**
+> F7 launches the proofing tools. Shift+F7 opens Thesaurus.
+
+---
+
+**Q78.** Which Excel function returns the highest value in a range?
+- (a) LARGE  (b) MAX  (c) HIGH  (d) TOP
+
+> **Answer: (b) MAX**
+> MAX(A1:A10) returns the largest value. MIN returns smallest. LARGE(range, k) returns the k-th largest.
+
+---
+
+**Q79.** What is the shortcut to select ALL content in a document?
+- (a) Ctrl+S  (b) Ctrl+A  (c) Ctrl+E  (d) Ctrl+Shift+A
+
+> **Answer: (b) Ctrl+A**
+> Ctrl+A selects all content in the document/spreadsheet/presentation.
+
+---
+
+**Q80.** In MS Outlook, which shortcut creates a new email message?
+- (a) Ctrl+N  (b) Ctrl+M  (c) Ctrl+Shift+M  (d) Ctrl+E
+
+> **Answer: (c) Ctrl+Shift+M**
+> Ctrl+Shift+M creates a new email. Ctrl+N creates a new item (varies by active module). Ctrl+Shift+A creates a new appointment.
+
+---
+
+**Q81.** What does the TRIM function do in Excel?
+- (a) Deletes the cell  (b) Removes extra spaces from text  (c) Trims decimals  (d) Removes characters
+
+> **Answer: (b) Removes extra spaces from text**
+> TRIM removes all leading, trailing, and duplicate internal spaces. =TRIM("  Hello   World  ") → "Hello World"
+
+---
+
+**Q82.** Which tab in the Ribbon contains the "Spell Check" and "Track Changes" options?
+- (a) Home  (b) Insert  (c) Review  (d) View
+
+> **Answer: (c) Review**
+> Review tab contains Spelling & Grammar, Thesaurus, Comments, Track Changes, and Compare/Combine documents.
+
+---
+
+## 7. Networking (Renumbered from Q83)
 
 ---
 
