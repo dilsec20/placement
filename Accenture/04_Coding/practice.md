@@ -1,0 +1,1461 @@
+# 🎯 Placement Practice: Assessment Question Bank & SQL Mastery Roadmap
+
+> **Comprehensive Placement Preparation Resource**  
+> Includes hiring assessment question bank (AI Literacy, Technical, English, Problem Solving, AI Debugging, Feature Development, Prompt Engineering, Cognitive, DSA & Frontend) + **Complete 11-Level SQL Mastery Roadmap with direct LeetCode links**.
+
+---
+
+## 📑 Table of Contents
+
+1. [🏢 Assessment Overview & Exam Structure](#-assessment-overview--exam-structure)
+2. [🤖 Section 1: AI Literacy Question Bank (20 MCQs)](#-section-1-ai-literacy-question-bank-20-mcqs)
+3. [🧠 Section 2: Technical Assessment Question Bank (20 MCQs)](#-section-2-technical-assessment-question-bank-20-mcqs)
+4. [🎙️ Section 3: English Communication Question Bank (20 MCQs)](#-section-3-english-communication-question-bank-20-mcqs)
+5. [🧩 Section 4: Problem Solving (Logic & Algorithms)](#-section-4-problem-solving-logic--algorithms)
+6. [🐞 Section 5: AI-Assisted Debugging](#-section-5-ai-assisted-debugging)
+7. [🛠️ Section 6: AI-Assisted Feature Development](#-section-6-ai-assisted-feature-development)
+8. [✍️ Section 7: Prompt Engineering](#-section-7-prompt-engineering)
+9. [🧠 Section 8: Cognitive Assessment](#-section-8-cognitive-assessment)
+10. [💻 Section 9: Coding & Problem Solving Bank (LeetCode & Docs Links)](#-section-9-coding--problem-solving-bank)
+    - [⚡ Data Structures & Algorithms (31 Problems)](#-data-structures--algorithms-31-problems)
+    - [🗄️ SQL Practice Problems (10 Problems)](#-sql-practice-problems-10-problems)
+    - [🌐 Frontend & DOM Skeleton Tasks (10 Tasks)](#-frontend--dom-skeleton-tasks-10-tasks)
+11. [📊 Comprehensive SQL Mastery Roadmap (Levels 1 to 11 with Links)](#-comprehensive-sql-mastery-roadmap-levels-1-to-11)
+    - [🟢 Level 1 — SQL Fundamentals](#-level-1--sql-fundamentals)
+    - [🟢 Level 2 — Basic Aggregation](#-level-2--basic-aggregation)
+    - [🟢 Level 3 — GROUP BY + HAVING](#-level-3--group-by--having)
+    - [🟡 Level 4 — JOIN (INNER, LEFT, RIGHT, SELF)](#-level-4--join)
+    - [🟡 Level 5 — CASE WHEN (Conditional Logic)](#-level-5--case-when)
+    - [🟡 Level 6 — String Functions](#-level-6--string-functions)
+    - [🟡 Level 7 — Date & Time Functions](#-level-7--date--time)
+    - [🟠 Level 8 — Subqueries (Correlated & Nested)](#-level-8--subqueries)
+    - [🟠 Level 9 — UNION & Set Operations](#-level-9--union--set-operations)
+    - [🔴 Level 10 — Window Functions](#-level-10--window-functions)
+    - [🔴 Level 11 — Advanced SQL (CTE, Recursive, Pivots)](#-level-11--advanced-sql)
+12. [⚙️ Raw Company Data Reference (JavaScript Configuration)](#-raw-company-data-reference)
+
+---
+
+## 🏢 Assessment Overview & Exam Structure
+
+| Property | Details |
+|---|---|
+| **Assessment Name** | Capgemini New Hiring Assessment |
+| **Duration** | 45 minutes / sections up to 60 min |
+| **Coding Practice Attempts** | 10 attempts |
+| **Eligible Streams** | BE, BTECH - CS/IT, Circuit & Allied branches |
+| **Preferred Exposure** | AI/ML, Generative AI, Cloud Computing, DevOps, Full-Stack Development, Data Engineering, Cybersecurity, Platform Engineering, API Development |
+
+### Target Cohorts & Role Profiles
+- **`alpha_<stack>`**: Strong software engineering, AI-assisted delivery, and modern application development.
+- **`root_<mind>`**: Problem solving, DSA, fundamentals, and engineering mindset.
+- **Role 1 (AI & Platform Path)**: Forward Deployed Engineer, AI Native Engineer, Platform Engineer, AI-Augmented Quality Engineer.
+- **Role 2 (Application Path)**: Full-Stack Engineering, Cloud Engineering, Data Engineering, Cybersecurity, API Development.
+
+---
+
+## 🤖 Section 1: AI Literacy Question Bank (20 MCQs)
+
+#### Q1. What is the main role of a large language model?
+- **Topic:** AI Foundations
+- **Options:**
+  1. Store exact copies of every webpage
+  2. Predict likely token sequences from context
+  3. Replace every database
+  4. Encrypt all network traffic
+- **✅ Correct Answer:** `2. Predict likely token sequences from context`
+- **💡 Explanation:** LLMs generate text by predicting likely next tokens from learned patterns and context.
+
+---
+
+#### Q2. What does an embedding represent?
+- **Topic:** AI Foundations
+- **Options:**
+  1. A vector representation of meaning or features
+  2. A database password
+  3. A browser cookie
+  4. A compiled binary only
+- **✅ Correct Answer:** `1. A vector representation of meaning or features`
+- **💡 Explanation:** Embeddings represent items as vectors so semantic similarity can be measured.
+
+---
+
+#### Q3. Which is a generative AI task?
+- **Topic:** Generative AI
+- **Options:**
+  1. Sorting a fixed array
+  2. Creating a summary from a document
+  3. Checking a CPU temperature
+  4. Opening a network port
+- **✅ Correct Answer:** `2. Creating a summary from a document`
+- **💡 Explanation:** Generating a summary is a content-generation task.
+
+---
+
+#### Q4. Which prompt is most precise?
+- **Topic:** Prompt Engineering
+- **Options:**
+  1. Fix this
+  2. Explain the bug, preserve the API, show a patch, and add a test
+  3. Make it good
+  4. Write code
+- **✅ Correct Answer:** `2. Explain the bug, preserve the API, show a patch, and add a test`
+- **💡 Explanation:** A precise prompt provides context, constraints, output format, and validation.
+
+---
+
+#### Q5. Why provide an output format in a prompt?
+- **Topic:** Prompt Engineering
+- **Options:**
+  1. To constrain the response into a usable structure
+  2. To increase monitor brightness
+  3. To remove all model errors
+  4. To disable validation
+- **✅ Correct Answer:** `1. To constrain the response into a usable structure`
+- **💡 Explanation:** An explicit format makes the response easier to parse and review.
+
+---
+
+#### Q6. What is few-shot prompting?
+- **Topic:** Prompt Engineering
+- **Options:**
+  1. Giving examples of the desired input-output behaviour
+  2. Using only one word
+  3. Running a prompt offline
+  4. Deleting the context
+- **✅ Correct Answer:** `1. Giving examples of the desired input-output behaviour`
+- **💡 Explanation:** Few-shot prompts include examples that guide the expected response pattern.
+
+---
+
+#### Q7. What problem does retrieval-augmented generation address?
+- **Topic:** RAG
+- **Options:**
+  1. It supplies relevant external context to the model
+  2. It replaces CSS
+  3. It guarantees perfect reasoning
+  4. It removes the need for data
+- **✅ Correct Answer:** `1. It supplies relevant external context to the model`
+- **💡 Explanation:** RAG retrieves relevant information and places it in the model context.
+
+---
+
+#### Q8. Why are document chunks used in a retrieval system?
+- **Topic:** RAG
+- **Options:**
+  1. To search and provide focused context
+  2. To make documents unreadable
+  3. To remove metadata
+  4. To avoid indexing
+- **✅ Correct Answer:** `1. To search and provide focused context`
+- **💡 Explanation:** Chunks make retrieval more focused and fit within context limits.
+
+---
+
+#### Q9. What distinguishes an AI agent from a single prompt response?
+- **Topic:** AI Agents
+- **Options:**
+  1. It can plan, use tools, and act across steps
+  2. It never uses context
+  3. It only generates CSS
+  4. It cannot inspect results
+- **✅ Correct Answer:** `1. It can plan, use tools, and act across steps`
+- **💡 Explanation:** Agents typically combine planning, tool use, observations, and multiple steps.
+
+---
+
+#### Q10. Why should an agent tool have a clear schema?
+- **Topic:** AI Agents
+- **Options:**
+  1. It defines valid inputs and predictable outputs
+  2. It hides all errors
+  3. It prevents logging
+  4. It removes authorization
+- **✅ Correct Answer:** `1. It defines valid inputs and predictable outputs`
+- **💡 Explanation:** Schemas reduce ambiguity and make tool calls safer to validate.
+
+---
+
+#### Q11. What is a regression test for an AI feature?
+- **Topic:** Evaluation
+- **Options:**
+  1. A fixed case used to detect behaviour changes
+  2. A random prompt with no expected result
+  3. A UI colour choice
+  4. A production password
+- **✅ Correct Answer:** `1. A fixed case used to detect behaviour changes`
+- **💡 Explanation:** Regression cases compare future behaviour with an expected baseline.
+
+---
+
+#### Q12. What should be checked before accepting AI-generated code?
+- **Topic:** Evaluation
+- **Options:**
+  1. Tests, edge cases, security, and maintainability
+  2. Only whether it looks short
+  3. Only the variable names
+  4. Nothing if it compiles
+- **✅ Correct Answer:** `1. Tests, edge cases, security, and maintainability`
+- **💡 Explanation:** Generated code still requires normal engineering review and validation.
+
+---
+
+#### Q13. What is data minimization?
+- **Topic:** Responsible AI
+- **Options:**
+  1. Collecting only data needed for the stated purpose
+  2. Collecting every possible field
+  3. Removing all access controls
+  4. Duplicating private data
+- **✅ Correct Answer:** `1. Collecting only data needed for the stated purpose`
+- **💡 Explanation:** Data minimization reduces privacy and security exposure.
+
+---
+
+#### Q14. What is a hallucination in an AI response?
+- **Topic:** Responsible AI
+- **Options:**
+  1. A confident but unsupported or false claim
+  2. A successful unit test
+  3. A valid database join
+  4. A compressed image
+- **✅ Correct Answer:** `1. A confident but unsupported or false claim`
+- **💡 Explanation:** Hallucinations are generated claims that are not grounded in reliable evidence.
+
+---
+
+#### Q15. Which practice helps protect confidential code sent to an AI tool?
+- **Topic:** Responsible AI
+- **Options:**
+  1. Use approved tools and remove unnecessary secrets
+  2. Paste production credentials
+  3. Disable authentication
+  4. Share all customer records
+- **✅ Correct Answer:** `1. Use approved tools and remove unnecessary secrets`
+- **💡 Explanation:** Approved tools and secret removal reduce accidental disclosure.
+
+---
+
+#### Q16. What is a good use of AI in debugging?
+- **Topic:** AI Productivity
+- **Options:**
+  1. Suggest hypotheses that the developer validates with tests
+  2. Accept every suggestion blindly
+  3. Skip reproducing the defect
+  4. Remove error handling
+- **✅ Correct Answer:** `1. Suggest hypotheses that the developer validates with tests`
+- **💡 Explanation:** AI can accelerate investigation, but the developer must verify the result.
+
+---
+
+#### Q17. What context is most useful when asking AI to explain a failure?
+- **Topic:** AI Productivity
+- **Options:**
+  1. Error, relevant code, inputs, expected result, and actual result
+  2. Only the project name
+  3. Only the word error
+  4. An unrelated screenshot
+- **✅ Correct Answer:** `1. Error, relevant code, inputs, expected result, and actual result`
+- **💡 Explanation:** Concrete failure context allows a more targeted explanation.
+
+---
+
+#### Q18. What does a context window limit affect?
+- **Topic:** Model Limits
+- **Options:**
+  1. How much input and conversation the model can consider at once
+  2. The monitor size
+  3. The keyboard layout
+  4. The database schema only
+- **✅ Correct Answer:** `1. How much input and conversation the model can consider at once`
+- **💡 Explanation:** The context window limits the amount of information available in one model call.
+
+---
+
+#### Q19. Why should important AI output be grounded in sources?
+- **Topic:** Model Limits
+- **Options:**
+  1. Sources make claims easier to verify
+  2. Sources guarantee no bugs
+  3. Sources remove all bias
+  4. Sources replace testing
+- **✅ Correct Answer:** `1. Sources make claims easier to verify`
+- **💡 Explanation:** Grounding enables review and reduces unsupported claims.
+
+---
+
+#### Q20. Who remains accountable for using AI-generated code in a product?
+- **Topic:** AI Governance
+- **Options:**
+  1. The engineering team and organization using it
+  2. The model alone
+  3. The browser
+  4. Nobody
+- **✅ Correct Answer:** `1. The engineering team and organization using it`
+- **💡 Explanation:** Human teams remain responsible for decisions, quality, and compliance.
+
+---
+
+## 🧠 Section 2: Technical Assessment Question Bank (20 MCQs)
+
+#### Q1. What is the time complexity of a loop that doubles `i` until `n`?
+- **Topic:** Programming Logic
+- **Options:**
+  1. O(1)
+  2. O(log n)
+  3. O(n)
+  4. O(n log n)
+- **✅ Correct Answer:** `2. O(log n)`
+- **💡 Explanation:** The values grow exponentially ($1, 2, 4, 8, \dots$), so there are logarithmic ($\log_2 n$) iterations.
+
+---
+
+#### Q2. Which structure follows last-in-first-out (LIFO) order?
+- **Topic:** Programming Logic
+- **Options:**
+  1. Queue
+  2. Stack
+  3. Graph
+  4. Hash table
+- **✅ Correct Answer:** `2. Stack`
+- **💡 Explanation:** A stack removes the most recently inserted item first.
+
+---
+
+#### Q3. Which technique finds a pair sum in O(n) average time?
+- **Topic:** Arrays
+- **Options:**
+  1. Nested loops only
+  2. Hash map lookup
+  3. Bubble sort only
+  4. Depth-first search
+- **✅ Correct Answer:** `2. Hash map lookup`
+- **💡 Explanation:** A hash map stores complements for constant-average lookup time $O(1)$, yielding an overall $O(n)$ time.
+
+---
+
+#### Q4. Which structure is useful for counting character frequencies?
+- **Topic:** Strings
+- **Options:**
+  1. Hash map
+  2. Stack only
+  3. Queue only
+  4. Linked list only
+- **✅ Correct Answer:** `1. Hash map`
+- **💡 Explanation:** A hash map maps each character to its frequency count.
+
+---
+
+#### Q5. Binary search requires which property?
+- **Topic:** Searching
+- **Options:**
+  1. Sorted search space
+  2. A graph cycle
+  3. A hash collision
+  4. A recursive function always
+- **✅ Correct Answer:** `1. Sorted search space`
+- **💡 Explanation:** Binary search relies on monotonic ordering to eliminate half of the search space at each step.
+
+---
+
+#### Q6. What is the average complexity of merge sort?
+- **Topic:** Sorting
+- **Options:**
+  1. O(log n)
+  2. O(n)
+  3. O(n log n)
+  4. O(n^2) always
+- **✅ Correct Answer:** `3. O(n log n)`
+- **💡 Explanation:** Merge sort divides the array in $\log n$ levels and performs $O(n)$ merging work per level.
+
+---
+
+#### Q7. What does a primary key provide?
+- **Topic:** DBMS
+- **Options:**
+  1. A unique identifier for each row
+  2. Duplicate row storage
+  3. Automatic encryption
+  4. A network route
+- **✅ Correct Answer:** `1. A unique identifier for each row`
+- **💡 Explanation:** A primary key uniquely identifies records and enforces non-null uniqueness.
+
+---
+
+#### Q8. Which clause filters groups after aggregation?
+- **Topic:** SQL
+- **Options:**
+  1. WHERE
+  2. HAVING
+  3. ORDER BY
+  4. FROM
+- **✅ Correct Answer:** `2. HAVING`
+- **💡 Explanation:** `WHERE` filters individual rows before aggregation; `HAVING` filters grouped aggregate results.
+
+---
+
+#### Q9. Which JOIN keeps all rows from the left table?
+- **Topic:** SQL
+- **Options:**
+  1. INNER JOIN
+  2. LEFT JOIN
+  3. CROSS JOIN only
+  4. RIGHT JOIN only
+- **✅ Correct Answer:** `2. LEFT JOIN`
+- **💡 Explanation:** `LEFT JOIN` preserves every row from the left table, filling missing right-table columns with `NULL`.
+
+---
+
+#### Q10. What does GROUP BY do?
+- **Topic:** SQL
+- **Options:**
+  1. Combines rows into groups for aggregation
+  2. Deletes duplicate tables
+  3. Creates an index automatically
+  4. Encrypts columns
+- **✅ Correct Answer:** `1. Combines rows into groups for aggregation`
+- **💡 Explanation:** `GROUP BY` clusters rows that have identical values in specified columns to apply aggregate functions (`COUNT`, `SUM`, `AVG`, etc.).
+
+---
+
+#### Q11. What is polymorphism?
+- **Topic:** OOP
+- **Options:**
+  1. One interface with multiple implementations
+  2. One variable with no type
+  3. Deleting inherited methods
+  4. Encrypting objects
+- **✅ Correct Answer:** `1. One interface with multiple implementations`
+- **💡 Explanation:** Polymorphism allows objects of different types to be treated through a common interface.
+
+---
+
+#### Q12. Which status code means a resource was not found?
+- **Topic:** HTTP
+- **Options:**
+  1. 200
+  2. 201
+  3. 404
+  4. 500
+- **✅ Correct Answer:** `3. 404`
+- **💡 Explanation:** HTTP status code 404 Not Found indicates that the origin server did not find a current representation for the target resource.
+
+---
+
+#### Q13. Which method is commonly used to partially update a resource?
+- **Topic:** REST APIs
+- **Options:**
+  1. GET
+  2. PATCH
+  3. TRACE
+  4. HEAD
+- **✅ Correct Answer:** `2. PATCH`
+- **💡 Explanation:** `PATCH` is designed for partial modifications to an existing resource, whereas `PUT` replaces the entire representation.
+
+---
+
+#### Q14. What is a process?
+- **Topic:** Operating Systems
+- **Options:**
+  1. A program in execution
+  2. A CSS selector
+  3. A database column
+  4. A network cable
+- **✅ Correct Answer:** `1. A program in execution`
+- **💡 Explanation:** A process is an active instance of a computer program loaded in memory.
+
+---
+
+#### Q15. Which protocol translates domain names to IP addresses?
+- **Topic:** Networking
+- **Options:**
+  1. DNS
+  2. FTP
+  3. SSH
+  4. SMTP
+- **✅ Correct Answer:** `1. DNS`
+- **💡 Explanation:** The Domain Name System (DNS) resolves human-readable domain names to numerical IP addresses.
+
+---
+
+#### Q16. What does horizontal scaling usually mean?
+- **Topic:** Cloud
+- **Options:**
+  1. Adding more instances
+  2. Increasing one machine’s RAM only
+  3. Deleting replicas
+  4. Changing a font size
+- **✅ Correct Answer:** `1. Adding more instances`
+- **💡 Explanation:** Horizontal scaling (scaling out) involves adding more server nodes/instances, while vertical scaling (scaling up) upgrades the existing node's hardware.
+
+---
+
+#### Q17. What is the safest place for a password in a database?
+- **Topic:** Security
+- **Options:**
+  1. Plain text
+  2. A salted slow hash
+  3. A URL parameter
+  4. A CSS file
+- **✅ Correct Answer:** `2. A salted slow hash`
+- **💡 Explanation:** Passwords should be stored as cryptographically salted hashes using slow functions such as bcrypt, Argon2, or PBKDF2.
+
+---
+
+#### Q18. What does a commit represent in Git?
+- **Topic:** Git
+- **Options:**
+  1. A recorded set of repository changes
+  2. A database join
+  3. A browser refresh
+  4. A cloud region
+- **✅ Correct Answer:** `1. A recorded set of repository changes`
+- **💡 Explanation:** A Git commit captures a snapshot of staged changes along with author metadata and a hash.
+
+---
+
+#### Q19. What does the DOM represent?
+- **Topic:** Web Fundamentals
+- **Options:**
+  1. The document as an object tree
+  2. A database index
+  3. A CPU scheduler
+  4. A network packet
+- **✅ Correct Answer:** `1. The document as an object tree`
+- **💡 Explanation:** The Document Object Model (DOM) is an object-oriented representation of the web page structure.
+
+---
+
+#### Q20. What is a regression test?
+- **Topic:** Testing
+- **Options:**
+  1. A test that catches a previously fixed defect returning
+  2. A random manual click
+  3. A production deployment
+  4. A code formatter
+- **✅ Correct Answer:** `1. A test that catches a previously fixed defect returning`
+- **💡 Explanation:** Regression testing ensures that code modifications have not unintentionally broken existing functionality or re-introduced bugs.
+
+---
+
+## 🎙️ Section 3: English Communication Question Bank (20 MCQs)
+
+| # | Question & Context | Options | Correct Answer | Explanation |
+|---|---|---|---|---|
+| **1** | Choose the clearest professional sentence. *(Reading)* | 1. Send the report when done.<br>2. Please send the completed report by 5 PM.<br>3. Report send fast.<br>4. You sending report? | **2. Please send the completed report by 5 PM.** | Specific, polite, actionable, and professional. |
+| **2** | Choose the correct sentence. *(Grammar)* | 1. The team have finished the task.<br>2. The team has finished the task.<br>3. The team finishing task.<br>4. The team finish the task yesterday. | **2. The team has finished the task.** | Collective noun "team" is treated as singular in standard formal grammar. |
+| **3** | Choose the correct sentence. *(Grammar)* | 1. She has completed the report.<br>2. She have completed the report.<br>3. She completing report.<br>4. She complete yesterday report. | **1. She has completed the report.** | Third-person singular subject "she" takes "has". |
+| **4** | By next Monday, the team ___ the migration. *(Tenses)* | 1. will complete<br>2. will have completed<br>3. completed<br>4. has complete | **2. will have completed** | Future perfect tense expresses an action completed before a specific future time. |
+| **5** | The meeting starts ___ 10 AM. *(Prepositions)* | 1. in<br>2. on<br>3. at<br>4. by | **3. at** | The preposition "at" is used for specific clock times. |
+| **6** | Choose the closest meaning of *reliable*. *(Vocabulary)* | 1. Dependable<br>2. Doubtful<br>3. Temporary<br>4. Delayed | **1. Dependable** | Reliable denotes dependability, trustworthiness, and consistency. |
+| **7** | Choose the corrected sentence. *(Error Correction)* | 1. Neither answer are correct.<br>2. Neither answer is correct.<br>3. Neither answers is correct.<br>4. Neither answer be correct. | **2. Neither answer is correct.** | "Neither" followed by a singular noun takes a singular verb ("is"). |
+| **8** | She is ___ honest developer. *(Articles)* | 1. a<br>2. an<br>3. the only<br>4. no article | **2. an** | "Honest" begins with a silent 'h', producing a vowel sound requiring "an". |
+| **9** | Choose active form of: *The defect was fixed by Ravi.* *(Voice)* | 1. Ravi fixed the defect.<br>2. Ravi was fixed by the defect.<br>3. The defect fixed Ravi.<br>4. Ravi is fixing by defect. | **1. Ravi fixed the defect.** | Subject (Ravi) performs the action directly on the object. |
+| **10** | Which sentence should begin a professional email? *(Sentence Ordering)* | 1. Send it now.<br>2. I hope you are doing well.<br>3. Why did you delay?<br>4. Reply immediately. | **2. I hope you are doing well.** | Standard courteous, professional greeting. |
+| **11** | A concise summary should contain what? *(Reading)* | 1. Every minor detail<br>2. The central idea and key supporting points<br>3. Only an opinion<br>4. Unrelated examples | **2. The central idea and key supporting points** | A summary distills the core thesis and pivotal arguments. |
+| **12** | Choose the correct conditional sentence. *(Grammar)* | 1. If I had time, I will help.<br>2. If I have time, I will help.<br>3. If I have time, I helped.<br>4. If I having time, I help. | **2. If I have time, I will help.** | First conditional: If + present simple, will + base verb. |
+| **13** | Choose the opposite of *expand*. *(Vocabulary)* | 1. Increase<br>2. Extend<br>3. Contract<br>4. Improve | **3. Contract** | To contract means to decrease in size, opposite to expand. |
+| **14** | The build failed; ___, the deployment was postponed. *(Connectors)* | 1. however<br>2. therefore<br>3. although<br>4. meanwhile | **2. therefore** | "Therefore" signals a logical consequence or result. |
+| **15** | Choose the correct sentence. *(Error Correction)* | 1. The information are useful.<br>2. The information is useful.<br>3. The informations is useful.<br>4. The information be useful. | **2. The information is useful.** | "Information" is an uncountable singular noun in English. |
+| **16** | Choose reported form: *He said, "I am ready."* *(Reported Speech)* | 1. He said that he was ready.<br>2. He said that I am ready.<br>3. He says he ready.<br>4. He said he is ready yesterday. | **1. He said that he was ready.** | Present tense "am" backshifts to past tense "was". |
+| **17** | Which closing is most appropriate for a formal request? *(Writing)* | 1. Do it fast.<br>2. Thanks in advance for your help.<br>3. Whatever works.<br>4. Bye. | **2. Thanks in advance for your help.** | Courteous and standard business etiquette. |
+| **18** | What does an inference require? *(Reading)* | 1. A conclusion supported by clues<br>2. A random guess only<br>3. A copied title<br>4. No evidence | **1. A conclusion supported by clues** | Inferences combine textual evidence with logical deduction. |
+| **19** | Choose the correct comparative sentence. *(Grammar)* | 1. This solution is more efficient than the old one.<br>2. This solution is most efficient than old.<br>3. This solution more efficient the old.<br>4. This solution is efficient than old. | **1. This solution is more efficient than the old one.** | Comparative form of "efficient" uses "more efficient than". |
+| **20** | Which sentence uses punctuation correctly? *(Punctuation)* | 1. Before deploying, test the change.<br>2. Before deploying test, the change.<br>3. Before, deploying test the change.<br>4. Before deploying test the, change. | **1. Before deploying, test the change.** | Introductory dependent clause requires a separating comma. |
+
+---
+
+## 🧩 Section 4: Problem Solving (Logic & Algorithms)
+
+#### Q1. A process doubles its output each hour. If it produces 3 units in hour 1, how many units does it produce in hour 5?
+- **Options:** 1) 12 &nbsp;&nbsp; 2) 24 &nbsp;&nbsp; 3) 48 &nbsp;&nbsp; 4) 96
+- **✅ Correct Answer:** `3. 48`
+- **💡 Explanation:** Sequence values: Hour 1 = 3, Hour 2 = 6, Hour 3 = 12, Hour 4 = 24, Hour 5 = $3 \times 2^{(5-1)} = 48$.
+
+#### Q2. Which data structure is best for breadth-first traversal (BFS) of a graph?
+- **Options:** 1) Stack &nbsp;&nbsp; 2) Queue &nbsp;&nbsp; 3) Heap only &nbsp;&nbsp; 4) Hash set only
+- **✅ Correct Answer:** `2. Queue`
+- **💡 Explanation:** BFS processes vertices level by level in First-In-First-Out (FIFO) order, which is natively provided by a queue.
+
+---
+
+## 🐞 Section 5: AI-Assisted Debugging
+
+#### Q1. A loop accesses `array[i]` while `i <= array.length`. What is the likely defect?
+- **Options:**
+  1. The loop should start at 1.
+  2. The final access is out of bounds.
+  3. Arrays cannot use loops.
+  4. The array must be sorted.
+- **✅ Correct Answer:** `2. The final access is out of bounds.`
+- **💡 Explanation:** Valid 0-indexed indices range from `0` to `array.length - 1`. When `i == array.length`, an `ArrayIndexOutOfBoundsException` or `undefined` access occurs.
+
+#### Q2. A UI handler reads `input.value` before the input element is queried. What should be fixed first?
+- **Options:**
+  1. Add a second stylesheet.
+  2. Query the element before reading its value.
+  3. Convert the value to an array.
+  4. Remove the event handler.
+- **✅ Correct Answer:** `2. Query the element before reading its value.`
+- **💡 Explanation:** In JavaScript/DOM, you must query/obtain a DOM reference (e.g. `document.querySelector('#input')`) before accessing properties like `.value`.
+
+---
+
+## 🛠️ Section 6: AI-Assisted Feature Development
+
+#### Q1. Which React practice prevents a list warning when rendering items from an array?
+- **Options:**
+  1. Use a stable key for each item.
+  2. Put all items in one string.
+  3. Use document.write.
+  4. Reload the page after every render.
+- **✅ Correct Answer:** `1. Use a stable key for each item.`
+- **💡 Explanation:** React reconciles list components using a unique, stable `key` prop on each element.
+
+#### Q2. Which approach is best for a reusable form field component?
+- **Options:**
+  1. Hard-code every field label.
+  2. Accept label, value, and onChange as props.
+  3. Store values in global HTML attributes only.
+  4. Use inline SQL in the component.
+- **✅ Correct Answer:** `2. Accept label, value, and onChange as props.`
+- **💡 Explanation:** Passing controlled state props (`value`, `onChange`, `label`) makes UI components generic, predictable, and modular.
+
+---
+
+## ✍️ Section 7: Prompt Engineering
+
+#### Q1. Which prompt is most useful for asking an AI to fix a defect?
+- **Options:**
+  1. Fix it.
+  2. Make this better.
+  3. Explain the error, preserve the public API, show the patch, and add a regression test.
+  4. Write anything.
+- **✅ Correct Answer:** `3. Explain the error, preserve the public API, show the patch, and add a regression test.`
+- **💡 Explanation:** Explicit guidelines, API preservation constraints, patch diff format, and test specifications yield reliable, reproducible code fixes.
+
+#### Q2. What should be included when asking AI to generate a feature safely?
+- **Options:**
+  1. Only the feature name.
+  2. Requirements, constraints, existing interfaces, and acceptance tests.
+  3. A random example.
+  4. No expected behaviour.
+- **✅ Correct Answer:** `2. Requirements, constraints, existing interfaces, and acceptance tests.`
+- **💡 Explanation:** Well-grounded specifications ensure the AI generates code conforming to project contracts without side effects.
+
+---
+
+## 🧠 Section 8: Cognitive Assessment
+
+#### Q1. Some employees who work day shifts also work double shifts. All double-shift employees receive a meal break. Which conclusion must be true?
+- **Options:**
+  1. All day-shift employees receive a meal break.
+  2. Some day-shift employees receive a meal break.
+  3. No day-shift employees receive a meal break.
+  4. Only day-shift employees receive a meal break.
+- **✅ Correct Answer:** `2. Some day-shift employees receive a meal break.`
+- **💡 Explanation:** Employees in the overlapping set work both day and double shifts. Because all double-shift employees receive a meal break, those overlapping day-shift employees definitely receive a meal break.
+
+#### Q2. A project must finish before the audit. The audit is scheduled after testing, and testing starts only after integration. What must happen before the audit?
+- **Options:**
+  1. Integration and testing.
+  2. The audit and integration.
+  3. Only project planning.
+  4. Nothing; the order is unknown.
+- **✅ Correct Answer:** `1. Integration and testing.`
+- **💡 Explanation:** Integration $\rightarrow$ Testing $\rightarrow$ Audit. Hence, both integration and testing must precede the audit.
+
+#### Q3. A, B, C, and D are seated in a row. A is left of B. C is right of B. D is left of A. Which order is possible?
+- **Options:**
+  1. D, A, B, C
+  2. A, D, B, C
+  3. B, A, C, D
+  4. C, B, A, D
+- **✅ Correct Answer:** `1. D, A, B, C`
+- **💡 Explanation:** Order `D < A < B < C` directly satisfies all conditions: D is left of A, A is left of B, and C is right of B.
+
+#### Q4. A number is increased by 20%, then reduced by 20%. Compared with the original number, the result is:
+- **Options:**
+  1. The same.
+  2. 4% lower.
+  3. 4% higher.
+  4. 20% lower.
+- **✅ Correct Answer:** `2. 4% lower.`
+- **💡 Explanation:** Let base = 100. $100 \times 1.20 = 120$. Then $120 \times (1 - 0.20) = 120 \times 0.80 = 96$. Relative difference = $96 - 100 = -4$ (4% lower). Formula: $-x^2 / 100 = -400/100 = -4\%$.
+
+#### Q5. Every approved request has a reference number. Request R has no reference number. What follows?
+- **Options:**
+  1. Request R is approved.
+  2. Request R is not approved.
+  3. Request R is urgent.
+  4. No conclusion can be made.
+- **✅ Correct Answer:** `2. Request R is not approved.`
+- **💡 Explanation:** Modus Tollens: $P \implies Q$. $\neg Q \implies \neg P$. If approved $\implies$ has ref number, then having no ref number $\implies$ not approved.
+
+#### Q6. A team completes 18 reviews in 3 hours at a steady rate. How many reviews can it complete in 5 hours?
+- **Options:**
+  1. 24
+  2. 27
+  3. 30
+  4. 36
+- **✅ Correct Answer:** `3. 30`
+- **💡 Explanation:** Rate = $18 / 3 = 6$ reviews/hour. In 5 hours: $6 \times 5 = 30$ reviews.
+
+---
+
+## 💻 Section 9: Coding & Problem Solving Bank
+
+### ⚡ Data Structures & Algorithms (31 Problems)
+
+| # | Problem Name | Difficulty | Key Topics | LeetCode Link | Problem Summary |
+|---|---|---|---|---|---|
+| 1 | **Longest Consecutive Sequence** | 🔴 Hard | DSA, Hash Set, Arrays | [Solve on LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/) | Find length of longest consecutive numbers sequence in $O(n)$ time using set lookups. |
+| 2 | **Minimum Window Substring** | 🔴 Hard | DSA, Strings, Sliding Window | [Solve on LeetCode](https://leetcode.com/problems/minimum-window-substring/) | Find smallest substring containing all characters of target string with frequency. |
+| 3 | **Trapping Rain Water** | 🔴 Hard | DSA, Two Pointers, Arrays | [Solve on LeetCode](https://leetcode.com/problems/trapping-rain-water/) | Compute trapped water volume between elevation bars using two pointers or prefix max. |
+| 4 | **Word Ladder** | 🔴 Hard | DSA, BFS, Hash Set | [Solve on LeetCode](https://leetcode.com/problems/word-ladder/) | Find shortest transformation sequence length between two words using 1-letter edits. |
+| 5 | **Course Schedule** | 🟡 Medium | DSA, Graphs, Topological Sort | [Solve on LeetCode](https://leetcode.com/problems/course-schedule/) | Detect cycle in directed graph representing course prerequisites via Kahn's / DFS. |
+| 6 | **N-Queens** | 🔴 Hard | DSA, Backtracking | [Solve on LeetCode](https://leetcode.com/problems/n-queens/) | Place $N$ non-attacking queens on an $N \times N$ chessboard using backtracking. |
+| 7 | **Median of Two Sorted Arrays** | 🔴 Hard | DSA, Binary Search, Arrays | [Solve on LeetCode](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Find median of two combined sorted arrays in $O(\log(\min(m,n)))$ time. |
+| 8 | **Edit Distance** | 🔴 Hard | DSA, DP, Strings | [Solve on LeetCode](https://leetcode.com/problems/edit-distance/) | Compute minimum insert, delete, and replace operations to convert word1 to word2. |
+| 9 | **Serialize and Deserialize Binary Tree** | 🔴 Hard | DSA, Trees, BFS / DFS | [Solve on LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Design codec protocol to convert binary tree to string and reconstruct accurately. |
+| 10 | **Sliding Window Maximum** | 🔴 Hard | DSA, Monotonic Deque | [Solve on LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | Output max item for each sliding window of size $k$ in $O(n)$ using a monotonic deque. |
+| 11 | **Number of Islands** | 🟡 Medium | DSA, Grid BFS / DFS | [Solve on LeetCode](https://leetcode.com/problems/number-of-islands/) | Count connected components of '1's in 2D binary grid. |
+| 12 | **LRU Cache** | 🟡 Medium | DSA, Hash Map, Doubly Linked List | [Solve on LeetCode](https://leetcode.com/problems/lru-cache/) | Implement Least Recently Used cache with $O(1)$ `get()` and `put()` operations. |
+| 13 | **Merge K Sorted Lists** | 🔴 Hard | DSA, Min-Heap, Linked List | [Solve on LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) | Merge $k$ sorted lists into one sorted linked list in $O(N \log k)$ time. |
+| 14 | **Largest Rectangle in Histogram** | 🔴 Hard | DSA, Monotonic Stack | [Solve on LeetCode](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Find largest rectangular area formed in histogram bars in $O(n)$ using stack. |
+| 15 | **Pacific Atlantic Water Flow** | 🟡 Medium | DSA, Graphs, Multi-source DFS | [Solve on LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Find grid cells from which rain water can flow to both Pacific & Atlantic oceans. |
+| 16 | **Coin Change** | 🟡 Medium | DSA, Dynamic Programming | [Solve on LeetCode](https://leetcode.com/problems/coin-change/) | Find minimum coins required to make up amount, or return -1 if impossible. |
+| 17 | **Network Delay Time** | 🟡 Medium | DSA, Graphs, Dijkstra's | [Solve on LeetCode](https://leetcode.com/problems/network-delay-time/) | Find time for signal sent from source node to reach all network nodes. |
+| 18 | **Regular Expression Matching** | 🔴 Hard | DSA, DP, Recursion | [Solve on LeetCode](https://leetcode.com/problems/regular-expression-matching/) | Implement regex matching engine supporting `.` (any char) and `*` (zero or more). |
+| 19 | **Maximal Rectangle** | 🔴 Hard | DSA, Matrix, Monotonic Stack | [Solve on LeetCode](https://leetcode.com/problems/maximal-rectangle/) | Find largest area of rectangle containing only 1's in a 2D binary matrix. |
+| 20 | **Word Break** | 🟡 Medium | DSA, DP, Hash Set | [Solve on LeetCode](https://leetcode.com/problems/word-break/) | Determine if string can be segmented into sequence of dictionary words. |
+| 21 | **Number of Unique Subjects Taught** | 🟢 Easy | DSA / SQL, Hash Set | [Solve on LeetCode](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Count distinct subjects taught by each teacher. |
+| 22 | **Coin Change II** | 🟡 Medium | DSA, Unbounded Knapsack DP | [Solve on LeetCode](https://leetcode.com/problems/coin-change-ii/) | Compute number of distinct combinations that make up target amount. |
+| 23 | **Reorganize String** | 🟡 Medium | DSA, Greedy, Max Heap | [Solve on LeetCode](https://leetcode.com/problems/reorganize-string/) | Rearrange string so no adjacent characters are identical using max frequency heap. |
+| 24 | **Design HashSet** | 🟢 Easy | DSA, Hash Table, Design | [Solve on LeetCode](https://leetcode.com/problems/design-hashset/) | Implement HashSet without built-in hash tables using bucket chaining. |
+| 25 | **Maximum Length of Pair Chain** | 🟡 Medium | DSA, Greedy, Sorting | [Solve on LeetCode](https://leetcode.com/problems/maximum-length-of-pair-chain/) | Find longest chain of intervals where pair $(c, d)$ follows $(a, b)$ if $b < c$. |
+| 26 | **Find the Duplicate Number** | 🟡 Medium | DSA, Floyd's Tortoise & Hare | [Solve on LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) | Find duplicate in $n+1$ integer array in $O(1)$ space without mutating array. |
+| 27 | **Linked List Cycle** | 🟢 Easy | DSA, Fast & Slow Pointers | [Solve on LeetCode](https://leetcode.com/problems/linked-list-cycle/) | Detect whether linked list has a loop using Floyd's cycle detection. |
+| 28 | **Pascal's Triangle** | 🟢 Easy | DSA, Arrays, Simulation | [Solve on LeetCode](https://leetcode.com/problems/pascals-triangle/) | Generate first $N$ rows of Pascal's triangle where each element is sum of two above. |
+| 29 | **Interleaving String** | 🟡 Medium | DSA, 2D DP, Strings | [Solve on LeetCode](https://leetcode.com/problems/interleaving-string/) | Determine if string $s_3$ is formed by interleaving $s_1$ and $s_2$. |
+| 30 | **Reverse Linked List II** | 🟡 Medium | DSA, Linked List | [Solve on LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | Reverse linked list nodes strictly between position `left` and `right`. |
+| 31 | **Search in Rotated Sorted Array** | 🟡 Medium | DSA, Modified Binary Search | [Solve on LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Find target in sorted array rotated at unknown pivot in $O(\log n)$ time. |
+
+---
+
+### 🗄️ SQL Practice Problems (10 Problems)
+
+| # | Problem Title | Difficulty | Core Topics | LeetCode Link | Description |
+|---|---|---|---|---|---|
+| 1 | **Department Highest Salary** | 🟡 Medium | SQL, JOIN, GROUP BY | [Solve on LeetCode](https://leetcode.com/problems/department-highest-salary/) | Return employees who earn the highest salary in their respective departments. |
+| 2 | **Second Highest Salary** | 🟡 Medium | SQL, Subquery, `IFNULL` / `LIMIT` | [Solve on LeetCode](https://leetcode.com/problems/second-highest-salary/) | Return 2nd highest distinct salary, or `NULL` if only 1 distinct salary exists. |
+| 3 | **Duplicate Emails** | 🟢 Easy | SQL, `GROUP BY`, `HAVING` | [Solve on LeetCode](https://leetcode.com/problems/duplicate-emails/) | Report all emails that appear more than once in Person table. |
+| 4 | **Customers Who Never Order** | 🟢 Easy | SQL, `LEFT JOIN`, `IS NULL` | [Solve on LeetCode](https://leetcode.com/problems/customers-who-never-order/) | Find customers who never placed an order using anti-join. |
+| 5 | **Average Time of Process per Machine** | 🟢 Easy | SQL, Self Join, `AVG` | [Solve on LeetCode](https://leetcode.com/problems/average-time-of-process-per-machine/) | Compute average processing duration per machine across start & end events. |
+| 6 | **Monthly Transactions I** | 🟡 Medium | SQL, Conditional Aggregation | [Solve on LeetCode](https://leetcode.com/problems/monthly-transactions-i/) | Group transactions by month and country; count totals and approved sums. |
+| 7 | **Managers with at Least 5 Direct Reports**| 🟡 Medium | SQL, Self Join, `HAVING` | [Solve on LeetCode](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/) | Find manager names who supervise 5 or more direct subordinates. |
+| 8 | **Rank Scores** | 🟡 Medium | SQL, `DENSE_RANK()`, Window Fn | [Solve on LeetCode](https://leetcode.com/problems/rank-scores/) | Rank scores in descending order without leaving ranking gaps for ties. |
+| 9 | **Customer Who Visited but Made No Trans.**| 🟡 Medium | SQL, `LEFT JOIN`, `GROUP BY` | [Solve on LeetCode](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/) | Count visits by customer where no monetary transactions occurred. |
+| 10 | **Department Top Three Salaries** | 🔴 Hard | SQL, Window Functions, `DENSE_RANK` | [Solve on LeetCode](https://leetcode.com/problems/department-top-three-salaries/) | Find high earners who make a top 3 unique salary in each department. |
+
+---
+
+### 🌐 Frontend & DOM Skeleton Tasks (10 Tasks)
+
+| # | Task Title | Difficulty | Stack / Topics | Practice Reference Link | Task Description |
+|---|---|---|---|---|---|
+| 1 | **React Searchable Todo Skeleton** | 🔴 Hard | React, JS, State, CSS | [React Sharing State Guide](https://react.dev/learn/sharing-state-between-components) | Build complete todo app with add, filter, toggle, search, and delete with lifted state. |
+| 2 | **Debounced Search Component** | 🟡 Medium | React Hooks, `useEffect`, Timers | [Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects) | Implement debounced search input that ignores stale API results and cleans up timers. |
+| 3 | **Accessible Modal Dialog** | 🟡 Medium | DOM, HTML5 Dialog, A11y | [MDN HTMLDialogElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement) | Implement keyboard `Escape` closing, focus trap, focus restoration, and backdrop dismissal. |
+| 4 | **Filterable Data Table** | 🔴 Hard | React, Sorting, Filtering | [React Component State](https://react.dev/learn/sharing-state-between-components) | Build table with multi-column sorting, case-insensitive query filter, and empty fallback state. |
+| 5 | **Responsive Dashboard Grid** | 🟡 Medium | CSS Grid, Flexbox, Media Queries | [MDN CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) | Build 12-column adaptive dashboard grid layout without horizontal overflow on mobile. |
+| 6 | **Todo Event Delegation** | 🟡 Medium | DOM, Event Delegation | [MDN EventTarget addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) | Attach single event listener to parent `<ul>` to handle add, toggle, and delete actions. |
+| 7 | **Form Validation UI** | 🟡 Medium | HTML5, Constraint Validation API | [MDN Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) | Build form with real-time feedback, regex validation, and accessible error badges. |
+| 8 | **Pagination Component** | 🟡 Medium | React, Component State | [React Official Docs](https://react.dev/learn) | Create modular pagination controls with bounded page numbers, next/prev, and custom page size. |
+| 9 | **Keyboard Navigable Dropdown** | 🔴 Hard | DOM, ARIA Listbox | [W3C ARIA Listbox Role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/listbox_role) | Implement dropdown with `ArrowUp`, `ArrowDown`, `Home`, `End`, `Enter`, and proper ARIA states. |
+| 10 | **Drag and Drop Task Board** | 🔴 Hard | React / DOM, Drag & Drop API | [MDN HTML Drag & Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) | Build Kanban board to drag cards between "To Do", "In Progress", and "Done" columns. |
+
+---
+
+## 📊 Comprehensive SQL Mastery Roadmap (Levels 1 to 11)
+
+### 🟢 Level 1 — SQL Fundamentals
+*Start here to build your base query building blocks.*
+
+**Core Syntax to Learn:**
+```sql
+SELECT column1, column2 FROM table_name;
+SELECT DISTINCT column1 FROM table_name;
+WHERE condition1 AND condition2 OR NOT condition3;
+WHERE column_name IN ('val1', 'val2');
+WHERE age BETWEEN 18 AND 60;
+WHERE name LIKE 'A%'; -- Starts with A
+WHERE referee_id IS NULL;
+```
+
+**Practice Problems:**
+- 1. [1757 — Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/)
+- 2. [584 — Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)
+- 3. [595 — Big Countries](https://leetcode.com/problems/big-countries/)
+- 4. [1148 — Article Views I](https://leetcode.com/problems/article-views-i/)
+- 5. [1683 — Invalid Tweets](https://leetcode.com/problems/invalid-tweets/)
+- 6. [1378 — Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
+
+---
+
+### 🟢 Level 2 — Basic Aggregation
+*Summarize datasets using scalar aggregators and grouping.*
+
+**Core Syntax to Learn:**
+```sql
+SELECT department,
+       COUNT(*) AS total_employees,
+       SUM(salary) AS total_payroll,
+       AVG(salary) AS avg_salary,
+       MIN(salary) AS lowest_salary,
+       MAX(salary) AS highest_salary
+FROM Employees
+GROUP BY department;
+```
+
+**Practice Problems:**
+- 7. [1251 — Average Selling Price](https://leetcode.com/problems/average-selling-price/)
+- 8. [1633 — Percentage of Users Attended a Contest](https://leetcode.com/problems/percentage-of-users-attended-a-contest/)
+- 9. [1211 — Queries Quality and Percentage](https://leetcode.com/problems/queries-quality-and-percentage/)
+- 10. [1075 — Project Employees I](https://leetcode.com/problems/project-employees-i/)
+- 11. [619 — Biggest Single Number](https://leetcode.com/problems/biggest-single-number/)
+- 12. [1741 — Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/)
+
+---
+
+### 🟢 Level 3 — GROUP BY + HAVING
+*Understand the vital difference between row filtering and group filtering.*
+
+> **Crucial Difference:**
+> - `WHERE`: Filters individual rows **before** aggregation happens.
+> - `HAVING`: Filters aggregated groups **after** `GROUP BY` has collapsed rows.
+
+```sql
+SELECT department_id, COUNT(*) AS emp_count
+FROM Employees
+WHERE salary > 30000            -- Filters individual employees first
+GROUP BY department_id
+HAVING COUNT(*) >= 5;           -- Filters departments having at least 5 qualifying employees
+```
+
+**Practice Problems:**
+- 13. [586 — Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/)
+- 14. [1050 — Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)
+- 15. [1693 — Daily Leads and Partners](https://leetcode.com/problems/daily-leads-and-partners/)
+- 16. [1729 — Find Followers Count](https://leetcode.com/problems/find-followers-count/)
+- 17. [182 — Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
+
+---
+
+### 🟡 Level 4 — JOIN
+*Combine tables based on relational keys. Heavily asked in technical interviews.*
+
+**Core Syntax Patterns:**
+```sql
+-- INNER JOIN: Only matching rows from both tables
+SELECT e.name, d.dept_name
+FROM Employees e
+INNER JOIN Departments d ON e.dept_id = d.id;
+
+-- LEFT JOIN: All rows from left table, NULL where no match in right
+SELECT c.name, o.order_date
+FROM Customers c
+LEFT JOIN Orders o ON c.id = o.customer_id;
+
+-- SELF JOIN: Join a table with itself (e.g. employee-manager hierarchy)
+SELECT e.name AS Employee, m.name AS Manager
+FROM Employee e
+INNER JOIN Employee m ON e.managerId = m.id;
+```
+
+**Practice Problems — INNER JOIN:**
+- 18. [1378 — Replace Employee ID With The Unique Identifier](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/)
+- 19. [1068 — Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
+- 20. [1581 — Customer Who Visited but Did Not Make Any Transactions](https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/)
+- 21. [570 — Managers with at Least 5 Direct Reports](https://leetcode.com/problems/managers-with-at-least-5-direct-reports/)
+
+**Practice Problems — LEFT JOIN:**
+- 22. [175 — Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)
+- 23. [183 — Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)
+- 24. [196 — Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)
+- 25. [584 — Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)
+
+---
+
+### 🟡 Level 5 — CASE WHEN
+*Implement conditional branch logic and pivoting in SQL queries.*
+
+**Core Syntax:**
+```sql
+SELECT id,
+       name,
+       salary,
+       CASE 
+           WHEN salary >= 100000 THEN 'Tier 1'
+           WHEN salary >= 50000 THEN 'Tier 2'
+           ELSE 'Tier 3'
+       END AS salary_tier
+FROM Employees;
+
+-- Conditional Aggregation (Pivoting)
+SELECT department,
+       SUM(CASE WHEN gender = 'M' THEN 1 ELSE 0 END) AS male_count,
+       SUM(CASE WHEN gender = 'F' THEN 1 ELSE 0 END) AS female_count
+FROM Staff
+GROUP BY department;
+```
+
+**Practice Problems:**
+- 26. [627 — Swap Salary](https://leetcode.com/problems/swap-salary/)
+- 27. [1393 — Capital Gain/Loss](https://leetcode.com/problems/capital-gain-loss/)
+- 28. [1789 — Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/)
+- 29. [1179 — Reformat Department Table](https://leetcode.com/problems/reformat-department-table/)
+
+---
+
+### 🟡 Level 6 — String Functions
+*Clean, format, extract, and match text data.*
+
+**Core Functions:**
+- `LOWER(str)` / `UPPER(str)`: Change character casing.
+- `CONCAT(str1, str2, ...)`: Join multiple strings.
+- `SUBSTRING(str, pos, len)` / `SUBSTR(str, pos, len)`: Extract substring (1-indexed).
+- `LEFT(str, len)` / `RIGHT(str, len)`: Extract first or last $k$ characters.
+- `LENGTH(str)` / `CHAR_LENGTH(str)`: Length of string.
+- `TRIM(str)`: Remove leading/trailing spaces.
+- `LIKE '%pattern%'` or `REGEXP / REGEXP_LIKE`: Pattern matching.
+
+**Practice Problems:**
+- 30. [1667 — Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/)
+- 31. [1517 — Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/)
+- 32. [1527 — Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/)
+
+---
+
+### 🟡 Level 7 — Date & Time
+*Perform calculations across intervals, timestamps, and periods.*
+
+**Core Functions:**
+- `DATEDIFF(date1, date2)`: Days between `date1` and `date2` (`date1 - date2`).
+- `DATE_ADD(date, INTERVAL expr unit)`: Add interval (e.g. `INTERVAL 1 DAY`).
+- `DATE_SUB(date, INTERVAL expr unit)`: Subtract interval.
+- `YEAR(date)`, `MONTH(date)`, `DAY(date)`: Extract date parts.
+- `DATE_FORMAT(date, '%Y-%m')`: Format dates for monthly grouping.
+
+**Practice Problems:**
+- 33. [197 — Rising Temperature](https://leetcode.com/problems/rising-temperature/)
+- 34. [1174 — Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/)
+- 35. [1070 — Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/)
+- 36. [1321 — Restaurant Growth](https://leetcode.com/problems/restaurant-growth/)
+
+---
+
+### 🟠 Level 8 — Subqueries
+*Compose queries where one query depends on another.*
+
+**Patterns:**
+```sql
+-- Scalar subquery in WHERE
+SELECT name, salary
+FROM Employee
+WHERE salary > (SELECT AVG(salary) FROM Employee);
+
+-- IN / NOT IN subquery
+SELECT name FROM Customers
+WHERE id NOT IN (SELECT customer_id FROM Orders WHERE customer_id IS NOT NULL);
+
+-- Correlated EXISTS / NOT EXISTS
+SELECT e.name FROM Employee e
+WHERE EXISTS (
+    SELECT 1 FROM Orders o WHERE o.emp_id = e.id
+);
+```
+
+**Practice Problems:**
+- 37. [176 — Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)
+- 38. [177 — Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary/)
+- 39. [180 — Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)
+- 40. [184 — Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)
+- 41. [626 — Exchange Seats](https://leetcode.com/problems/exchange-seats/)
+
+---
+
+### 🟠 Level 9 — UNION & Set Operations
+*Combine results from multiple SELECT statements.*
+
+> **Key Difference:**
+> - `UNION`: Combines rows and **removes duplicate rows** (requires distinct sorting pass).
+> - `UNION ALL`: Combines rows while **preserving all duplicate rows** (much faster).
+
+```sql
+SELECT employee_id, 'Engineering' AS department FROM Engineers
+UNION ALL
+SELECT employee_id, 'Marketing' AS department FROM Marketers;
+```
+
+**Practice Problems:**
+- 42. [196 — Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)
+- 43. [178 — Rank Scores](https://leetcode.com/problems/rank-scores/)
+- 44. [185 — Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+
+---
+
+### 🔴 Level 10 — Window Functions
+*Evaluate values across related rows without collapsing individual records.*
+
+**Must-Know Window Ranking Functions:**
+- `ROW_NUMBER()`: Sequential row index ($1, 2, 3, 4$).
+- `RANK()`: Assigns same rank to ties, skips next rank ($1, 2, 2, 4$).
+- `DENSE_RANK()`: Assigns same rank to ties without skipping ($1, 2, 2, 3$).
+- `LEAD(col, offset)` / `LAG(col, offset)`: Access forward or previous row values.
+- `SUM(col) OVER(...)`: Running total.
+
+**Syntax Example:**
+```sql
+SELECT department_id,
+       name,
+       salary,
+       DENSE_RANK() OVER(
+           PARTITION BY department_id 
+           ORDER BY salary DESC
+       ) AS salary_rank
+FROM Employee;
+```
+
+**Practice Problems:**
+- 45. [178 — Rank Scores](https://leetcode.com/problems/rank-scores/)
+- 46. [184 — Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)
+- 47. [185 — Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+- 48. [1204 — Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/)
+- 49. [1555 / 1587 — Bank Account Summary II](https://leetcode.com/problems/bank-account-summary-ii/)
+
+---
+
+### 🔴 Level 11 — Advanced SQL
+*CTEs, recursive queries, complex joins, and advanced analytical problem solving.*
+
+**Common Table Expressions (CTE):**
+```sql
+WITH RankedSalaries AS (
+    SELECT id, name, department_id, salary,
+           DENSE_RANK() OVER(PARTITION BY department_id ORDER BY salary DESC) AS rnk
+    FROM Employee
+)
+SELECT d.name AS Department, rs.name AS Employee, rs.salary AS Salary
+FROM RankedSalaries rs
+JOIN Department d ON rs.department_id = d.id
+WHERE rs.rnk <= 3;
+```
+
+**Advanced LeetCode Problems for Level 11:**
+- [262 — Trips and Users](https://leetcode.com/problems/trips-and-users/) *(Cancellation rates, subqueries & date filters)*
+- [601 — Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) *(3+ consecutive rows with window functions/joins)*
+- [1341 — Movie Rating](https://leetcode.com/problems/movie-rating/) *(UNION ALL + Subqueries + LIMIT)*
+- [1907 — Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) *(UNION with category counts including zero counts)*
+- [550 — Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) *(Retention rate after first day)*
+- [1164 — Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) *(Window function + Subquery with default price)*
+
+---
+
+## ⚙️ Raw Company Data Reference
+
+```javascript
+window.COMPANY_DATA = window.COMPANY_DATA || {};
+window.COMPANY_DATA.capgemini = {
+  company: 'Capgemini',
+  examName: 'Capgemini New Hiring Assessment',
+  examDate: '2026-10-15',
+  totalDuration: 45,
+  supportsFullMock: false,
+  codingPracticeAttempts: 10,
+  cohorts: [
+    { id: 'alpha_stack', name: 'alpha_<stack>', focus: 'Strong software engineering, AI-assisted delivery, and modern application development' },
+    { id: 'root_mind', name: 'root_<mind>', focus: 'Problem solving, DSA, fundamentals, and engineering mindset' }
+  ],
+  roleProfiles: [
+    {
+      id: 'role_1',
+      name: 'Software Engineer - AI and Platform Path',
+      focus: ['DSA', 'Design Patterns', 'AI/ML', 'Cloud', 'Platform Engineering', 'RAG', 'Agentic Systems'],
+      pathways: ['Forward Deployed Engineer', 'AI Native Engineer', 'Platform Engineer', 'AI-Augmented Quality Engineer']
+    },
+    {
+      id: 'role_2',
+      name: 'Software Engineer - Application Path',
+      focus: ['Java', 'Python', '.NET', 'JavaScript', 'React', 'Angular', 'Node.js', 'SQL', 'APIs', 'DevOps'],
+      pathways: ['Full-Stack Engineering', 'Cloud Engineering', 'Data Engineering', 'Cybersecurity', 'API Development']
+    }
+  ],
+  eligibleStreams: ['BE', 'BTECH - CS/IT', 'Circuit and allied branches'],
+  preferredExposure: ['AI/ML', 'Generative AI', 'Cloud Computing', 'DevOps and Automation', 'Full-Stack Development', 'Data Engineering', 'Cybersecurity', 'Platform Engineering', 'API Development'],
+  sections: [
+    {
+      id: 'ai_literacy',
+      name: 'AI Literacy',
+      icon: '🤖',
+      questions: 20,
+      duration: 20,
+      description: 'AI foundations, prompting, agents, evaluation, and responsible AI',
+      practiceUrl: 'https://www.cloudskillsboost.google/paths/118',
+      practiceLabel: 'AI fundamentals reference'
+    },
+    {
+      id: 'technical_assessment',
+      name: 'Technical Assessment',
+      icon: '🧠',
+      questions: 20,
+      duration: 25,
+      description: 'Programming logic, DSA, DBMS, SQL, APIs, cloud, and engineering fundamentals',
+      practiceUrl: 'https://www.hackerrank.com/domains',
+      practiceLabel: 'Technical practice'
+    },
+    {
+      id: 'english_communication',
+      name: 'English Communication',
+      icon: '🎙️',
+      questions: 10,
+      duration: 15,
+      description: 'Find defects, explain failures, and correct code with AI assistance',
+      practiceUrl: 'https://www.hackerrank.com/domains/tutorials/10-days-of-javascript',
+      practiceLabel: 'Debugging practice',
+    },
+    {
+      id: 'communication_assessment',
+      name: 'Communication Assessment (28 Questions)',
+      icon: '🗣️',
+      questions: 28,
+      duration: 60,
+      description: 'Grammar, business writing, workplace situations, reading, listening, and spoken response practice',
+      isCommunication: true
+    },
+    {
+      id: 'problem_solving',
+      name: 'Problem Solving',
+      icon: '🧩',
+      questions: 10,
+      duration: 25,
+      description: 'Logical reasoning, algorithms, and quantitative problem solving'
+    },
+    {
+      id: 'ai_debugging',
+      name: 'AI-assisted Debugging',
+      icon: '🐞',
+      questions: 10,
+      duration: 25,
+      description: 'Find defects, explain failures, and correct code with AI assistance',
+      isWorkspace: true,
+      workspaceMode: 'debugging'
+    },
+    {
+      id: 'ai_feature_development',
+      name: 'AI-assisted Feature Development',
+      icon: '🛠️',
+      questions: 10,
+      duration: 30,
+      description: 'Extend a provided application using React, JavaScript, HTML, and CSS',
+      practiceUrl: 'https://react.dev/learn',
+      practiceLabel: 'React reference',
+      isWorkspace: true,
+      workspaceMode: 'ai-coding'
+    },
+    {
+      id: 'prompt_engineering',
+      name: 'Prompt Engineering',
+      icon: '✍️',
+      questions: 10,
+      duration: 20,
+      description: 'Write precise prompts that produce reliable engineering results',
+      practiceUrl: 'https://learnprompting.org/docs/intro',
+      practiceLabel: 'Prompt practice'
+    },
+    {
+      id: 'cognitive_assessment',
+      name: 'Cognitive Assessment (Aon-style)',
+      icon: '🧠',
+      questions: 20,
+      duration: 25,
+      description: 'Four modules: Motion Challenge, Grid Challenge, Logical Reasoning, and Behavioural Module',
+      practiceUrl: 'https://www.indiabix.com/logical-reasoning/questions-and-answers/',
+      practiceLabel: 'Reasoning practice'
+    },
+    {
+      id: 'coding',
+      name: 'Coding Assessment',
+      icon: '💻',
+      questions: 4,
+      duration: 60,
+      description: 'Two hard DSA problems, one SQL problem, and one frontend skeleton task',
+      topics: ['Hard DSA', 'SQL JOINs', 'React/JavaScript', 'HTML/CSS'],
+      practiceUrl: 'https://leetcode.com/',
+      practiceLabel: 'Open coding platform',
+      isExternal: true
+    }
+  ],
+  questionBank: {
+    ai_literacy: [
+      { id: 'cg_ai_1', topic: 'AI Foundations', question: 'What is the main role of a large language model?', options: ['Store exact copies of every webpage', 'Predict likely token sequences from context', 'Replace every database', 'Encrypt all network traffic'], answer: 1, explanation: 'LLMs generate text by predicting likely next tokens from learned patterns and context.' },
+      { id: 'cg_ai_2', topic: 'AI Foundations', question: 'What does an embedding represent?', options: ['A vector representation of meaning or features', 'A database password', 'A browser cookie', 'A compiled binary only'], answer: 0, explanation: 'Embeddings represent items as vectors so semantic similarity can be measured.' },
+      { id: 'cg_ai_3', topic: 'Generative AI', question: 'Which is a generative AI task?', options: ['Sorting a fixed array', 'Creating a summary from a document', 'Checking a CPU temperature', 'Opening a network port'], answer: 1, explanation: 'Generating a summary is a content-generation task.' },
+      { id: 'cg_ai_4', topic: 'Prompt Engineering', question: 'Which prompt is most precise?', options: ['Fix this', 'Explain the bug, preserve the API, show a patch, and add a test', 'Make it good', 'Write code'], answer: 1, explanation: 'A precise prompt provides context, constraints, output format, and validation.' },
+      { id: 'cg_ai_5', topic: 'Prompt Engineering', question: 'Why provide an output format in a prompt?', options: ['To constrain the response into a usable structure', 'To increase monitor brightness', 'To remove all model errors', 'To disable validation'], answer: 0, explanation: 'An explicit format makes the response easier to parse and review.' },
+      { id: 'cg_ai_6', topic: 'Prompt Engineering', question: 'What is few-shot prompting?', options: ['Giving examples of the desired input-output behaviour', 'Using only one word', 'Running a prompt offline', 'Deleting the context'], answer: 0, explanation: 'Few-shot prompts include examples that guide the expected response pattern.' },
+      { id: 'cg_ai_7', topic: 'RAG', question: 'What problem does retrieval-augmented generation address?', options: ['It supplies relevant external context to the model', 'It replaces CSS', 'It guarantees perfect reasoning', 'It removes the need for data'], answer: 0, explanation: 'RAG retrieves relevant information and places it in the model context.' },
+      { id: 'cg_ai_8', topic: 'RAG', question: 'Why are document chunks used in a retrieval system?', options: ['To search and provide focused context', 'To make documents unreadable', 'To remove metadata', 'To avoid indexing'], answer: 0, explanation: 'Chunks make retrieval more focused and fit within context limits.' },
+      { id: 'cg_ai_9', topic: 'AI Agents', question: 'What distinguishes an AI agent from a single prompt response?', options: ['It can plan, use tools, and act across steps', 'It never uses context', 'It only generates CSS', 'It cannot inspect results'], answer: 0, explanation: 'Agents typically combine planning, tool use, observations, and multiple steps.' },
+      { id: 'cg_ai_10', topic: 'AI Agents', question: 'Why should an agent tool have a clear schema?', options: ['It defines valid inputs and predictable outputs', 'It hides all errors', 'It prevents logging', 'It removes authorization'], answer: 0, explanation: 'Schemas reduce ambiguity and make tool calls safer to validate.' },
+      { id: 'cg_ai_11', topic: 'Evaluation', question: 'What is a regression test for an AI feature?', options: ['A fixed case used to detect behaviour changes', 'A random prompt with no expected result', 'A UI colour choice', 'A production password'], answer: 0, explanation: 'Regression cases compare future behaviour with an expected baseline.' },
+      { id: 'cg_ai_12', topic: 'Evaluation', question: 'What should be checked before accepting AI-generated code?', options: ['Tests, edge cases, security, and maintainability', 'Only whether it looks short', 'Only the variable names', 'Nothing if it compiles'], answer: 0, explanation: 'Generated code still requires normal engineering review and validation.' },
+      { id: 'cg_ai_13', topic: 'Responsible AI', question: 'What is data minimization?', options: ['Collecting only data needed for the stated purpose', 'Collecting every possible field', 'Removing all access controls', 'Duplicating private data'], answer: 0, explanation: 'Data minimization reduces privacy and security exposure.' },
+      { id: 'cg_ai_14', topic: 'Responsible AI', question: 'What is a hallucination in an AI response?', options: ['A confident but unsupported or false claim', 'A successful unit test', 'A valid database join', 'A compressed image'], answer: 0, explanation: 'Hallucinations are generated claims that are not grounded in reliable evidence.' },
+      { id: 'cg_ai_15', topic: 'Responsible AI', question: 'Which practice helps protect confidential code sent to an AI tool?', options: ['Use approved tools and remove unnecessary secrets', 'Paste production credentials', 'Disable authentication', 'Share all customer records'], answer: 0, explanation: 'Approved tools and secret removal reduce accidental disclosure.' },
+      { id: 'cg_ai_16', topic: 'AI Productivity', question: 'What is a good use of AI in debugging?', options: ['Suggest hypotheses that the developer validates with tests', 'Accept every suggestion blindly', 'Skip reproducing the defect', 'Remove error handling'], answer: 0, explanation: 'AI can accelerate investigation, but the developer must verify the result.' },
+      { id: 'cg_ai_17', topic: 'AI Productivity', question: 'What context is most useful when asking AI to explain a failure?', options: ['Error, relevant code, inputs, expected result, and actual result', 'Only the project name', 'Only the word error', 'An unrelated screenshot'], answer: 0, explanation: 'Concrete failure context allows a more targeted explanation.' },
+      { id: 'cg_ai_18', topic: 'Model Limits', question: 'What does a context window limit affect?', options: ['How much input and conversation the model can consider at once', 'The monitor size', 'The keyboard layout', 'The database schema only'], answer: 0, explanation: 'The context window limits the amount of information available in one model call.' },
+      { id: 'cg_ai_19', topic: 'Model Limits', question: 'Why should important AI output be grounded in sources?', options: ['Sources make claims easier to verify', 'Sources guarantee no bugs', 'Sources remove all bias', 'Sources replace testing'], answer: 0, explanation: 'Grounding enables review and reduces unsupported claims.' },
+      { id: 'cg_ai_20', topic: 'AI Governance', question: 'Who remains accountable for using AI-generated code in a product?', options: ['The engineering team and organization using it', 'The model alone', 'The browser', 'Nobody'], answer: 0, explanation: 'Human teams remain responsible for decisions, quality, and compliance.' }
+    ],
+    technical_assessment: [
+      { id: 'cg_tech_1', topic: 'Programming Logic', question: 'What is the time complexity of a loop that doubles i until n?', options: ['O(1)', 'O(log n)', 'O(n)', 'O(n log n)'], answer: 1, explanation: 'The values grow exponentially, so there are logarithmic iterations.' },
+      { id: 'cg_tech_2', topic: 'Programming Logic', question: 'Which structure follows last-in-first-out order?', options: ['Queue', 'Stack', 'Graph', 'Hash table'], answer: 1, explanation: 'A stack removes the most recently inserted item first.' },
+      { id: 'cg_tech_3', topic: 'Arrays', question: 'Which technique finds a pair sum in O(n) average time?', options: ['Nested loops only', 'Hash map lookup', 'Bubble sort only', 'Depth-first search'], answer: 1, explanation: 'A hash map stores complements for constant-average lookup.' },
+      { id: 'cg_tech_4', topic: 'Strings', question: 'Which structure is useful for counting character frequencies?', options: ['Hash map', 'Stack only', 'Queue only', 'Linked list only'], answer: 0, explanation: 'A hash map maps each character to its frequency.' },
+      { id: 'cg_tech_5', topic: 'Searching', question: 'Binary search requires which property?', options: ['Sorted search space', 'A graph cycle', 'A hash collision', 'A recursive function always'], answer: 0, explanation: 'Binary search eliminates half of an ordered search space at each step.' },
+      { id: 'cg_tech_6', topic: 'Sorting', question: 'What is the average complexity of merge sort?', options: ['O(log n)', 'O(n)', 'O(n log n)', 'O(n^2) always'], answer: 2, explanation: 'Merge sort divides and merges in O(n log n) time.' },
+      { id: 'cg_tech_7', topic: 'DBMS', question: 'What does a primary key provide?', options: ['A unique identifier for each row', 'Duplicate row storage', 'Automatic encryption', 'A network route'], answer: 0, explanation: 'A primary key uniquely identifies records.' },
+      { id: 'cg_tech_8', topic: 'SQL', question: 'Which clause filters groups after aggregation?', options: ['WHERE', 'HAVING', 'ORDER BY', 'FROM'], answer: 1, explanation: 'HAVING filters grouped aggregate results.' },
+      { id: 'cg_tech_9', topic: 'SQL', question: 'Which JOIN keeps all rows from the left table?', options: ['INNER JOIN', 'LEFT JOIN', 'CROSS JOIN only', 'RIGHT JOIN only'], answer: 1, explanation: 'LEFT JOIN preserves every left-side row.' },
+      { id: 'cg_tech_10', topic: 'SQL', question: 'What does GROUP BY do?', options: ['Combines rows into groups for aggregation', 'Deletes duplicate tables', 'Creates an index automatically', 'Encrypts columns'], answer: 0, explanation: 'GROUP BY forms groups that aggregate functions can summarize.' },
+      { id: 'cg_tech_11', topic: 'OOP', question: 'What is polymorphism?', options: ['One interface with multiple implementations', 'One variable with no type', 'Deleting inherited methods', 'Encrypting objects'], answer: 0, explanation: 'Polymorphism allows a common interface to have different implementations.' },
+      { id: 'cg_tech_12', topic: 'HTTP', question: 'Which status code means a resource was not found?', options: ['200', '201', '404', '500'], answer: 2, explanation: 'HTTP 404 indicates that the requested resource was not found.' },
+      { id: 'cg_tech_13', topic: 'REST APIs', question: 'Which method is commonly used to partially update a resource?', options: ['GET', 'PATCH', 'TRACE', 'HEAD'], answer: 1, explanation: 'PATCH is commonly used for partial updates.' },
+      { id: 'cg_tech_14', topic: 'Operating Systems', question: 'What is a process?', options: ['A program in execution', 'A CSS selector', 'A database column', 'A network cable'], answer: 0, explanation: 'A process is an executing instance of a program.' },
+      { id: 'cg_tech_15', topic: 'Networking', question: 'Which protocol translates domain names to IP addresses?', options: ['DNS', 'FTP', 'SSH', 'SMTP'], answer: 0, explanation: 'DNS resolves domain names to IP addresses.' },
+      { id: 'cg_tech_16', topic: 'Cloud', question: 'What does horizontal scaling usually mean?', options: ['Adding more instances', 'Increasing one machine’s RAM only', 'Deleting replicas', 'Changing a font size'], answer: 0, explanation: 'Horizontal scaling adds instances to share workload.' },
+      { id: 'cg_tech_17', topic: 'Security', question: 'What is the safest place for a password in a database?', options: ['Plain text', 'A salted slow hash', 'A URL parameter', 'A CSS file'], answer: 1, explanation: 'Passwords should be stored using an appropriate salted password hash.' },
+      { id: 'cg_tech_18', topic: 'Git', question: 'What does a commit represent?', options: ['A recorded set of repository changes', 'A database join', 'A browser refresh', 'A cloud region'], answer: 0, explanation: 'A commit records a snapshot of changes in version control.' },
+      { id: 'cg_tech_19', topic: 'Web Fundamentals', question: 'What does the DOM represent?', options: ['The document as an object tree', 'A database index', 'A CPU scheduler', 'A network packet'], answer: 0, explanation: 'The DOM models an HTML document as an object tree.' },
+      { id: 'cg_tech_20', topic: 'Testing', question: 'What is a regression test?', options: ['A test that catches a previously fixed defect returning', 'A random manual click', 'A production deployment', 'A code formatter'], answer: 0, explanation: 'Regression tests protect behaviour that previously worked or was fixed.' }
+    ],
+    english_communication: [
+      {
+        id: 'cg_eng_1',
+        topic: 'Reading',
+        question: 'Choose the clearest professional sentence.',
+        options: ['Send the report when done.', 'Please send the completed report by 5 PM.', 'Report send fast.', 'You sending report?'],
+        answer: 1,
+        explanation: 'The second sentence is specific, polite, and professional.'
+      },
+      {
+        id: 'cg_eng_2',
+        topic: 'Grammar',
+        question: 'Choose the correct sentence.',
+        options: ['The team have finished the task.', 'The team has finished the task.', 'The team finishing task.', 'The team finish the task yesterday.'],
+        answer: 1,
+        explanation: 'In this context, team is treated as a singular collective noun.'
+      },
+      { id: 'cg_eng_3', topic: 'Grammar', question: 'Choose the correct sentence.', options: ['She has completed the report.', 'She have completed the report.', 'She completing report.', 'She complete yesterday report.'], answer: 0, explanation: 'The singular subject she takes has.' },
+      { id: 'cg_eng_4', topic: 'Tenses', question: 'By next Monday, the team ___ the migration.', options: ['will complete', 'will have completed', 'completed', 'has complete'], answer: 1, explanation: 'Future perfect describes an action completed before a future time.' },
+      { id: 'cg_eng_5', topic: 'Prepositions', question: 'The meeting starts ___ 10 AM.', options: ['in', 'on', 'at', 'by'], answer: 2, explanation: 'At is used with a specific clock time.' },
+      { id: 'cg_eng_6', topic: 'Vocabulary', question: 'Choose the closest meaning of reliable.', options: ['Dependable', 'Doubtful', 'Temporary', 'Delayed'], answer: 0, explanation: 'Reliable means dependable or consistently trustworthy.' },
+      { id: 'cg_eng_7', topic: 'Error Correction', question: 'Choose the corrected sentence.', options: ['Neither answer are correct.', 'Neither answer is correct.', 'Neither answers is correct.', 'Neither answer be correct.'], answer: 1, explanation: 'Neither is singular and takes is.' },
+      { id: 'cg_eng_8', topic: 'Articles', question: 'She is ___ honest developer.', options: ['a', 'an', 'the only', 'no article'], answer: 1, explanation: 'An is used before the vowel sound in honest.' },
+      { id: 'cg_eng_9', topic: 'Active Voice', question: 'Choose the active form of: The defect was fixed by Ravi.', options: ['Ravi fixed the defect.', 'Ravi was fixed by the defect.', 'The defect fixed Ravi.', 'Ravi is fixing by defect.'], answer: 0, explanation: 'The active subject Ravi performs the action.' },
+      { id: 'cg_eng_10', topic: 'Sentence Ordering', question: 'Which sentence should begin a professional email?', options: ['Send it now.', 'I hope you are doing well.', 'Why did you delay?', 'Reply immediately.'], answer: 1, explanation: 'The second option is a polite professional opening.' },
+      { id: 'cg_eng_11', topic: 'Reading', question: 'A concise summary should contain what?', options: ['Every minor detail', 'The central idea and key supporting points', 'Only an opinion', 'Unrelated examples'], answer: 1, explanation: 'A summary preserves the central idea and important support.' },
+      { id: 'cg_eng_12', topic: 'Grammar', question: 'Choose the correct conditional sentence.', options: ['If I had time, I will help.', 'If I have time, I will help.', 'If I have time, I helped.', 'If I having time, I help.'], answer: 1, explanation: 'The first conditional uses present simple after if and will in the result.' },
+      { id: 'cg_eng_13', topic: 'Vocabulary', question: 'Choose the opposite of expand.', options: ['Increase', 'Extend', 'Contract', 'Improve'], answer: 2, explanation: 'Contract means to become smaller or reduce in size.' },
+      { id: 'cg_eng_14', topic: 'Connectors', question: 'The build failed; ___, the deployment was postponed.', options: ['however', 'therefore', 'although', 'meanwhile'], answer: 1, explanation: 'Therefore expresses the result of the failed build.' },
+      { id: 'cg_eng_15', topic: 'Error Correction', question: 'Choose the correct sentence.', options: ['The information are useful.', 'The information is useful.', 'The informations is useful.', 'The information be useful.'], answer: 1, explanation: 'Information is an uncountable singular noun.' },
+      { id: 'cg_eng_16', topic: 'Reported Speech', question: 'Choose the reported form: He said, "I am ready."', options: ['He said that he was ready.', 'He said that I am ready.', 'He says he ready.', 'He said he is ready yesterday.'], answer: 0, explanation: 'The present verb shifts to past in this reported statement.' },
+      { id: 'cg_eng_17', topic: 'Professional Writing', question: 'Which closing is most appropriate for a formal request?', options: ['Do it fast.', 'Thanks in advance for your help.', 'Whatever works.', 'Bye.'], answer: 1, explanation: 'The second option is polite and professional.' },
+      { id: 'cg_eng_18', topic: 'Reading', question: 'What does an inference require?', options: ['A conclusion supported by clues', 'A random guess only', 'A copied title', 'No evidence'], answer: 0, explanation: 'An inference combines evidence with reasoning.' },
+      { id: 'cg_eng_19', topic: 'Grammar', question: 'Choose the correct comparative sentence.', options: ['This solution is more efficient than the old one.', 'This solution is most efficient than old.', 'This solution more efficient the old.', 'This solution is efficient than old.'], answer: 0, explanation: 'More efficient is the correct comparative form.' },
+      { id: 'cg_eng_20', topic: 'Punctuation', question: 'Which sentence uses punctuation correctly?', options: ['Before deploying, test the change.', 'Before deploying test, the change.', 'Before, deploying test the change.', 'Before deploying test the, change.'], answer: 0, explanation: 'The introductory phrase is correctly separated with a comma.' }
+    ],
+    problem_solving: [
+      {
+        id: 'cg_ps_1',
+        topic: 'Logic',
+        question: 'A process doubles its output each hour. If it produces 3 units in hour 1, how many units does it produce in hour 5?',
+        options: ['12', '24', '48', '96'],
+        answer: 2,
+        explanation: 'The sequence is 3, 6, 12, 24, 48.'
+      },
+      {
+        id: 'cg_ps_2',
+        topic: 'Algorithms',
+        question: 'Which data structure is best for breadth-first traversal of a graph?',
+        options: ['Stack', 'Queue', 'Heap only', 'Hash set only'],
+        answer: 1,
+        explanation: 'Breadth-first traversal processes nodes in first-in-first-out order.'
+      }
+    ],
+    ai_debugging: [
+      {
+        id: 'cg_dbg_1',
+        topic: 'Debugging',
+        question: 'A loop accesses array[i] while i <= array.length. What is the likely defect?',
+        options: ['The loop should start at 1.', 'The final access is out of bounds.', 'Arrays cannot use loops.', 'The array must be sorted.'],
+        answer: 1,
+        explanation: 'The last valid index is array.length - 1, so <= causes an out-of-bounds access.'
+      },
+      {
+        id: 'cg_dbg_2',
+        topic: 'JavaScript',
+        question: 'A UI handler reads input.value before the input element is queried. What should be fixed first?',
+        options: ['Add a second stylesheet.', 'Query the element before reading its value.', 'Convert the value to an array.', 'Remove the event handler.'],
+        answer: 1,
+        explanation: 'The element reference must exist before its value property is accessed.'
+      }
+    ],
+    ai_feature_development: [
+      {
+        id: 'cg_feat_1',
+        topic: 'React',
+        question: 'Which React practice prevents a list warning when rendering items from an array?',
+        options: ['Use a stable key for each item.', 'Put all items in one string.', 'Use document.write.', 'Reload the page after every render.'],
+        answer: 0,
+        explanation: 'React uses stable keys to track list items between renders.'
+      },
+      {
+        id: 'cg_feat_2',
+        topic: 'Frontend',
+        question: 'Which approach is best for a reusable form field component?',
+        options: ['Hard-code every field label.', 'Accept label, value, and onChange as props.', 'Store values in global HTML attributes only.', 'Use inline SQL in the component.'],
+        answer: 1,
+        explanation: 'Props make the component reusable and keep state flow explicit.'
+      }
+    ],
+    prompt_engineering: [
+      {
+        id: 'cg_prompt_1',
+        topic: 'Prompt Design',
+        question: 'Which prompt is most useful for asking an AI to fix a defect?',
+        options: ['Fix it.', 'Make this better.', 'Explain the error, preserve the public API, show the patch, and add a regression test.', 'Write anything.'],
+        answer: 2,
+        explanation: 'A strong prompt supplies context, constraints, output format, and validation requirements.'
+      },
+      {
+        id: 'cg_prompt_2',
+        topic: 'Evaluation',
+        question: 'What should be included when asking AI to generate a feature safely?',
+        options: ['Only the feature name.', 'Requirements, constraints, existing interfaces, and acceptance tests.', 'A random example.', 'No expected behaviour.'],
+        answer: 1,
+        explanation: 'The model needs requirements and acceptance criteria to produce verifiable work.'
+      }
+    ],
+    cognitive_assessment: [
+      {
+        id: 'cg_cog_1',
+        topic: 'Logical Reasoning',
+        question: 'Some employees who work day shifts also work double shifts. All double-shift employees receive a meal break. Which conclusion must be true?',
+        options: ['All day-shift employees receive a meal break.', 'Some day-shift employees receive a meal break.', 'No day-shift employees receive a meal break.', 'Only day-shift employees receive a meal break.'],
+        answer: 1,
+        explanation: 'The employees in the overlap work both day and double shifts, and every double-shift employee receives a meal break.'
+      },
+      {
+        id: 'cg_cog_2',
+        topic: 'Logical Reasoning',
+        question: 'A project must finish before the audit. The audit is scheduled after testing, and testing starts only after integration. What must happen before the audit?',
+        options: ['Integration and testing.', 'The audit and integration.', 'Only project planning.', 'Nothing; the order is unknown.'],
+        answer: 0,
+        explanation: 'Integration precedes testing, and testing precedes the audit.'
+      },
+      { id: 'cg_cog_3', topic: 'Logical Reasoning', question: 'A, B, C, and D are seated in a row. A is left of B. C is right of B. D is left of A. Which order is possible?', options: ['D, A, B, C', 'A, D, B, C', 'B, A, C, D', 'C, B, A, D'], answer: 0, explanation: 'This order satisfies D left of A, A left of B, and B left of C.' },
+      { id: 'cg_cog_4', topic: 'Logical Reasoning', question: 'A number is increased by 20%, then reduced by 20%. Compared with the original number, the result is:', options: ['The same.', '4% lower.', '4% higher.', '20% lower.'], answer: 1, explanation: 'For an original value of 100, the result is 120 × 0.8 = 96, which is 4% lower.' },
+      { id: 'cg_cog_5', topic: 'Logical Reasoning', question: 'Every approved request has a reference number. Request R has no reference number. What follows?', options: ['Request R is approved.', 'Request R is not approved.', 'Request R is urgent.', 'No conclusion can be made.'], answer: 1, explanation: 'If approval requires a reference number, a request without one cannot be approved.' },
+      { id: 'cg_cog_6', topic: 'Logical Reasoning', question: 'A team completes 18 reviews in 3 hours at a steady rate. How many reviews can it complete in 5 hours?', options: ['24', '27', '30', '36'], answer: 2, explanation: 'The rate is 6 reviews per hour, so 5 hours yields 30 reviews.' }
+    ],
+    coding: [
+      {
+        id: 'cg_dsa_1',
+        category: 'dsa',
+        title: 'Longest Consecutive Sequence',
+        difficulty: 'Hard',
+        topics: ['DSA', 'Hash Set', 'Arrays'],
+        link: 'https://leetcode.com/problems/longest-consecutive-sequence/',
+        description: 'Find the longest consecutive sequence in an unsorted array in O(n) expected time.'
+      },
+      {
+        id: 'cg_dsa_2',
+        category: 'dsa',
+        title: 'Minimum Window Substring',
+        difficulty: 'Hard',
+        topics: ['DSA', 'Strings', 'Sliding Window'],
+        link: 'https://leetcode.com/problems/minimum-window-substring/',
+        description: 'Find the smallest substring of s containing every character of t with the required frequency.'
+      },
+      {
+        id: 'cg_sql_1',
+        category: 'sql',
+        title: 'Department Highest Salary',
+        difficulty: 'Medium',
+        topics: ['SQL', 'JOIN', 'GROUP BY', 'HAVING'],
+        link: 'https://leetcode.com/problems/department-highest-salary/',
+        description: 'Use joins and aggregation to return employees with the highest salary in each department.'
+      },
+      {
+        id: 'cg_front_1',
+        category: 'frontend',
+        title: 'React Searchable Todo Skeleton',
+        difficulty: 'Hard',
+        topics: ['Frontend', 'React', 'JavaScript', 'HTML/CSS', 'DOM'],
+        link: 'https://react.dev/learn/sharing-state-between-components',
+        description: 'Complete a starter React/HTML/CSS application so users can add, filter, toggle, and remove todos while keeping state shared between components.'
+      },
+      { id: 'cg_dsa_3', category: 'dsa', title: 'Trapping Rain Water', difficulty: 'Hard', topics: ['DSA', 'Two Pointers', 'Arrays'], link: 'https://leetcode.com/problems/trapping-rain-water/', description: 'Compute trapped water between elevation bars using an optimal two-pointer or prefix-boundary strategy.' },
+      { id: 'cg_dsa_4', category: 'dsa', title: 'Word Ladder', difficulty: 'Hard', topics: ['DSA', 'BFS', 'Hash Set'], link: 'https://leetcode.com/problems/word-ladder/', description: 'Find the shortest transformation sequence between two words using one-letter changes.' },
+      { id: 'cg_dsa_5', category: 'dsa', title: 'Course Schedule', difficulty: 'Medium', topics: ['DSA', 'Graphs', 'Topological Sort'], link: 'https://leetcode.com/problems/course-schedule/', description: 'Determine whether all courses can be completed when prerequisites form a directed graph.' },
+      { id: 'cg_dsa_6', category: 'dsa', title: 'N-Queens', difficulty: 'Hard', topics: ['DSA', 'Backtracking'], link: 'https://leetcode.com/problems/n-queens/', description: 'Place n queens on a chessboard so that no two queens attack each other.' },
+      { id: 'cg_dsa_7', category: 'dsa', title: 'Median of Two Sorted Arrays', difficulty: 'Hard', topics: ['DSA', 'Binary Search'], link: 'https://leetcode.com/problems/median-of-two-sorted-arrays/', description: 'Find the median of two sorted arrays in logarithmic partition time.' },
+      { id: 'cg_dsa_8', category: 'dsa', title: 'Edit Distance', difficulty: 'Hard', topics: ['DSA', 'Dynamic Programming', 'Strings'], link: 'https://leetcode.com/problems/edit-distance/', description: 'Find the minimum insertions, deletions, and replacements needed to transform one word into another.' },
+      { id: 'cg_dsa_9', category: 'dsa', title: 'Serialize and Deserialize Binary Tree', difficulty: 'Hard', topics: ['DSA', 'Trees', 'BFS'], link: 'https://leetcode.com/problems/serialize-and-deserialize-binary-tree/', description: 'Design serialization and deserialization functions that preserve a binary tree.' },
+      { id: 'cg_dsa_10', category: 'dsa', title: 'Sliding Window Maximum', difficulty: 'Hard', topics: ['DSA', 'Deque', 'Sliding Window'], link: 'https://leetcode.com/problems/sliding-window-maximum/', description: 'Return the maximum value in every fixed-size window in linear time.' },
+      { id: 'cg_dsa_11', category: 'dsa', title: 'Number of Islands', difficulty: 'Medium', topics: ['DSA', 'Grid BFS', 'DFS'], link: 'https://leetcode.com/problems/number-of-islands/', description: 'Count connected land components in a binary grid.' },
+      { id: 'cg_dsa_12', category: 'dsa', title: 'LRU Cache', difficulty: 'Medium', topics: ['DSA', 'Hash Map', 'Linked List'], link: 'https://leetcode.com/problems/lru-cache/', description: 'Implement a cache with O(1) get and put operations using a map and doubly linked list.' },
+      { id: 'cg_dsa_13', category: 'dsa', title: 'Merge K Sorted Lists', difficulty: 'Hard', topics: ['DSA', 'Heap', 'Linked List'], link: 'https://leetcode.com/problems/merge-k-sorted-lists/', description: 'Merge k sorted linked lists efficiently using a min heap.' },
+      { id: 'cg_dsa_14', category: 'dsa', title: 'Largest Rectangle in Histogram', difficulty: 'Hard', topics: ['DSA', 'Monotonic Stack'], link: 'https://leetcode.com/problems/largest-rectangle-in-histogram/', description: 'Find the largest rectangle area in a histogram.' },
+      { id: 'cg_dsa_15', category: 'dsa', title: 'Pacific Atlantic Water Flow', difficulty: 'Medium', topics: ['DSA', 'Graphs', 'DFS'], link: 'https://leetcode.com/problems/pacific-atlantic-water-flow/', description: 'Find cells from which water can flow to both oceans.' },
+      { id: 'cg_dsa_16', category: 'dsa', title: 'Coin Change', difficulty: 'Medium', topics: ['DSA', 'Dynamic Programming'], link: 'https://leetcode.com/problems/coin-change/', description: 'Find the fewest coins needed to make a target amount.' },
+      { id: 'cg_dsa_17', category: 'dsa', title: 'Network Delay Time', difficulty: 'Medium', topics: ['DSA', 'Graphs', 'Dijkstra'], link: 'https://leetcode.com/problems/network-delay-time/', description: 'Calculate the time for a signal to reach every node in a weighted graph.' },
+      { id: 'cg_dsa_18', category: 'dsa', title: 'Regular Expression Matching', difficulty: 'Hard', topics: ['DSA', 'Dynamic Programming', 'Strings'], link: 'https://leetcode.com/problems/regular-expression-matching/', description: 'Implement matching for a string with dot and star pattern rules.' },
+      { id: 'cg_dsa_19', category: 'dsa', title: 'Maximal Rectangle', difficulty: 'Hard', topics: ['DSA', 'Matrix', 'Monotonic Stack'], link: 'https://leetcode.com/problems/maximal-rectangle/', description: 'Find the largest rectangle containing only ones in a binary matrix.' },
+      { id: 'cg_dsa_20', category: 'dsa', title: 'Word Break', difficulty: 'Medium', topics: ['DSA', 'Dynamic Programming', 'Hash Set'], link: 'https://leetcode.com/problems/word-break/', description: 'Determine whether a string can be segmented into dictionary words.' },
+      { id: 'cg_dsa_21', category: 'dsa', title: 'Number of Unique Subjects Taught by Each Teacher', difficulty: 'Easy', topics: ['DSA', 'SQL', 'Hash Set'], link: 'https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/', description: 'Count distinct subjects taught by each teacher.' },
+      { id: 'cg_dsa_22', category: 'dsa', title: 'Coin Change II', difficulty: 'Medium', topics: ['DSA', 'Dynamic Programming'], link: 'https://leetcode.com/problems/coin-change-ii/', description: 'Count the number of combinations that make up a target amount.' },
+      { id: 'cg_dsa_23', category: 'dsa', title: 'Reorganize String', difficulty: 'Medium', topics: ['DSA', 'Greedy', 'Heap', 'Strings'], link: 'https://leetcode.com/problems/reorganize-string/', description: 'Rearrange characters so that no equal adjacent characters remain.' },
+      { id: 'cg_dsa_24', category: 'dsa', title: 'Design HashSet', difficulty: 'Easy', topics: ['DSA', 'Hash Table', 'Design'], link: 'https://leetcode.com/problems/design-hashset/', description: 'Design a hash set with add, remove, and contains operations.' },
+      { id: 'cg_dsa_25', category: 'dsa', title: 'Maximum Length of Pair Chain', difficulty: 'Medium', topics: ['DSA', 'Greedy', 'Sorting'], link: 'https://leetcode.com/problems/maximum-length-of-pair-chain/', description: 'Find the longest chain of pairs where each next pair starts after the previous pair ends.' },
+      { id: 'cg_dsa_26', category: 'dsa', title: 'Find the Duplicate Number', difficulty: 'Medium', topics: ['DSA', 'Arrays', 'Two Pointers'], link: 'https://leetcode.com/problems/find-the-duplicate-number/', description: 'Find the repeated number without modifying the array and using constant extra space.' },
+      { id: 'cg_dsa_27', category: 'dsa', title: 'Linked List Cycle', difficulty: 'Easy', topics: ['DSA', 'Linked List', 'Fast and Slow Pointers'], link: 'https://leetcode.com/problems/linked-list-cycle/', description: 'Determine whether a linked list contains a cycle.' },
+      { id: 'cg_dsa_28', category: 'dsa', title: "Pascal's Triangle", difficulty: 'Easy', topics: ['DSA', 'Arrays', 'Dynamic Programming'], link: 'https://leetcode.com/problems/pascals-triangle/', description: 'Generate the first numRows of Pascal triangle.' },
+      { id: 'cg_dsa_29', category: 'dsa', title: 'Interleaving String', difficulty: 'Medium', topics: ['DSA', 'Dynamic Programming', 'Strings'], link: 'https://leetcode.com/problems/interleaving-string/', description: 'Determine whether a string is formed by interleaving two other strings.' },
+      { id: 'cg_dsa_30', category: 'dsa', title: 'Reverse Linked List II', difficulty: 'Medium', topics: ['DSA', 'Linked List'], link: 'https://leetcode.com/problems/reverse-linked-list-ii/', description: 'Reverse a linked-list segment between two given positions.' },
+      { id: 'cg_dsa_31', category: 'dsa', title: 'Search in Rotated Sorted Array', difficulty: 'Medium', topics: ['DSA', 'Binary Search', 'Arrays'], link: 'https://leetcode.com/problems/search-in-rotated-sorted-array/', description: 'Search for a target in a rotated sorted array in logarithmic time.' },
+      { id: 'cg_sql_2', category: 'sql', title: 'Second Highest Salary', difficulty: 'Medium', topics: ['SQL', 'Subquery', 'DISTINCT'], link: 'https://leetcode.com/problems/second-highest-salary/', description: 'Return the second highest distinct salary or null.' },
+      { id: 'cg_sql_3', category: 'sql', title: 'Duplicate Emails', difficulty: 'Easy', topics: ['SQL', 'GROUP BY', 'HAVING'], link: 'https://leetcode.com/problems/duplicate-emails/', description: 'Find email addresses occurring more than once.' },
+      { id: 'cg_sql_4', category: 'sql', title: 'Customers Who Never Order', difficulty: 'Easy', topics: ['SQL', 'LEFT JOIN', 'NULL'], link: 'https://leetcode.com/problems/customers-who-never-order/', description: 'Find customers without a matching order using a left join.' },
+      { id: 'cg_sql_5', category: 'sql', title: 'Average Time of Process per Machine', difficulty: 'Easy', topics: ['SQL', 'JOIN', 'GROUP BY', 'AVG'], link: 'https://leetcode.com/problems/average-time-of-process-per-machine/', description: 'Join start and end events and calculate average process time per machine.' },
+      { id: 'cg_sql_6', category: 'sql', title: 'Monthly Transactions I', difficulty: 'Medium', topics: ['SQL', 'GROUP BY', 'Conditional Aggregation'], link: 'https://leetcode.com/problems/monthly-transactions-i/', description: 'Group transactions by month and country and calculate approved totals.' },
+      { id: 'cg_sql_7', category: 'sql', title: 'Managers with at Least 5 Direct Reports', difficulty: 'Medium', topics: ['SQL', 'SELF JOIN', 'GROUP BY', 'HAVING'], link: 'https://leetcode.com/problems/managers-with-at-least-5-direct-reports/', description: 'Use a self-join and HAVING to identify managers with enough reports.' },
+      { id: 'cg_sql_8', category: 'sql', title: 'Department Highest Salary', difficulty: 'Medium', topics: ['SQL', 'JOIN', 'GROUP BY'], link: 'https://leetcode.com/problems/department-highest-salary/', description: 'Return employees with the highest salary in each department.' },
+      { id: 'cg_sql_9', category: 'sql', title: 'Rank Scores', difficulty: 'Medium', topics: ['SQL', 'DENSE_RANK', 'Window Functions'], link: 'https://leetcode.com/problems/rank-scores/', description: 'Rank scores while giving equal values the same rank.' },
+      { id: 'cg_sql_10', category: 'sql', title: 'Customer Who Visited but Did Not Make Transactions', difficulty: 'Medium', topics: ['SQL', 'LEFT JOIN', 'GROUP BY'], link: 'https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/', description: 'Count visits that do not have a matching transaction.' },
+      { id: 'cg_front_2', category: 'frontend', title: 'Debounced Search Component', difficulty: 'Medium', topics: ['Frontend', 'React', 'JavaScript'], link: 'https://react.dev/learn/synchronizing-with-effects', description: 'Build a debounced search component that ignores stale results.' },
+      { id: 'cg_front_3', category: 'frontend', title: 'Accessible Modal', difficulty: 'Medium', topics: ['Frontend', 'DOM', 'Accessibility'], link: 'https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement', description: 'Implement Escape handling, focus return, and backdrop close behaviour.' },
+      { id: 'cg_front_4', category: 'frontend', title: 'Filterable Data Table', difficulty: 'Hard', topics: ['Frontend', 'React', 'State'], link: 'https://react.dev/learn/sharing-state-between-components', description: 'Add stable sorting, filtering, and an empty state to a starter table.' },
+      { id: 'cg_front_5', category: 'frontend', title: 'Responsive Dashboard Grid', difficulty: 'Medium', topics: ['Frontend', 'HTML/CSS', 'Responsive Design'], link: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout', description: 'Complete a responsive grid without overflow at mobile and desktop widths.' },
+      { id: 'cg_front_6', category: 'frontend', title: 'Todo Event Delegation', difficulty: 'Medium', topics: ['Frontend', 'DOM', 'Events'], link: 'https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener', description: 'Build add, toggle, delete, and filter behaviour with delegated events.' },
+      { id: 'cg_front_7', category: 'frontend', title: 'Form Validation UI', difficulty: 'Medium', topics: ['Frontend', 'HTML', 'Validation'], link: 'https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation', description: 'Add inline validation and accessible error messages to a form skeleton.' },
+      { id: 'cg_front_8', category: 'frontend', title: 'Pagination Component', difficulty: 'Medium', topics: ['Frontend', 'React', 'State'], link: 'https://react.dev/learn', description: 'Implement page navigation, disabled boundaries, and stable page size.' },
+      { id: 'cg_front_9', category: 'frontend', title: 'Keyboard Navigable Dropdown', difficulty: 'Hard', topics: ['Frontend', 'DOM', 'Accessibility'], link: 'https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/listbox_role', description: 'Complete keyboard navigation and ARIA state updates for a dropdown skeleton.' },
+      { id: 'cg_front_10', category: 'frontend', title: 'Drag and Drop Task Board', difficulty: 'Hard', topics: ['Frontend', 'React', 'DOM'], link: 'https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API', description: 'Move tasks between columns while preserving state and keyboard fallback controls.' }
+    ]
+  }
+};
+```

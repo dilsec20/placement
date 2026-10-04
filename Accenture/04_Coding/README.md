@@ -17,6 +17,13 @@
 
 ---
 
+## 🔗 Quick Practice Resources
+
+- 📝 [Previous Year Questions with Solutions (`pyq.md`)](./pyq.md)
+- 🎯 [Comprehensive Question Bank & 11-Level SQL Roadmap (`practice.md`)](./practice.md)
+
+---
+
 ## 🎯 Most Asked Topics
 
 | Priority | Topic | Frequency |
