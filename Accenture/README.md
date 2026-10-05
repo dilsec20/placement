@@ -53,7 +53,7 @@ Accenture/
 ├── 04_Coding/
 │   ├── README.md                      ← Concepts: Arrays, Strings, Algorithms (C++)
 │   ├── pyq.md                         ← PYQ Coding Problems with C++ Solutions
-│   └── practice.md                    ← Practice Question Bank & 11-Level SQL Roadmap
+│   └── practice.md                    ← Master 47 Accenture DSA Practice Bank (With LeetCode Links)
 ├── 05_Communication/
 │   ├── README.md                      ← Concepts: Spoken English, Grammar, Pronunciation
 │   └── pyq.md                         ← Sample Questions & Tips

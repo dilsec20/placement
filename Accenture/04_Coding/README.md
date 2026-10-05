@@ -20,7 +20,7 @@
 ## 🔗 Quick Practice Resources
 
 - 📝 [Previous Year Questions with Solutions (`pyq.md`)](./pyq.md)
-- 🎯 [Comprehensive Question Bank & 11-Level SQL Roadmap (`practice.md`)](./practice.md)
+- 🎯 [Master 47 Accenture DSA Practice Bank (`practice.md`)](./practice.md)
 
 ---
 
