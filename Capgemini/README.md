@@ -63,6 +63,7 @@ Every online stage is **strictly eliminatory**. Failing any single stage ends yo
 | **5️⃣** | **Cognitive & ADEPT-15** | Motion, Grid, Geo-Sudo, Switch, Digit Challenge + AON ADEPT-15 psychological consistency trap | [05_Cognitive_Assessment.md](./05_Cognitive_Assessment.md) |
 | **6️⃣** | **Technical Interview** | C++ smart pointers, Move semantics, Low-Level Design (Singleton, Factory, LRU Cache), System scaling, Project defense | [06_Technical_Interview.md](./06_Technical_Interview.md) |
 | **7️⃣** | **HR & Capgemini Values** | Capgemini's 7 Core Values, STAR behavioral interview responses, why Capgemini, role differentiation | [07_HR_and_Values.md](./07_HR_and_Values.md) |
+| **🎯** | **Master Practice Bank** | 30 Core DSA problems (with LeetCode links), SQL queries, Frontend tasks & full Question Bank | [practice.md](./practice.md) |
 
 ---
 

@@ -2,7 +2,8 @@
 
 > **Target Roles:** Alpha_Stack (₹13 LPA) | Root_Mind (₹16 LPA)  
 > **Format:** 2 Complex Problems | **Time:** ~45 mins  
-> **Cutoff for ₹13–16 LPA:** Must pass **100% of public AND private test cases**. Partial marks are insufficient for Root_Mind shortlisting.
+> **Cutoff for ₹13–16 LPA:** Must pass **100% of public AND private test cases**. Partial marks are insufficient for Root_Mind shortlisting.  
+> 🔗 **LeetCode Practice Bank:** Solve the [30 Core Algorithmic Problems in practice.md](./practice.md) with direct links & pattern walkthroughs.
 
 ---
 
