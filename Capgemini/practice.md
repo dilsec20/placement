@@ -2,7 +2,8 @@
 
 > **Super-Dream Tier Preparation Guide**  
 > Targets: **`alpha_<stack>` (₹13 LPA)** & **`root_<mind>` (₹16 LPA)**  
-> Includes the **30 Core Algorithmic Coding Problems with direct LeetCode links**, Capgemini SQL & Frontend practice tasks, and the **Complete Assessment MCQ Question Bank** (AI Literacy, Technical, English, Debugging, Prompting & Cognitive).
+> Includes the **30 Core Algorithmic Coding Problems with direct LeetCode links**, Capgemini SQL & Frontend practice tasks, and the **Complete Assessment MCQ Question Bank** (AI Literacy, Technical, English, Debugging, Prompting & Cognitive).  
+> 🚨 **Struggling with the Hard MCQs?** Master the [Advanced 3–4 Yr Industry-Level MCQ Question Bank (mcq_practice.md)](./mcq_practice.md).
 
 ---
 

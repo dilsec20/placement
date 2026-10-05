@@ -2,7 +2,8 @@
 
 > **Target Roles:** Alpha_Stack (₹13 LPA) | Root_Mind (₹16 LPA)  
 > **Format:** MCQ & Output Prediction Elimination | **Time:** ~30–40 mins  
-> **Cutoff for ₹13–16 LPA:** Aim for **>85% accuracy**. This is the highest-volume elimination gate of the entire drive.
+> **Cutoff for ₹13–16 LPA:** Aim for **>85% accuracy**. This is the highest-volume elimination gate of the entire drive.  
+> 🚨 **Full Practice Question Bank:** Practice the curated [Advanced 3–4 Yr Industry-Level MCQ Question Bank (mcq_practice.md)](./mcq_practice.md) with detailed senior-engineering explanations.
 
 ---
 
