@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juspay Express Checkout — QA Test Sandbox</title>
+  <style>
+    * { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: #f4f6f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+    .checkout-card { background: #fff; width: 440px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); overflow: hidden; border: 1px solid #e1e4e8; }
+    .header { background: #0b1f3a; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+    .header h2 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: 0.5px; }
+    .merchant-badge { font-size: 12px; background: rgba(255,255,255,0.15); padding: 4px 10px; border-radius: 20px; }
+    .amount-bar { background: #eaf3ff; padding: 14px 20px; display: flex; justify-content: space-between; font-weight: 600; color: #0b1f3a; border-bottom: 1px solid #d2e3fc; }
+    .tabs { display: flex; border-bottom: 1px solid #eee; background: #fafbfc; }
+    .tab { flex: 1; padding: 14px; text-align: center; cursor: pointer; font-weight: 500; font-size: 14px; color: #586069; border-bottom: 2px solid transparent; }
+    .tab.active { color: #0052cc; border-bottom: 2px solid #0052cc; background: white; font-weight: 600; }
+    .tab-content { padding: 24px 20px; }
+    .form-group { margin-bottom: 16px; }
+    label { display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; color: #4a5568; margin-bottom: 6px; }
+    input { width: 100%; padding: 12px; border: 1px solid #cfd7df; border-radius: 6px; font-size: 14px; transition: border 0.2s; }
+    input:focus { outline: none; border-color: #0052cc; box-shadow: 0 0 0 3px rgba(0,82,204,0.15); }
+    .row { display: flex; gap: 12px; }
+    .row .form-group { flex: 1; }
+    .error-msg { color: #d93025; font-size: 12px; margin-top: 4px; display: none; }
+    .error-banner { background: #fde8e8; border: 1px solid #f98080; color: #9b1c1c; padding: 10px; border-radius: 6px; font-size: 13px; margin-bottom: 16px; display: none; }
+    .btn-pay { width: 100%; background: #0052cc; color: white; border: none; padding: 14px; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    .btn-pay:hover { background: #0747a6; }
+    .btn-pay:disabled { background: #cfd7df; cursor: not-allowed; }
+    .footer-note { text-align: center; font-size: 11px; color: #8c9ba5; padding: 14px; border-top: 1px solid #f0f2f5; }
+    
+    /* Modal */
+    .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); display: none; justify-content: center; align-items: center; }
+    .modal-content { background: white; padding: 30px; border-radius: 12px; text-align: center; width: 380px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+    .success-icon { width: 54px; height: 54px; background: #e6f4ea; color: #137333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; margin: 0 auto 16px; }
+    .modal-content h3 { margin: 0 0 8px; color: #202124; }
+    .modal-content p { color: #5f6368; font-size: 14px; margin: 0 0 20px; }
+    .txn-badge { background: #f1f3f4; padding: 8px 12px; border-radius: 4px; font-family: monospace; font-size: 13px; color: #3c4043; display: block; margin-bottom: 20px; }
+    .btn-close-modal { background: #0052cc; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<div class="checkout-card" id="juspay-checkout-container">
+  <div class="header">
+    <h2>Juspay Express Checkout</h2>
+    <span class="merchant-badge" id="merchant-tag">SWIGGY_PROD</span>
+  </div>
+
+  <div class="amount-bar">
+    <span>Order Total (ORD_884920)</span>
+    <span id="order-amount">₹499.00</span>
+  </div>
+
+  <div id="error-banner" class="error-banner"></div>
+
+  <div class="tabs">
+    <div class="tab active" id="tab-card" onclick="switchTab('card')">Credit / Debit Card</div>
+    <div class="tab" id="tab-upi" onclick="switchTab('upi')">UPI / QR</div>
+  </div>
+
+  <!-- Card Form -->
+  <div class="tab-content" id="card-content">
+    <div class="form-group">
+      <label for="card-number">Card Number</label>
+      <input type="text" id="card-number" placeholder="4111 1111 1111 1111" maxlength="19">
+      <div class="error-msg" id="card-number-error">Card number must be 16 digits</div>
+    </div>
+
+    <div class="form-group">
+      <label for="card-holder">Cardholder Name</label>
+      <input type="text" id="card-holder" placeholder="Rahul Sharma">
+    </div>
+
+    <div class="row">
+      <div class="form-group">
+        <label for="card-expiry">Expiry (MM/YY)</label>
+        <input type="text" id="card-expiry" placeholder="12/28" maxlength="5">
+      </div>
+      <div class="form-group">
+        <label for="card-cvv">CVV</label>
+        <input type="password" id="card-cvv" placeholder="123" maxlength="4">
+        <div class="error-msg" id="card-cvv-error">CVV must be 3 or 4 digits</div>
+      </div>
+    </div>
+
+    <button type="button" class="btn-pay" id="btn-pay" onclick="submitCardPayment()">Pay ₹499.00</button>
+  </div>
+
+  <!-- UPI Form -->
+  <div class="tab-content" id="upi-content" style="display: none;">
+    <div class="form-group">
+      <label for="upi-vpa">Virtual Payment Address (VPA)</label>
+      <input type="text" id="upi-vpa" placeholder="username@oksbi">
+      <div class="error-msg" id="upi-error">Enter a valid UPI ID (e.g. user@bank)</div>
+    </div>
+    <button type="button" class="btn-pay" id="btn-pay-upi" onclick="submitUpiPayment()">Verify & Pay</button>
+  </div>
+
+  <div class="footer-note">
+    🔒 256-Bit SSL Encrypted | Powered by Juspay SafeTech
+  </div>
+</div>
+
+<!-- Success Modal -->
+<div class="modal-overlay" id="success-modal">
+  <div class="modal-content">
+    <div class="success-icon">✓</div>
+    <h3>Payment Initiated!</h3>
+    <p>Your payment request was accepted by the gateway.</p>
+    <div class="txn-badge" id="modal-txn-id">TXN: txn_pending...</div>
+    <div class="txn-badge" id="modal-status">STATUS: PENDING_VBV</div>
+    <button class="btn-close-modal" id="btn-close-modal" onclick="closeModal()">Done</button>
+  </div>
+</div>
+
+<script>
+  function switchTab(type) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    if (type === 'card') {
+      document.getElementById('tab-card').classList.add('active');
+      document.getElementById('card-content').style.display = 'block';
+      document.getElementById('upi-content').style.display = 'none';
+    } else {
+      document.getElementById('tab-upi').classList.add('active');
+      document.getElementById('card-content').style.display = 'none';
+      document.getElementById('upi-content').style.display = 'block';
+    }
+  }
+
+  function showError(msg) {
+    const banner = document.getElementById('error-banner');
+    banner.innerText = msg;
+    banner.style.display = 'block';
+  }
+
+  function clearError() {
+    document.getElementById('error-banner').style.display = 'none';
+  }
+
+  async function submitCardPayment() {
+    clearError();
+    const rawCardNum = document.getElementById('card-number').value.replace(/\s+/g, '');
+    const cardHolder = document.getElementById('card-holder').value.trim();
+    const expiry = document.getElementById('card-expiry').value.trim();
+    const cvv = document.getElementById('card-cvv').value.trim();
+
+    // UI Validations
+    if (rawCardNum.length !== 16 || !/^\d+$/.test(rawCardNum)) {
+      showError("Invalid Card Number: Must be exactly 16 numeric digits");
+      document.getElementById('card-number-error').style.display = 'block';
+      return;
+    } else {
+      document.getElementById('card-number-error').style.display = 'none';
+    }
+
+    if (cvv.length < 3 || cvv.length > 4 || !/^\d+$/.test(cvv)) {
+      showError("Invalid CVV: Must be 3 or 4 digits");
+      document.getElementById('card-cvv-error').style.display = 'block';
+      return;
+    } else {
+      document.getElementById('card-cvv-error').style.display = 'none';
+    }
+
+    // Call Mock API
+    const payBtn = document.getElementById('btn-pay');
+    payBtn.innerText = "Processing...";
+    payBtn.disabled = true;
+
+    try {
+      const resp = await fetch('/api/v1/txns/create', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer test_qa_token_jwt',
+          'x-merchant-id': 'SWIGGY_PROD',
+          'x-idempotency-key': 'UI_IDEM_' + Math.random().toString(36).substring(7)
+        },
+        body: JSON.stringify({
+          order_id: 'ORD_884920',
+          amount: 499.00,
+          currency: 'INR',
+          payment_method_type: 'CARD',
+          card: { number: rawCardNum, cvv: cvv, expiry: expiry, name: cardHolder }
+        })
+      });
+
+      const data = await resp.json();
+      if (resp.ok) {
+        document.getElementById('modal-txn-id').innerText = 'TXN ID: ' + data.txn_id;
+        document.getElementById('modal-status').innerText = 'STATUS: ' + data.status;
+        document.getElementById('success-modal').style.display = 'flex';
+      } else {
+        showError(data.message || 'Payment initiation failed.');
+      }
+    } catch (e) {
+      showError('Network error connecting to payment gateway.');
+    } finally {
+      payBtn.innerText = "Pay ₹499.00";
+      payBtn.disabled = false;
+    }
+  }
+
+  function closeModal() {
+    document.getElementById('success-modal').style.display = 'none';
+  }
+</script>
+
+</body>
+</html>

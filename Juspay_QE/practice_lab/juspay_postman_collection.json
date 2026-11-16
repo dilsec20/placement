@@ -1,0 +1,324 @@
+{
+	"info": {
+		"_postman_id": "juspay-qe-mock-suite-001",
+		"name": "Juspay QE Practice Suite (Payment Gateway)",
+		"description": "Hands-on automated API test suite for Juspay Quality Engineer candidates.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Create Valid Payment (200 OK)",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"// Generate dynamic idempotency key and order ID",
+							"pm.environment.set('current_idem_key', 'IDEM_' + Math.random().toString(36).substring(7));",
+							"pm.environment.set('current_order_id', 'ORD_' + Math.floor(Math.random() * 100000));"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200 OK', function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('Response time is under 500ms', function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});",
+							"",
+							"pm.test('Transaction ID is generated with txn_ prefix', function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('txn_id');",
+							"    pm.expect(jsonData.txn_id).to.match(/^txn_/);",
+							"    // Save txn_id for subsequent tests",
+							"    pm.environment.set('saved_txn_id', jsonData.txn_id);",
+							"});",
+							"",
+							"pm.test('Amount and Currency match request', function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.amount).to.eql(499.00);",
+							"    pm.expect(jsonData.currency).to.eql('INR');",
+							"    pm.expect(jsonData.status).to.eql('PENDING_VBV');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer test_qa_token_jwt",
+						"type": "text"
+					},
+					{
+						"key": "x-merchant-id",
+						"value": "SWIGGY_PROD",
+						"type": "text"
+					},
+					{
+						"key": "x-idempotency-key",
+						"value": "{{current_idem_key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order_id\": \"{{current_order_id}}\",\n    \"amount\": 499.00,\n    \"currency\": \"INR\",\n    \"payment_method_type\": \"CARD\",\n    \"card\": {\n        \"number\": \"4111111111111111\",\n        \"cvv\": \"123\",\n        \"expiry\": \"12/28\",\n        \"name\": \"Dilip Kumar\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/txns/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"txns",
+						"create"
+					]
+				}
+			}
+		},
+		{
+			"name": "2. Duplicate Idempotency Key Replay (200 OK Cached)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200 OK on duplicate key replay', function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('Returns exact same TXN ID (No Double Charge)', function () {",
+							"    var jsonData = pm.response.json();",
+							"    var expectedTxnId = pm.environment.get('saved_txn_id');",
+							"    pm.expect(jsonData.txn_id).to.eql(expectedTxnId);",
+							"    pm.expect(jsonData.idempotent_replay).to.be.true;",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer test_qa_token_jwt",
+						"type": "text"
+					},
+					{
+						"key": "x-merchant-id",
+						"value": "SWIGGY_PROD",
+						"type": "text"
+					},
+					{
+						"key": "x-idempotency-key",
+						"value": "{{current_idem_key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order_id\": \"{{current_order_id}}\",\n    \"amount\": 499.00,\n    \"currency\": \"INR\",\n    \"payment_method_type\": \"CARD\",\n    \"card\": {\n        \"number\": \"4111111111111111\",\n        \"cvv\": \"123\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/txns/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"txns",
+						"create"
+					]
+				}
+			}
+		},
+		{
+			"name": "3. Negative Test: Invalid 15-Digit Card (400 Bad Request)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 400 Bad Request', function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test('Error code is INVALID_CARD_NUMBER', function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error_code).to.eql('INVALID_CARD_NUMBER');",
+							"    pm.expect(jsonData.message).to.include('16 numeric digits');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer test_qa_token_jwt",
+						"type": "text"
+					},
+					{
+						"key": "x-merchant-id",
+						"value": "SWIGGY_PROD",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order_id\": \"ORD_INVALID_CARD_TEST\",\n    \"amount\": 100.00,\n    \"currency\": \"INR\",\n    \"payment_method_type\": \"CARD\",\n    \"card\": {\n        \"number\": \"411111111111111\",\n        \"cvv\": \"123\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/txns/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"txns",
+						"create"
+					]
+				}
+			}
+		},
+		{
+			"name": "4. Negative Test: Negative Amount (422 Unprocessable)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 422 Unprocessable Entity', function () {",
+							"    pm.response.to.have.status(422);",
+							"});",
+							"",
+							"pm.test('Error code is INVALID_AMOUNT', function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.error_code).to.eql('INVALID_AMOUNT');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer test_qa_token_jwt",
+						"type": "text"
+					},
+					{
+						"key": "x-merchant-id",
+						"value": "SWIGGY_PROD",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"order_id\": \"ORD_NEG_AMT\",\n    \"amount\": -250.00,\n    \"payment_method_type\": \"CARD\",\n    \"card\": {\n        \"number\": \"4111111111111111\",\n        \"cvv\": \"123\"\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/v1/txns/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"txns",
+						"create"
+					]
+				}
+			}
+		},
+		{
+			"name": "5. Query Transaction Status (200 OK)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200 OK', function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test('Transaction status is verified', function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.txn_id).to.eql(pm.environment.get('saved_txn_id'));",
+							"    pm.expect(jsonData).to.have.property('status');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/v1/txns/{{saved_txn_id}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"txns",
+						"{{saved_txn_id}}"
+					]
+				}
+			}
+		}
+	]
+}

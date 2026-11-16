@@ -57,6 +57,19 @@
 | [05_Learnathon_and_Log_Analysis.md](./05_Learnathon_and_Log_Analysis.md) | **The Full-Day Learnathon Survival Guide**: Analyzing Excel/server logs, grouping error codes, detecting transaction failures, professional bug reporting, and collaborating with your Juspay mentor. | The primary practical filter that decides 80% of final shortlists. |
 | [06_DSA_and_SQL_for_QE.md](./06_DSA_and_SQL_for_QE.md) | **Coding & Database Queries for QA**: Python & C++ solutions for top QA coding problems (strings, arrays, sliding window) + SQL queries for payment verification (joins, duplicates, pending orders). | Required for the OA coding section and live coding in Round 1. |
 | [07_Technical_and_HR_Interview.md](./07_Technical_and_HR_Interview.md) | **50+ Real Interview Questions & Word-for-Word Answers**: Reported Juspay QE interview questions, debugging scenarios, AI in testing, and behavioral/cultural responses. | Converts your interview rounds into the final offer letter. |
+| [08_Jenkins_and_CICD_Automation.md](./08_Jenkins_and_CICD_Automation.md) | **Automation Scripts & Jenkins CI/CD**: What parts of the system to automate (API, UI, DB), real Python test scripts, Jenkinsfile pipeline as code, and CI/CD quality gating. | Covers the Jenkins & Test Automation requirements in the JD. |
+| [09_Python_for_Test_Automation_Zero_to_Hero.md](./09_Python_for_Test_Automation_Zero_to_Hero.md) | 🐍 **Python for Automation (Zero to Hero)**: Absolute beginner guide to writing Python test scripts manually: syntax, dicts/lists, file & log parsing, `requests`, `pytest`, `selenium`, plus **4 plug-and-play boilerplates** for the 8-hour Learnathon. | Gives you the complete programming knowledge to write scripts from scratch even if you've never used Python before! |
+| [TASK.md](./TASK.md) | 🎯 **Interactive Hands-On Practice Tasks & Live Lab**: Step-by-step Postman assertions, runnable Pytest API suite, Selenium Web UI automation against a local mock payment server, plus Learnathon log triage. | Real practice tasks simulating what you will actually be given in the OA, Learnathon, and Interviews! |
+
+---
+
+## 🧪 Live Practice Lab in Your Workspace
+In addition to the guide docs, you have a **ready-to-run interactive sandbox** inside [`c:\Users\Dilip\Desktop\Placement\Juspay_QE\practice_lab`](./practice_lab/):
+* `mock_payment_server.py`: Local Flask payment gateway server.
+* `mock_checkout.html`: Interactive checkout web app with Card & UPI tabs.
+* `juspay_postman_collection.json`: 1-click importable Postman collection with JavaScript tests.
+* `test_api_pytest.py`: 6 automated API tests with `pytest`.
+* `test_ui_selenium.py`: 4 automated Web UI tests with `selenium`.
 
 ---
 
@@ -70,8 +83,9 @@
 * [ ] Study [03_API_Testing_and_Postman.md](./03_API_Testing_and_Postman.md) — Practice HTTP status codes, Postman JavaScript assertions, and Python `requests` scripts.
 * [ ] Study SQL queries in [06_DSA_and_SQL_for_QE.md](./06_DSA_and_SQL_for_QE.md) — Practice finding duplicate transactions, joining tables, and date filters.
 
-### 📅 Day 3: Automation (Selenium/Python) & Learnathon Simulation
+### 📅 Day 3: Automation (Selenium/Python), Jenkins & Learnathon Simulation
 * [ ] Study [04_Web_and_Mobile_Automation_Selenium_Appium.md](./04_Web_and_Mobile_Automation_Selenium_Appium.md) — Learn Page Object Model, dynamic XPath, and handling iframe payment popups.
+* [ ] Study [08_Jenkins_and_CICD_Automation.md](./08_Jenkins_and_CICD_Automation.md) — Understand what scripts Jenkins runs and master the CI/CD Quality Gate pipeline.
 * [ ] Study [05_Learnathon_and_Log_Analysis.md](./05_Learnathon_and_Log_Analysis.md) — Practice log analysis and writing structured bug reports.
 
 ### 📅 Day 4: Interview Questions & Mock Practice
