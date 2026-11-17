@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  flagship:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: acko-flagship-service
+    ports:
+      - "7001:7001"
+    environment:
+      - PORT=7001
+      - NODE_ENV=production
+    volumes:
+      - flagship-data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://localhost:7001/health').then(r => r.ok ? process.exit(0) : process.exit(1))\""]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  flagship-data:

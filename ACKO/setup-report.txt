@@ -1,0 +1,51 @@
+Acko product build – setup check
+Date: Tue Nov 17 11:03:43 PM IST 2026
+Name: Dilip Kumar
+College: Lovely Professional University
+
+1. System
+ [PASS] Windows with WSL 2 (Linux kernel 6.18.33.2-microsoft-standard-WSL2)
+ [WARN] Memory: 7 GB (8 GB is the minimum; 16 GB recommended). Close other apps on the day.
+ [PASS] Free disk: 947 GB
+
+2. Internet
+ [PASS] Internet reachable (github.com)
+
+3. Git
+ [PASS] git version 2.53.0
+ [PASS] Git identity set: Dilip Kumar <dilipkumar2832005@gmail.com>
+
+4. Docker
+ [PASS] Docker version 28.5.2+dfsg4, build 9cc6dea35e9a963f281434761c656fba4ac43aed
+ [PASS] Docker is running
+ [PASS] Docker Compose version 2.40.3-3
+ [PASS] Test container ran successfully
+ Downloading base images for the build day (this can take a few minutes)...
+ [PASS] Image ready: python:3.12-slim
+ [PASS] Image ready: node:20-slim
+ [PASS] Image ready: postgres:16-alpine
+ [PASS] Image ready: redis:7-alpine
+ [PASS] Image ready: registry:2
+ [PASS] Image ready: nginx:1.27-alpine
+
+5. Ports used by the starter kits
+ [PASS] Port 5000 is free
+ [PASS] Port 7001 is free
+ [PASS] Port 7002 is free
+ [PASS] Port 7003 is free
+ [PASS] Port 7004 is free
+ [PASS] Port 9000 is free
+
+6. Programming language (at least one needed)
+ [PASS] Python 3.14.7
+ [PASS] Node.js v24.19.0
+ [PASS] openjdk version "25.0.4" 2026-07-21
+
+7. AI coding tool
+ [PASS] AI coding tool(s) found: claude gemini
+ Tool you will use: Antigravity IDE / Claude Code
+ [PASS] AI tool confirmed working with university AI access
+ [PASS] Knows how to export session transcripts
+
+Summary: 27 passed, 1 warnings, 0 failed
+RESULT: READY

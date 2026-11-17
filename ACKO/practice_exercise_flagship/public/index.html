@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACKO Flagship — Feature Flag Dashboard</title>
+  <style>
+    :root {
+      --primary: #0052cc;
+      --success: #36b37e;
+      --danger: #de350b;
+      --bg: #f4f5f7;
+      --card-bg: #ffffff;
+      --text: #172b4d;
+      --subtext: #6b778c;
+      --border: #dfe1e6;
+    }
+    * { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    body { background: var(--bg); color: var(--text); margin: 0; padding: 24px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--border); }
+    h1 { margin: 0; font-size: 24px; display: flex; align-items: center; gap: 10px; }
+    .badge { background: #ebecf0; padding: 4px 8px; border-radius: 4px; font-size: 12px; color: var(--subtext); }
+    .grid { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }
+    .card { background: var(--card-bg); border-radius: 8px; border: 1px solid var(--border); padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 20px; }
+    h2 { font-size: 16px; margin-top: 0; margin-bottom: 16px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px; }
+    
+    /* Flags Table */
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 14px; }
+    th { color: var(--subtext); font-weight: 600; padding: 10px; border-bottom: 1px solid var(--border); }
+    td { padding: 12px 10px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+    .flag-key { font-family: monospace; font-weight: 600; color: var(--primary); }
+    .toggle { position: relative; display: inline-block; width: 44px; height: 24px; }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .3s; border-radius: 24px; }
+    .slider:before { position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; }
+    input:checked + .slider { background-color: var(--success); }
+    input:checked + .slider:before { transform: translateX(20px); }
+    
+    .range-box { display: flex; align-items: center; gap: 8px; }
+    .range-slider { width: 80px; }
+    .range-val { font-size: 12px; font-weight: 600; width: 35px; }
+
+    /* Form Controls */
+    .form-group { margin-bottom: 14px; }
+    label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 4px; color: var(--subtext); }
+    input[type="text"], input[type="number"] { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 4px; font-size: 14px; }
+    button { background: var(--primary); color: white; border: none; padding: 9px 16px; border-radius: 4px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    button:hover { background: #0747a6; }
+    .btn-danger { background: #fff0ed; color: var(--danger); border: 1px solid #ffd2cc; padding: 5px 10px; font-size: 12px; }
+    .btn-danger:hover { background: #ffbdad; }
+
+    /* Live Tester Box */
+    .eval-box { background: #f9fafc; border: 1px dashed var(--border); border-radius: 6px; padding: 14px; margin-top: 14px; }
+    .eval-result { margin-top: 10px; padding: 10px; border-radius: 4px; font-size: 13px; font-family: monospace; display: none; }
+    .eval-on { background: #e3fcef; color: #006644; border: 1px solid #abf5d1; }
+    .eval-off { background: #ffebe6; color: #bf2600; border: 1px solid #ffbdad; }
+
+    /* Audit Log list */
+    .history-list { font-size: 12px; max-height: 250px; overflow-y: auto; padding-left: 0; list-style: none; margin: 0; }
+    .history-item { padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+    .history-time { color: var(--subtext); font-size: 11px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>🚩 Flagship <span class="badge">ACKO DevEx Feature-Flag Service</span></h1>
+    <span class="badge" id="service-status">Status: Connecting...</span>
+  </header>
+
+  <div class="grid">
+    <!-- Left Column: Flag Manager -->
+    <div>
+      <div class="card">
+        <h2>Active Feature Flags</h2>
+        <table id="flags-table">
+          <thead>
+            <tr>
+              <th>Flag Key</th>
+              <th>Status</th>
+              <th>Rollout %</th>
+              <th>Evaluations (On %)</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="flags-tbody">
+            <tr><td colspan="5">Loading flags...</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>⚡ Live Flag Evaluator (Test Hashing & Rollouts)</h2>
+        <div class="eval-box">
+          <div style="display: flex; gap: 12px;">
+            <div style="flex: 1;">
+              <label>Select Flag</label>
+              <input type="text" id="eval-flag" placeholder="e.g. new-claims-flow">
+            </div>
+            <div style="flex: 1;">
+              <label>User ID</label>
+              <input type="text" id="eval-user" placeholder="e.g. user_9918">
+            </div>
+            <div style="align-self: flex-end;">
+              <button onclick="runEvaluation()">Evaluate</button>
+            </div>
+          </div>
+          <div id="eval-result" class="eval-result"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Create Flag & Audit Log -->
+    <div>
+      <div class="card">
+        <h2>Create New Flag</h2>
+        <div class="form-group">
+          <label for="new-key">Flag Key (lowercase, digits, hyphens)</label>
+          <input type="text" id="new-key" placeholder="instant-policy-download">
+        </div>
+        <div class="form-group">
+          <label for="new-desc">Description</label>
+          <input type="text" id="new-desc" placeholder="One-click PDF claims flow">
+        </div>
+        <button style="width: 100%;" onclick="createFlag()">Create Flag</button>
+      </div>
+
+      <div class="card">
+        <h2>📜 Audit Log (Change History)</h2>
+        <ul class="history-list" id="history-list">
+          <li class="history-item">Loading history...</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let metricsCache = {};
+
+  async function fetchFlags() {
+    try {
+      const [flagsRes, metricsRes, historyRes] = await Promise.all([
+        fetch('/api/v1/flags'),
+        fetch('/api/v1/metrics'),
+        fetch('/api/v1/flags/history')
+      ]);
+
+      const flagsData = await flagsRes.json();
+      const metricsData = await metricsRes.json();
+      metricsCache = metricsData.data || {};
+
+      renderFlags(flagsData.data);
+      renderHistory();
+      document.getElementById('service-status').innerText = 'Status: Healthy (200 OK)';
+      document.getElementById('service-status').style.color = '#006644';
+    } catch (e) {
+      document.getElementById('service-status').innerText = 'Status: Offline';
+      document.getElementById('service-status').style.color = '#bf2600';
+    }
+  }
+
+  function renderFlags(flags) {
+    const tbody = document.getElementById('flags-tbody');
+    if (!flags || flags.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; color:#6b778c;">No flags created yet. Use the form on the right!</td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = flags.map(f => {
+      const metric = metricsCache[f.key] || { total: 0, on_count: 0 };
+      const onPct = metric.total > 0 ? Math.round((metric.on_count / metric.total) * 100) : 0;
+
+      return `
+        <tr>
+          <td>
+            <div class="flag-key">${f.key}</div>
+            <small style="color:#6b778c;">${f.description || 'No description'}</small>
+          </td>
+          <td>
+            <label class="toggle">
+              <input type="checkbox" ${f.is_enabled ? 'checked' : ''} onchange="toggleFlag('${f.key}', this.checked)">
+              <span class="slider"></span>
+            </label>
+          </td>
+          <td>
+            <div class="range-box">
+              <input type="range" class="range-slider" min="0" max="100" value="${f.rollout_percentage}" 
+                onchange="updateRollout('${f.key}', this.value)" oninput="this.nextElementSibling.innerText = this.value + '%'">
+              <span class="range-val">${f.rollout_percentage}%</span>
+            </div>
+          </td>
+          <td>
+            <strong>${metric.total}</strong> calls (${onPct}% on)
+          </td>
+          <td>
+            <button class="btn-danger" onclick="archiveFlag('${f.key}')">Archive</button>
+          </td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  async function renderHistory() {
+    try {
+      const res = await fetch('/api/v1/flags/any/history'); // Gets global history
+      const data = await res.json();
+      const list = document.getElementById('history-list');
+      const items = (data.data || []).slice(-10).reverse();
+
+      if (items.length === 0) {
+        list.innerHTML = '<li class="history-item" style="color:#6b778c;">No history recorded yet.</li>';
+        return;
+      }
+
+      list.innerHTML = items.map(h => `
+        <li class="history-item">
+          <strong>${h.action}</strong> on <code>${h.flag_key}</code> by <em>${h.performed_by}</em>
+          <div class="history-time">${new Date(h.timestamp).toLocaleTimeString()}</div>
+        </li>
+      `).join('');
+    } catch (e) {}
+  }
+
+  async function createFlag() {
+    const key = document.getElementById('new-key').value.trim();
+    const desc = document.getElementById('new-desc').value.trim();
+    if (!key) return alert('Key is required');
+
+    const res = await fetch('/api/v1/flags', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-User': 'dilip-ui' },
+      body: JSON.stringify({ key, description: desc })
+    });
+    if (res.ok) {
+      document.getElementById('new-key').value = '';
+      document.getElementById('new-desc').value = '';
+      fetchFlags();
+    } else {
+      const err = await res.json();
+      alert(err.error || 'Failed to create flag');
+    }
+  }
+
+  async function toggleFlag(key, isEnabled) {
+    await fetch(`/api/v1/flags/${key}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json', 'X-User': 'dilip-ui' },
+      body: JSON.stringify({ is_enabled: isEnabled })
+    });
+    fetchFlags();
+  }
+
+  async function updateRollout(key, pct) {
+    await fetch(`/api/v1/flags/${key}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json', 'X-User': 'dilip-ui' },
+      body: JSON.stringify({ rollout_percentage: parseInt(pct, 10) })
+    });
+    fetchFlags();
+  }
+
+  async function archiveFlag(key) {
+    if (!confirm(`Are you sure you want to archive flag '${key}'?`)) return;
+    await fetch(`/api/v1/flags/${key}`, {
+      method: 'DELETE',
+      headers: { 'X-User': 'dilip-ui' }
+    });
+    fetchFlags();
+  }
+
+  async function runEvaluation() {
+    const flagKey = document.getElementById('eval-flag').value.trim();
+    const userId = document.getElementById('eval-user').value.trim();
+    const resBox = document.getElementById('eval-result');
+
+    if (!flagKey || !userId) return alert('Enter both flag key and user ID');
+
+    const start = performance.now();
+    const res = await fetch(`/api/v1/evaluate?flag_key=${encodeURIComponent(flagKey)}&user_id=${encodeURIComponent(userId)}`);
+    const data = await res.json();
+    const elapsed = (performance.now() - start).toFixed(2);
+
+    resBox.style.display = 'block';
+    if (data.is_enabled) {
+      resBox.className = 'eval-result eval-on';
+      resBox.innerHTML = `✅ <strong>ON</strong> | Reason: "${data.reason}" | Latency: ${elapsed}ms`;
+    } else {
+      resBox.className = 'eval-result eval-off';
+      resBox.innerHTML = `❌ <strong>OFF</strong> | Reason: "${data.reason}" | Latency: ${elapsed}ms`;
+    }
+    fetchFlags(); // refresh metrics
+  }
+
+  // Poll flags every 5 seconds
+  fetchFlags();
+  setInterval(fetchFlags, 5000);
+</script>
+
+</body>
+</html>
