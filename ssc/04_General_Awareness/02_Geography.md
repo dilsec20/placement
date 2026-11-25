@@ -8,9 +8,10 @@
 3. [Protected Areas & Biodiversity](#national-parks-of-india-complete-list) (National Parks, Wildlife Sanctuaries, Tiger Reserves, Elephant Reserves, Bird Sanctuaries, Biosphere Reserves, Ramsar Sites)
 4. [Dams, Lakes, Soils & Agriculture](#1-dams-and-multipurpose-river-valley-projects) (Dams, River Projects, Lakes, Soils, Crops, Revolutions, Research Institutes)
 5. [Minerals, Energy, Industries & Transport](#5-minerals-and-mining) (Ores, Power Plants, Steel Plants, Railways, Highways, Waterways, Ports)
-6. [World Geography](#world-geography) (Continents, Oceans, Mountains, Straits, Deserts, Rivers, Lakes, Waterfalls, Grasslands, Currents, Boundaries)
-7. [SSC CHSL / CGL Geography PYQs (Last 10 Years)](#ssc-chsl--cgl-geography-pyqs-last-10-years)
-8. [Exam Strategy, National Symbols & States Quick Reference](#exam-strategy-for-geography)
+6. [Census of India 2011 & Demographics](#census-of-india-2011--complete-ssc-master-guide)
+7. [World Geography](#world-geography) (Continents, Oceans, Mountains, Straits, Deserts, Rivers, Lakes, Waterfalls, Grasslands, Currents, Boundaries)
+8. [SSC CHSL / CGL Geography PYQs (Last 10 Years)](#ssc-chsl--cgl-geography-pyqs-last-10-years)
+9. [Exam Strategy, National Symbols & States Quick Reference](#exam-strategy-for-geography)
 
 ---
 ## Physical Geography
@@ -2076,6 +2077,288 @@ Jet streams are fast-moving (~150–300+ km/h), narrow bands of upper-tropospher
 - **Longest NH:** NH-44 (Srinagar–Kanyakumari) | **Shortest NH:** NH-327B (1.2 km, WB) | **Longest Expressway:** Delhi–Mumbai Expressway (NE-4).
 - **Longest Railway Route:** Vivek Express | **Longest Platform:** Hubballi (1,507 m) | **Highest Rail Arch Bridge:** Chenab (359 m) | **Longest Rail Tunnel:** T-50 (12.775 km, USBRL) | **Longest NW:** NW-1 (1,620 km, Prayagraj–Haldia).
 - **Oldest Major Port:** Syama Prasad Mookerjee / Kolkata (Riverine) | **Largest Container Major Port:** JNPT | **Largest Port Overall (Cargo/Container):** Deendayal (Major) / Mundra (Commercial overall) | **First Deepwater Transshipment Port:** Vizhinjam (Kerala).
+
+---
+
+## Census of India 2011 — Complete SSC Master Guide
+
+---
+
+### 1. History & Constitutional Provisions of Census in India
+
+| Parameter | Key Fact / Detail (Exam-Tested) |
+| :--- | :--- |
+| **Constitutional Basis** | **Article 246** of the Indian Constitution; **Entry 69 of the Union List** (7th Schedule) |
+| **Statutory Act** | **Census Act, 1948** (enacted on 3 September 1948) |
+| **Nodal Ministry & Agency** | Conducted by the **Office of the Registrar General & Census Commissioner, India (ORGI)** under the **Ministry of Home Affairs (MHA)** |
+| **First Non-Synchronous Census** | **1872**, during the Viceroyalty of **Lord Mayo** |
+| **First Synchronous (Regular Decennial) Census** | **1881**, during the Viceroyalty of **Lord Ripon**; First Census Commissioner: **W.C. Plowden** |
+| **Year of Great Divide** | **1921** — the **only decade (1911–1921)** in India's history to record **negative population growth (-0.31%)** due to the **1918 Spanish Flu (influenza) pandemic** and severe famines |
+| **Year of Small Divide** | **1951** — growth rate dropped slightly from 14.22% (1931–41) to 13.31% (1941–51) |
+| **First Census of Independent India** | **1951** (7th overall synchronous / 9th overall); Census Commissioner: **R.A. Gopalaswami** |
+| **Highest-Ever Decadal Growth Rate** | **1961–1971** at **+24.80%** (Period of Population Explosion: 1951–1981) |
+| **Census 2011 Edition Number** | **15th National Census** overall (since 1872) and **7th Census after Independence** (since 1951) |
+| **Registrar General & Census Commissioner (2011)** | **Dr. C. Chandramouli** |
+| **Motto / Slogan (2011)** | **"Our Census, Our Future"** |
+| **Mascot (2011)** | **A female enumerator (teacher)** |
+| **Two Phases of Census 2011** | **Phase 1:** House-listing & Housing Census (April–September 2010)<br>**Phase 2:** Population Enumeration (9–28 February 2011; Reference Date: **00:00 hours of 1 March 2011**) |
+| **Coverage** | **35 States/UTs**, **640 Districts**, 5,924 sub-districts, 7,935 towns, and ~6.41 lakh villages |
+| **Special Additions in 2011** | First time **Third Gender ("Other")** recorded separately in Census; **National Population Register (NPR)** biometric/demographic data collected; **SECC 2011** (Socio-Economic and Caste Census — first caste-related enumeration since **1931**, conducted separately by MoRD/MoHUA) |
+
+> **Exam Pointer — Evolution of Census Timeline:**
+> - **1872** (Lord Mayo) → **1881** (Lord Ripon, W.C. Plowden) → **1921** (Great Divide, `-0.31%`) → **1931** (Last full Caste Census by J.H. Hutton) → **1951** (1st Independent Census, R.A. Gopalaswami) → **1971** (Peak decadal growth `24.80%`) → **2011** (15th Census, Dr. C. Chandramouli).
+
+---
+
+### 2. All-India Headline Figures (Census 2011)
+
+| Demographic Indicator | Census 2011 Figure | Census 2001 Figure / Notes |
+| :--- | :--- | :--- |
+| **Total Population** | **1,210,854,977 (~121.08 Crore)** | **17.5%** of world population on **2.4%** of world land area (2nd most populous after China in 2011; UP + Maharashtra > USA? Combined ~31.2 Cr, comparable to USA) |
+| **Male Population** | **623,270,258 (~62.32 Crore / 51.47%)** | — |
+| **Female Population** | **587,584,719 (~58.76 Crore / 48.53%)** | — |
+| **Absolute Decadal Addition (2001–11)** | **+181.96 million (~18.20 Crore)** | First decade (since 1911–21) to add fewer people than the preceding decade |
+| **Decadal Growth Rate (2001–2011)** | **17.7%** *(17.64% provisional)* | Down from **21.54%** in 1991–2001 (**Rural: 12.3%**, **Urban: 31.8%**) |
+| **Average Annual Exponential Growth** | **1.64%** | Down from **1.97%** in 1991–2001 |
+| **Population Density** | **382 persons/km²** | Up by +57 from **325 persons/km²** in 2001 |
+| **Overall Sex Ratio** | **943 females per 1,000 males** | Up by +10 from **933** in 2001 *(Highest since 1971)* |
+| **Child Sex Ratio (0–6 years)** | **919 females per 1,000 males** | Down by -8 from **927** in 2001 *(Lowest since Independence!)* |
+| **Literacy Rate (Age 7+ years)** | **74.04%** *(Provisional / most asked in SSC)*<br>**73.0%** *(Final Primary Census Abstract)* | Up from **64.83%** in 2001; Male–Female literacy gap: **16.68%** (Provisional) / **16.3%** (Final) |
+| **Male Literacy Rate** | **82.14%** *(Provisional)* / **80.9%** *(Final)* | Up from **75.26%** in 2001 |
+| **Female Literacy Rate** | **65.46%** *(Provisional)* / **64.6%** *(Final)* | Up from **53.67%** in 2001 |
+| **Rural Population** | **833,463,448 (~83.35 Crore / 68.84%)** | Down from **72.19%** in 2001 |
+| **Urban Population** | **377,106,125 (~37.71 Crore / 31.16%)** | Up from **27.81%** in 2001 |
+| **Scheduled Castes (SC)** | **201,378,372 (~20.14 Crore / 16.63% ≈ 16.6%)** | Up from **16.2%** in 2001 |
+| **Scheduled Tribes (ST)** | **104,545,716 (~10.45 Crore / 8.63% ≈ 8.6%)** | Up from **8.2%** in 2001 *(often rounded as ~10.43 Cr / 8.6%)* |
+| **0–6 Years Child Population** | **164.5 million (~16.45 Crore / 13.6%)** | Down from **15.9%** in 2001 |
+| **Slum Population (2011)** | **65.49 million (~6.55 Crore / 5.4% of total, 17.4% of urban)** | Maharashtra has highest absolute slum population |
+
+> **Important SSC Trap on Literacy:**
+> Census 2011 **Provisional** figures (**74.04%** Total, **82.14%** Male, **65.46%** Female) are the ones most frequently printed in SSC CHSL/CGL/GD answer keys. However, the **Final PCA** figures (**73.0%** Total, **80.9%** Male, **64.6%** Female) are also occasionally tested. Check options carefully!
+
+---
+
+### 3. Complete State & UT Rankings (Top 3 & Bottom 3 for Every Metric)
+
+#### 3.1 Total Population (States & UTs)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Populous States** | **Uttar Pradesh** (19.98 Cr / **16.51%**) | **Maharashtra** (11.24 Cr / 9.28%) | **Bihar** (10.41 Cr / 8.60%) | 4th: **West Bengal** (9.13 Cr); 5th: **Andhra Pradesh** (undivided, 8.46 Cr) |
+| **Lowest Populous States** | **Sikkim** (6,10,577 / **6.10 lakh**) | **Mizoram** (10.97 lakh) | **Arunachal Pradesh** (13.84 lakh) | 4th lowest: **Goa** (14.59 lakh); 5th lowest: **Nagaland** (19.79 lakh) |
+| **Highest Populous UTs** | **Delhi (NCT)** (1.68 Cr) | **Puducherry** (12.48 lakh) | **Chandigarh** (10.55 lakh) | Delhi alone exceeds several small states |
+| **Lowest Populous UTs** | **Lakshadweep** (64,473) | **Daman & Diu** (2.43 lakh) | **Dadra & Nagar Haveli** (3.44 lakh) | **Lakshadweep** is the least populous administrative unit in India |
+
+---
+
+#### 3.2 Population Density (Persons per km²)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Density (States)** | **Bihar** (**1,106**) | **West Bengal** (**1,028**) | **Kerala** (**860**) | 4th: **Uttar Pradesh** (**829**); 5th: **Haryana** (573) |
+| **Lowest Density (States)** | **Arunachal Pradesh** (**17**) | **Mizoram** (**52**) | **Sikkim** (**86**) | 4th lowest: **Nagaland** (119); 5th lowest: **Himachal Pradesh** (123) |
+| **Highest Density (UTs / All-India)** | **Delhi** (**11,320** *(11,297 prov.)*) | **Chandigarh** (**9,258**) | **Puducherry** (**2,547**) | **Delhi** has the highest density in all of India |
+| **Lowest Density (UTs)** | **Andaman & Nicobar Islands** (**46**) | **Dadra & Nagar Haveli** (700) | **Lakshadweep** (2,149) | A&N Islands is lowest among UTs (still higher than Arunachal's 17) |
+
+---
+
+#### 3.3 Decadal Population Growth Rate (2001–2011)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Growth (States)** | **Meghalaya** (**+27.9%** / 27.82%) | **Arunachal Pradesh** (**+26.0%** / 25.92%) | **Bihar** (**+25.4%**) | 4th: **Jammu & Kashmir** (23.6%); 5th: **Mizoram** (22.8%) |
+| **Lowest / Negative Growth (States)** | **Nagaland** (**-0.6%** / -0.47%) | **Kerala** (**+4.9%**) | **Goa** (**+8.2%**) | **Nagaland** is the **ONLY state** in India with **negative decadal growth** in 2001–2011 |
+| **Highest Growth (UTs / All-India)** | **Dadra & Nagar Haveli** (**+55.9%**) | **Daman & Diu** (**+53.8%**) | **Puducherry** (**+28.1%**) | **Dadra & Nagar Haveli** had the highest growth across all States + UTs |
+| **Lowest Growth (UTs)** | **Lakshadweep** (**+6.3%**) | **Andaman & Nicobar Islands** (**+6.9%**) | **Chandigarh** (**+17.2%**) | — |
+
+---
+
+#### 3.4 Overall Sex Ratio (Females per 1,000 Males)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Sex Ratio (States)** | **Kerala** (**1,084**) | **Tamil Nadu** (**996**) | **Andhra Pradesh** (**993**) | 4th: **Chhattisgarh** (**991**); 5th: **Meghalaya** (**989**) |
+| **Lowest Sex Ratio (States)** | **Haryana** (**879**) | **Jammu & Kashmir** (**889**) | **Sikkim** (**890**) | 4th lowest: **Punjab** (**895**); 5th lowest: **Uttar Pradesh** (**912**) |
+| **Highest Sex Ratio (UTs)** | **Puducherry** (**1,037**) | **Lakshadweep** (**946**) | **Andaman & Nicobar Islands** (**876**) | Only **Kerala** (State) and **Puducherry** (UT) have >1,000 females per 1,000 males |
+| **Lowest Sex Ratio (UTs / All-India)** | **Daman & Diu** (**618**) | **Dadra & Nagar Haveli** (**774**) | **Chandigarh** (**818**) | **Daman & Diu (618)** has the lowest sex ratio in all of India |
+| **District Extremes (Sex Ratio)** | **Highest District:** **Mahe** (Puducherry) — **1,184** *(1,176 prov.)* | **2nd Highest District:** **Almora** (Uttarakhand) — **1,139** | **Lowest District:** **Daman** (Daman & Diu) — **533** | 2nd lowest district: **Leh** (J&K/Ladakh) — **690** |
+
+---
+
+#### 3.5 Child Sex Ratio (0–6 Years Age Group)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Child Sex Ratio (States)** | **Arunachal Pradesh** (**972**) | **Mizoram** (**970**) | **Meghalaya** (**970**) | 4th: **Chhattisgarh** (**969**) |
+| **Lowest Child Sex Ratio (States)** | **Haryana** (**834**) | **Punjab** (**846**) | **Jammu & Kashmir** (**862**) | **Haryana** is lowest in both overall (879) & child sex ratio (834); *(830 in 2011 provisional)* |
+| **Highest / Lowest Child Sex Ratio (UTs)** | **Highest UT:** **Andaman & Nicobar** (**968**) | **2nd Highest UT:** **Puducherry** (**967**) | **Lowest UT:** **Delhi** (**871**) / **Chandigarh** (**880**) | Kerala's child sex ratio is **964** (lower than Arunachal Pradesh!) |
+
+---
+
+#### 3.6 Literacy Rate (Age 7+ Years — Final Census 2011 Data)
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest Overall Literacy (States)** | **Kerala** (**94.00%**) | **Mizoram** (**91.33%**) | **Goa** (**88.70%**) | 4th: **Tripura** (**87.22%**); 5th: **Himachal Pradesh** (**82.80%**) |
+| **Lowest Overall Literacy (States)** | **Bihar** (**61.80%**) | **Arunachal Pradesh** (**65.38%**) | **Rajasthan** (**66.11%**) | 4th lowest: **Jharkhand** (**66.41%**); 5th lowest: **Andhra Pradesh** (**67.02%**) |
+| **Highest Overall Literacy (UTs)** | **Lakshadweep** (**91.85%**) | **Daman & Diu** (**87.10%**) | **Andaman & Nicobar** (**86.63%**) | **Lakshadweep** ranks 2nd overall across all States + UTs (after Kerala) |
+| **Lowest Overall Literacy (UTs)** | **Dadra & Nagar Haveli** (**76.24%**) | **Puducherry** (**85.85%**) | **Chandigarh** (**86.05%**) | Dadra & Nagar Haveli saw the highest decadal jump (+18.6% points) |
+| **Male Literacy Extremes (States)** | **Highest:** **Kerala** (**96.11%**) | **2nd Highest:** **Mizoram** (**93.35%**) | **Lowest:** **Bihar** (**71.20%**) | 2nd lowest Male literacy: **Arunachal Pradesh** (**72.55%**) |
+| **Female Literacy Extremes (States)** | **Highest:** **Kerala** (**92.07%**) | **2nd Highest:** **Mizoram** (**89.27%**) | **Lowest:** **Bihar** (**51.50%**) | 2nd lowest Female literacy: **Rajasthan** (**52.12%**) — **highest gender literacy gap** is in **Rajasthan** (~27.07%) |
+| **District Extremes (Literacy)** | **Highest District:** **Serchhip** (Mizoram) — **97.91%** *(98.76% prov.)* | **2nd Highest District:** **Aizawl** (Mizoram) — **97.89%** | **Lowest District:** **Alirajpur** (Madhya Pradesh) — **36.10%** *(37.22% in some rural cohorts)* | **Bihar** is lowest overall state, **Alirajpur (MP)** is lowest district! |
+
+---
+
+#### 3.7 Urbanization & Rural Share
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Additional SSC Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Highest % Urbanized (States)** | **Goa** (**62.17% ≈ 62.2%**) | **Mizoram** (**52.11%**) | **Tamil Nadu** (**48.40%**) | 4th: **Kerala** (**47.7%**); 5th: **Maharashtra** (**45.2%**) |
+| **Highest Urban Pop. (Absolute Count)** | **Maharashtra** (~5.08 Cr) | **Uttar Pradesh** (~4.45 Cr) | **Tamil Nadu** (~3.49 Cr) | Maharashtra has the largest absolute number of urban residents |
+| **Highest % Rural (States)** | **Himachal Pradesh** (**89.97% ≈ 90.0%**) | **Bihar** (**88.71%**) | **Assam** (**85.90%**) | 4th: **Odisha** (**83.3%**); **UP** has highest absolute rural population (~15.53 Cr) |
+| **Highest % Urbanized (UTs)** | **Delhi** (**97.50%**) | **Chandigarh** (**97.25%**) | **Lakshadweep** (**78.07%**) | Delhi is the most urbanized administrative unit in India |
+
+---
+
+#### 3.8 Scheduled Castes (SC) & Scheduled Tribes (ST) Demographics
+
+| Category | Rank 1 (Extreme) | Rank 2 | Rank 3 | Zero-Population / SSC Trap |
+| :--- | :--- | :--- | :--- | :--- |
+| **SC — Highest Absolute Population** | **Uttar Pradesh** (~4.14 Cr) | **West Bengal** (~2.15 Cr) | **Bihar** (~1.66 Cr) | UP accounts for ~20.5% of India's total SC population |
+| **SC — Highest % Share (States)** | **Punjab** (**31.94% ≈ 31.9%**) | **Himachal Pradesh** (**25.19% ≈ 25.2%**) | **West Bengal** (**23.51% ≈ 23.5%**) | Among UTs, **Chandigarh** has the highest SC % (**18.9%**) |
+| **SC — Zero (0%) Population** | **Nagaland, Arunachal Pradesh** (States) | **Lakshadweep, Andaman & Nicobar Islands** (UTs) | — | **Mizoram** has the lowest non-zero SC % among states (**0.11%** / 1,218 people) |
+| **ST — Highest Absolute Population** | **Madhya Pradesh** (~1.53 Cr) | **Maharashtra** (~1.05 Cr) | **Odisha** (~0.96 Cr) | MP accounts for ~14.7% of India's total ST population |
+| **ST — Highest % Share (States)** | **Mizoram** (**94.43% ≈ 94.4%**) | **Nagaland** (**86.48% ≈ 86.5%**) | **Meghalaya** (**86.15% ≈ 86.1%**) | **Lakshadweep (94.8%)** has the highest ST % overall (State + UT combined) |
+| **ST — Zero (0%) Population** | **Punjab, Haryana** (States) | **Delhi, Chandigarh, Puducherry** (UTs) | — | **5 States/UTs** have zero notified ST population |
+
+---
+
+#### 3.9 Religious Composition (Census 2011)
+
+| Religion | Population (Approx.) | % of Total Population | Key State / UT Fact (Exam-Tested) |
+| :--- | :--- | :--- | :--- |
+| **Hindu** | 96.63 Crore | **79.80%** | Majority in 28 States/UTs; Highest % in **Himachal Pradesh (95.17%)** |
+| **Muslim** | 17.22 Crore | **14.23%** | Highest absolute in **UP**; Highest % in **Lakshadweep (96.58%)** & **J&K (68.31%)**; **Assam (34.22%)** |
+| **Christian** | 2.78 Crore | **2.30%** | Highest % in **Nagaland (87.93%)**, **Mizoram (87.16%)**, **Meghalaya (74.59%)**; Highest absolute in **Kerala** |
+| **Sikh** | 2.08 Crore | **1.72%** | Majority in **Punjab (57.69%)** |
+| **Buddhist** | 84.43 Lakh | **0.70%** | Highest absolute in **Maharashtra** (~65.3 lakh); Highest % in **Sikkim (27.39%)** & **Arunachal Pradesh (11.77%)** |
+| **Jain** | 44.52 Lakh | **0.37%** | Highest absolute & % in **Maharashtra** (~14 lakh / 1.25%); **Delhi** & **Rajasthan** next |
+| **Other Religions & Persuasions** | 79.38 Lakh | **0.66%** | Includes indigenous tribal faiths (e.g., Sarna, Donyi-Polo); **Jharkhand** & **Odisha** prominent |
+| **Religion Not Stated** | 28.67 Lakh | **0.24%** | Recorded separately for the first time clearly |
+
+---
+
+#### 3.10 Largest Cities / Urban Agglomerations (UAs) & District Extremes
+
+| Category | Rank 1 | Rank 2 | Rank 3 | Rank 4 & 5 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Largest Urban Agglomerations (UAs)** | **Mumbai UA** (**18.39M ≈ 18.4M**) | **Delhi UA** (**16.35M ≈ 16.3M**) | **Kolkata UA** (**14.06M ≈ 14.1M**) | 4. **Chennai UA** (**8.65M**)<br>5. **Bengaluru UA** (**8.52M**) |
+| **Largest Municipal Corporations (Cities Proper)** | **Mumbai** (1.24 Cr) | **Delhi** (1.10 Cr) | **Bengaluru** (84.4 lakh) | 4. **Hyderabad** (68.1 lakh)<br>5. **Ahmedabad** (55.7 lakh) |
+| **Most & Least Populous Districts** | **Most Populous:** **Thane** (Maharashtra, **1.106 Crore** — *prior to 2014 bifurcation*) | **2nd Most Populous:** **North 24 Parganas** (West Bengal, ~1.00 Crore) | **Least Populous:** **Dibang Valley** (Arunachal Pradesh, **8,004**) | **2nd Least Populous:** **Anjaw** (Arunachal Pradesh, **21,167**) |
+| **Largest & Smallest Districts (by Area)** | **Largest:** **Kachchh** (Gujarat, 45,652 km²) | **2nd Largest:** **Leh** (Ladakh/J&K, 45,110 km²) | **Smallest:** **Mahe** (Puducherry, **9 km²**) | **2nd Smallest:** **Central Delhi** (21 km²) |
+
+---
+
+### 4. Demographic Transition Theory & National Population Policy (NPP 2000)
+
+#### 4.1 Demographic Transition Theory (DTT) — Four Stages
+
+| Stage | Birth Rate (CBR) | Death Rate (CDR) | Natural Growth | Characteristics & India's Position |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stage 1: High Stationary** | High | High | Very Low / Fluctuating | Agrarian economy, epidemics, famines *(India before 1921)* |
+| **Stage 2: Early Expanding** | High | **Sharply Falling** | **Very High (Population Explosion)** | Better sanitation, vaccines, food supply *(India: 1921–1981/1991)* |
+| **Stage 3: Late Expanding** | **Declining** | Low | Moderating / Slowing | Urbanization, female literacy, family planning *(**India's Current Stage**, moving toward Stage 4)* |
+| **Stage 4: Low Stationary** | Low | Low | Zero / Stable (or Negative) | Developed nations; TFR ≤ 2.1 *(Already reached by Kerala, Tamil Nadu, Goa, etc.)* |
+
+#### 4.2 National Population Policy (NPP), 2000
+
+- **Adopted:** **15 February 2000** (based on **M.S. Swaminathan Committee** draft, 1994), replacing coercive targets with a **voluntary, Reproductive & Child Health (RCH)** approach.
+- **Three-Tier Objectives:**
+  1. **Immediate Objective:** Address unmet needs for contraception, health infrastructure, and integrated RCH services.
+  2. **Medium-Term Objective:** Bring **Total Fertility Rate (TFR)** down to **replacement level (2.1)** by **2010** *(later achieved nationally in NFHS-5, 2019–21, at TFR 2.0)*.
+  3. **Long-Term Objective:** Achieve a **stable population by 2045** (consistent with sustainable economic growth, social development, and environmental protection).
+- **Key NPP 2000 Targets:**
+  - Reduce **IMR** to **below 30** per 1,000 live births.
+  - Reduce **MMR** to **below 100** per 100,000 live births.
+  - Achieve **100% registration** of births, deaths, marriages, and pregnancies.
+  - Freeze Lok Sabha/State Assembly seat allocation until **2026** (enacted via **84th Constitutional Amendment Act, 2001**, using the **1971 Census** base).
+
+#### 4.3 Core Demographic Terms (SSC One-Liners)
+
+| Term | Exact Definition | Exam Key Number / Fact |
+| :--- | :--- | :--- |
+| **Crude Birth Rate (CBR)** | Live births per **1,000 mid-year population** per year | Declining across India since 1971 |
+| **Crude Death Rate (CDR)** | Deaths per **1,000 mid-year population** per year | Steep decline post-1921 triggered Stage 2 |
+| **Total Fertility Rate (TFR)** | Average number of children born to a woman during her reproductive years (15–49) | **Replacement Level = 2.1** |
+| **Infant Mortality Rate (IMR)** | Deaths of infants aged **under 1 year** per **1,000 live births** | NPP 2000 target: **< 30** |
+| **Maternal Mortality Ratio (MMR)** | Maternal deaths per **100,000 live births** | NPP 2000 target: **< 100** |
+| **Natural Growth Rate** | `CBR − CDR` (excludes migration) | Positive when births exceed deaths |
+| **Demographic Dividend** | Economic growth potential arising when the **working-age population (15–64 years)** exceeds the dependent population (`0–14` and `65+`) | India's working-age share is peaking between 2020 and 2040 |
+| **Literacy Definition (Census)** | A person aged **7 years and above** who can both **read and write with understanding** in any language | Prior to 1991, age cutoff was **4+ years** (changed to **7+** in 1991 Census) |
+
+---
+
+### 5. Top 15 Census 2011 SSC CHSL / CGL PYQs (Solved with Explanations)
+
+**Q1. Which year is known as the "Year of Great Divide" in the demographic history of India?**
+- **Answer:** **1921**
+- **Explanation:** The 1911–1921 decade is the **only decade** in India's Census history to record a negative population growth rate (**-0.31%**) due to the 1918 Spanish Flu pandemic and widespread famines. After 1921, India's population grew continuously.
+
+**Q2. According to Census 2011, which Indian state recorded a negative decadal population growth rate?**
+- **Answer:** **Nagaland (-0.6% / -0.47%)**
+- **Explanation:** Nagaland was the sole state with negative decadal growth during 2001–2011. Meghalaya recorded the highest state growth (**+27.9%**), and Dadra & Nagar Haveli recorded the highest overall (**+55.9%**).
+
+**Q3. What was India's overall population density as per the Census of India 2011?**
+- **Answer:** **382 persons per sq. km**
+- **Explanation:** Population density increased by 57 persons/km² from **325** in 2001 to **382** in 2011. Among states, **Bihar (1,106)** is highest and **Arunachal Pradesh (17)** is lowest; among all States/UTs, **Delhi (11,320)** is highest.
+
+**Q4. Which state has the highest Child Sex Ratio (0–6 years) according to Census 2011?**
+- **Answer:** **Arunachal Pradesh (972)**
+- **Explanation:** SSC frequently sets **Kerala** as a distractor! While Kerala tops the *overall* sex ratio (**1,084**), **Arunachal Pradesh (972)** tops the *Child Sex Ratio (0–6 years)*, followed by Mizoram and Meghalaya (**970** each). **Haryana (834)** is lowest in both.
+
+**Q5. As per Census 2011, which Union Territory has the lowest overall sex ratio in India?**
+- **Answer:** **Daman and Diu (618 females per 1,000 males)**
+- **Explanation:** Daman & Diu (618) is the lowest across all States and UTs, largely due to male-dominated industrial/migrant labor. Among districts, **Daman (533)** is lowest and **Mahe, Puducherry (1,184)** is highest.
+
+**Q6. What was the literacy rate of India (and male/female rates) in Census 2011?**
+- **Answer:** **74.04%** *(Provisional)* / **73.0%** *(Final)* — Male: **82.14%** *(80.9% final)*, Female: **65.46%** *(64.6% final)*
+- **Explanation:** Literacy is calculated only for the population aged **7 years and above**. The male–female literacy gap in 2011 stood at **16.68%** (provisional).
+
+**Q7. Which district in India recorded the highest literacy rate in Census 2011?**
+- **Answer:** **Serchhip (Mizoram) — 97.91%** *(98.76% provisional)*
+- **Explanation:** While **Kerala (94.00%)** is the most literate *state* and **Lakshadweep (91.85%)** is the most literate *UT*, **Serchhip** is the most literate *district*, and **Alirajpur (Madhya Pradesh)** is the least literate *district* (**36.10%**).
+
+**Q8. According to Census 2011, which state has the highest percentage of Scheduled Caste (SC) population?**
+- **Answer:** **Punjab (31.9%)**
+- **Explanation:** Distinguish between *absolute count* and *percentage*: **Uttar Pradesh** has the highest *absolute* SC population (~4.14 Cr), whereas **Punjab (31.94%)** has the highest *percentage* share of SCs. Nagaland, Arunachal Pradesh, Lakshadweep, and A&N Islands have **zero** SC population.
+
+**Q9. Which state/UT has the highest percentage of Scheduled Tribe (ST) population, and which states have zero ST population?**
+- **Answer:** Highest % State: **Mizoram (94.4%)**; Highest % overall (UT): **Lakshadweep (94.8%)**; Zero ST: **Punjab, Haryana, Delhi, Chandigarh, Puducherry**
+- **Explanation:** By *absolute count*, **Madhya Pradesh** (~1.53 Cr) ranks 1st for STs, followed by Maharashtra and Odisha.
+
+**Q10. Who was the Registrar General and Census Commissioner of India for the 2011 Census, and what was its motto?**
+- **Answer:** **Dr. C. Chandramouli**; Motto: **"Our Census, Our Future"**
+- **Explanation:** Census 2011 was the **15th National Census** overall and the **7th after Independence**, conducted under the Census Act, 1948 by the Ministry of Home Affairs.
+
+**Q11. Under which Constitutional provision and Schedule Entry is the Census of India conducted?**
+- **Answer:** **Article 246**; **Entry 69 of the Union List (7th Schedule)**
+- **Explanation:** Census is an exclusive Union subject under the Ministry of Home Affairs, governed by the **Census Act, 1948**.
+
+**Q12. According to Census 2011, which state has the highest percentage of rural population and which has the highest percentage of urban population?**
+- **Answer:** Highest % Rural: **Himachal Pradesh (~90.0% / 89.97%)**; Highest % Urban: **Goa (~62.2% / 62.17%)**
+- **Explanation:** By *absolute count*, **Uttar Pradesh** has the largest rural population (~15.53 Cr) and **Maharashtra** has the largest urban population (~5.08 Cr). Overall India is **68.84% rural** and **31.16% urban**.
+
+**Q13. What is the percentage of India's population residing in Uttar Pradesh, and what is the least populous state in Census 2011?**
+- **Answer:** Uttar Pradesh: **16.51%** (~19.98 Crore); Least populous state: **Sikkim (6.10 lakh / 6,10,577)**
+- **Explanation:** Among UTs, **Delhi** is the most populous (1.68 Cr) and **Lakshadweep** (64,473) is the least populous. Among districts, **Thane (Maharashtra)** was most populous (~1.11 Cr) and **Dibang Valley (Arunachal Pradesh)** was least populous (**8,004**).
+
+**Q14. According to Census 2011 Religious Data, arrange India's minority religions in descending order of population share.**
+- **Answer:** **Muslim (14.23%) > Christian (2.30%) > Sikh (1.72%) > Buddhist (0.70%) > Jain (0.37%)**
+- **Explanation:** **Hindus** form **79.80%** of India's population. **Jains** are the smallest among the six major notified religious communities at **0.37%**.
+
+**Q15. Under the National Population Policy (NPP) 2000, what is the replacement-level Total Fertility Rate (TFR) and the target year for population stabilization?**
+- **Answer:** Replacement **TFR = 2.1**; Population Stabilization target year = **2045**
+- **Explanation:** NPP 2000 also targeted reducing **IMR below 30** per 1,000 live births and **MMR below 100** per 100,000 live births. (Note: Lok Sabha seat freeze at the **1971 Census** level extends until **2026** via the 84th Constitutional Amendment Act, 2001.)
 
 ---
 
